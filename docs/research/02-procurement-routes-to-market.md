@@ -334,6 +334,8 @@ A disciplined vendor should expect **£100k–£400k of first-year defence reven
 
 ## 9. Sources
 
+**Verification note.** All 85 cited URLs were checked. The following were directly retrieved and their content read during this research: the BIS 28th Offsets Report (PDF, text-extracted locally), GOV.UK G-Cloud 15 and MOD SME Action Plan pages, digital.mod.uk, the Kahootz Digital Marketplace listing, fedramp.gov/20x, diu.mil, Cloudflare's press release, Nextgov, Computer Weekly, IASME, Plante Moran, Transparency International, the Canadian Auditor General's Report 10, GAMI, Stotles, Tussell and Bharat Shakti. The remainder were located through search-engine indexing and returned HTTP 403 or a connection timeout to an automated `curl` request — normal bot-protection behaviour for those domains (parliament.uk, consilium.europa.eu, nspa.nato.int, ncia.nato.int, mckinsey.com, anao.gov.au, defence.gov.au, secureframe.com, lexology.com, cnbc.com and similar). Those citations should be opened in a browser before external reuse.
+
 **Primary — government and official**
 - BIS, *Offsets in Defense Trade, Twenty-Eighth Study* — https://www.bis.gov/media/documents/public-version-28th-annual-offsets-report.pdf
 - GOV.UK, *G-Cloud relaunches with biggest upgrade in its history* — https://www.gov.uk/government/news/g-cloud-relaunches-with-biggest-upgrade-in-its-history
