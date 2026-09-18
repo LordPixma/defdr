@@ -139,3 +139,42 @@ reversible-only-by-migration mistake available to us.
 3. Can Vectorize be made severable cleanly, or do we need a non-Vectorize fallback search path for
    boundary-mode tenants?
 4. Verify the D1 `fedramp` jurisdiction vs Trust Hub scope discrepancy before any customer claim.
+
+---
+
+## 8. LATE-BREAKING CONSTRAINT: Workers egress and datacentre IP blocking
+
+**Source:** Webscraper agent, verified live testing (see `03-data-sources.md`).
+
+Cloudflare Workers egress from **datacentre IP ranges**. A cluster of defence-relevant sites
+(war.gov, dla.mil, usgs.gov, tenders.gov.au, NSPA, NCIA) return **403 to datacentre IPs** via
+Akamai/Cloudflare bot protection.
+
+**This is a direct collision between our hosting mandate and our data strategy.** It must shape
+ingestion design rather than be discovered at deploy time.
+
+### Mitigations, in order of preference
+1. **Prefer sources that do not block.** Every blocked source has a verified alternate route
+   (ScienceBase for USGS, data.gov.au for AusTender). Ingestion must be written against the
+   alternates, not the blocked primaries.
+2. **Prefer bulk files and official APIs over HTML scraping.** Bulk endpoints are generally served
+   from CDNs that do not apply the same bot heuristics.
+3. **Design the fetcher for per-source route configuration** so a blocked source can be swapped to
+   an alternate without a code change.
+4. **Do NOT use residential proxies.** This converts an availability problem into a terms-of-service
+   problem, and we are selling to buyers who will audit exactly this. Explicitly out of bounds.
+
+### Licence red lines (verified, non-negotiable)
+- **OpenSanctions is CC BY-NC** — the free tier cannot back a commercial SaaS. Use the official
+  government primaries instead, which are open-licensed.
+- **JOSCAR/Hellios, MOD DSP `/esop`, DIBBS, GIDEP, NMCRL/NSN** — off limits or paid. NSN catalogue
+  data being paid-only is the single biggest gap in the open-data stack.
+- **UK OFSI consolidated list closed 28 Jan 2026.** Use `sanctionslist.fcdo.gov.uk`; the identifier
+  field changed from "OFSI Group ID" to "Unique ID#".
+- **SAM.gov Opportunities is ~10 requests/day** on a non-federal key — not viable as a primary feed.
+
+### The compounding-asset insight
+Date-versioned regulatory snapshots (eCFR ITAR USML / EAR CCL / Entity List, plus sanctions lists)
+have value that is **purely a function of how long we have been recording them**. A competitor
+starting later cannot backfill this. It is a cron trigger plus R2 — cheap to start, impossible to
+catch up on. Whatever product we choose, **start the daily snapshot on day one.**
