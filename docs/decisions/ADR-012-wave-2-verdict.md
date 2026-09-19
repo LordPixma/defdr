@@ -150,3 +150,35 @@ truth is a defence but no data source proves remittance. Safe framings: republis
 as a true statement about a public act; report variance on the customer's own data; keep
 cross-customer output statistical and unattributed. The constraint is on packaging, not value —
 credit reference agencies operate under the same one.
+
+---
+
+## 7. Corrections to figures this team has circulated
+
+Recorded because these were stated to the product owner before verification caught up.
+
+| Stated | Correct position |
+|---|---|
+| "Nothing reconciles agency rate → umbrella payslip → RTI → HMRC remittance" (ADR-011, S1) | **Wrong.** SafeRec ships exactly this — *"RTI Cross-Reference & Monthly check of the Umbrella's HMRC tax account"* — and prices it at **£149–£449/month (£1.8k–£5.4k ACV)**, a fifth to a third *below* our own £10k ACV floor. It solved the data problem by selling the badge to the umbrella rather than the agency. |
+| "Fees modulate 1.2× → 1.6× → 2.0×" (S3) | **Only the 2026-27 red uplift of +20% is confirmed in primary source.** The 1.6× and 2.0× figures are **[UNVERIFIED]**. Modulation applies to **red only** — amber is flat and green is roughly **−20.9%**. |
+| "Base fee £423/tonne plastic" | **£455/tonne** in year 2. |
+| "A 5,000t plastic producer faces ~£2.1m rising to ~£4.2m" | **Not supportable.** It compounds the unverified multipliers with the wrong base fee. Withdrawn. |
+
+## 8. The one thing Wave 2 found that is worth carrying forward
+
+Buried in the operator review is the only case where **the regulator has conceded the pain in
+writing** and where stated practitioner pain matches a product thesis exactly:
+
+- PackUK: producers have reported *"significant concerns regarding the time and resource required"*,
+  and the four regulators issued a position statement allowing producers to skip H1 2025.
+- Defra has **priced the data gap**: household packaging *"where the detail required to undertake an
+  assessment isn't available"* is an **automatic RED**, carrying the +20% disposal fee uplift.
+
+That reframes S3. The valuable thing is not the assessment — that methodology is free and published.
+**The valuable thing is chasing suppliers for the missing attribute declarations, because absent
+data is automatically penalised.** The operator costs it at roughly **£85/tonne of plastic, annually,
+per unanswered supplier email.**
+
+This is a *cash-at-stake* proposition rather than a compliance one, which is why it survived when
+the compliance framing did not. It is logged here as an input to Wave 3 rather than a revival of S3:
+the moat problem (free methodology, no regulator validation, Valpak owning the motion) is unchanged.
