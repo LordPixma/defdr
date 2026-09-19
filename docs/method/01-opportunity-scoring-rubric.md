@@ -120,6 +120,11 @@ of total.
 | **Forcing function** | Aspirational or none, in a market that needs one | BINDING, dated, already in breach |
 | **Buyer count** | <20 winnable UK buyers | 500+ winnable UK buyers |
 | **Willingness to pay** | No evidenced budget | Proven spend on an inferior alternative |
+
+> **WTP heuristic (added 19 Sep 2026, industrial sector analyst):** *price against a regulated cash
+> outflow, never against efficiency or risk.* Observed empirically — every candidate scoring 3+ on
+> WTP sat on an existing fee line the buyer already pays; every candidate scoring 1–2 rested on a
+> time-saving or risk-reduction argument. If your pricing story is "we save you time", expect a 1–2.
 | **Incumbency** | Well-funded incumbent owns it | Genuinely unserved, and you know why |
 | **Data moat** | Anyone could rebuild it in a week | Compounding, proprietary, or hard-won |
 | **Cloudflare fit** | Needs on-prem or a non-Cloudflare dependency | Natural fit, customer-supplied data |
