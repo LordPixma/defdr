@@ -33,25 +33,23 @@ never seen the other.
 
 The weekly cycle, from the artefacts:
 
-1. **Timesheet in.** Worker or line manager approves hours in the agency back-office (Etz, Bullhorn,
-   3R, Merit). Etz markets this as "turn a timesheet into an invoice in 60 seconds."
-2. **Self-billing invoice out.** Under VAT Notice 700/62, *the agency raises the umbrella's invoice*
+1. **Timesheet in.** Hours approved in the agency back-office (Etz, Bullhorn, 3R, Merit). Etz
+   markets this as "turn a timesheet into an invoice in 60 seconds."
+2. **Self-billing invoice out.** Under VAT Notice 700/62 *the agency raises the umbrella's invoice*
    — "the customer prepares the supplier's invoice and forwards a copy to the supplier with the
-   payment." A written self-billing agreement must exist and HMRC advises review every 12 months.
-   HMRC's agency guidance lists "Follow the VAT requirements for operating self-billing with an
-   umbrella company" as a **must**.
+   payment" — under a written agreement HMRC advises reviewing every 12 months. HMRC's agency
+   guidance lists following the self-billing rules as a **must**.
 3. **Payment to the umbrella** at the assignment rate × hours.
-4. **Quarterly employment intermediaries return.** Mandatory: "Submit the quarterly employment
-   intermediaries return for workers you place with end clients, where you do not operate PAYE.
-   This should include umbrella company employees." The template is a downloadable **ODS or CSV**
-   spreadsheet from GOV.UK, uploaded to the employment intermediaries service.
+4. **Quarterly employment intermediaries return**, mandatory "where you do not operate PAYE… should
+   include umbrella company employees". Template is a downloadable **ODS or CSV** spreadsheet
+   uploaded to the employment intermediaries service.
 5. **Key Information Document** per worker, non-delegable: "You cannot defer this to a third party,
-   like an umbrella company." The KID must be reissued on significant change.
-6. **Due diligence folder.** Companies House match, VAT registration match, insurance, GLAA licence,
+   like an umbrella company."
+6. **Due diligence folder:** Companies House match, VAT registration, insurance, GLAA licence,
    accreditation status, bank-details-to-name match.
 
-So the administrator's existing data is: **hours, assignment rate, £ paid to the umbrella, worker
-identity, umbrella identity.** That is the entire left-hand side of the reconciliation.
+So the administrator's existing data is **hours, assignment rate, £ paid to the umbrella, worker
+identity, umbrella identity** — the entire left-hand side of the reconciliation, and only that.
 
 ### 2.2 WHERE DOES THE DATA COME FROM? — and the answer is: it doesn't
 
@@ -59,16 +57,10 @@ This is the decisive finding of this report.
 
 **(a) The umbrella still runs PAYE. The agency does not get the RTI data by operating it.**
 GOV.UK, *PAYE rules for labour supply chains that include umbrella companies from 6 April 2026*
-(last updated 19 June 2026, "the wording about the rules and draft legislation have been updated
-because it is now in force"):
-
-> "If you're the umbrella company employing workers — You're still responsible for working out PAYE
-> for your employees correctly and paying us on time."
-
-and for the agency:
-
-> "You're responsible for making sure that the umbrella company operates PAYE correctly. If we find
-> an umbrella company has not paid the correct amount of PAYE to us, we'll recover it from you."
+(updated 19 June 2026, "now in force"): the umbrella is "still responsible for working out PAYE for
+your employees correctly and paying us on time", while the agency is "responsible for making sure
+that the umbrella company operates PAYE correctly. If we find an umbrella company has not paid the
+correct amount of PAYE to us, we'll recover it from you."
 
 **Liability moved. The data did not.** The agency now owns a risk whose evidence lives entirely in
 someone else's payroll system.
@@ -98,16 +90,14 @@ software product improves; it is a workflow a software product inherits.
 
 **(d) The final fact — remittance — is unverifiable by any third party.** I checked HMRC's Developer
 Hub API catalogue directly. Every PAYE/employment API (Individual Employment, Individual Income,
-Individual Tax, National Insurance, PAYE Online, Real Time Information Online) is **user-restricted
-or employer-restricted**. There is no API by which an agency, or a vendor acting for one, can query
-whether another company has remitted PAYE.
+Individual Tax, National Insurance, PAYE Online, Real Time Information Online) is **user- or
+employer-restricted**. No API lets an agency, or a vendor acting for one, query whether another
+company has remitted PAYE.
 
-A practitioner on the ContractorUK umbrella forum states the consequence precisely:
-
-> "[SafeRec] cannot guarantee that PAYE liabilities are paid, only that the calculations done to
-> reach the amount of tax and NI payable have been done correctly."
-> "Until there is a direct link to HMRC from the third-party audit platforms, that will always be
-> the case."
+A practitioner on the ContractorUK umbrella forum states the consequence precisely: SafeRec "cannot
+guarantee that PAYE liabilities are paid, only that the calculations done to reach the amount of tax
+and NI payable have been done correctly… Until there is a direct link to HMRC from the third-party
+audit platforms, that will always be the case."
 
 **The agency's liability is for tax not *paid*. No product can see whether it was paid.** The
 product can only ever verify the arithmetic on a payslip the umbrella chose to show it.
@@ -177,13 +167,12 @@ Two distinct workloads land:
 
 **(a) Registration — deadline 26 January 2027, one-time.** Ofgem's registration information list
 (node/180287) gives roughly 40 fields per network across five stages: introductory (regulated
-activities, shared ground loop classification, network type, service status, activation date, other
-suppliers); technical (primary energy centre address and coordinates, service types, capacity,
-primary technology); customers and metering (domestic/non-domestic mix, micro/small business
-presence, PPM deployment, metering/billing agent); consumer protections (vulnerable customer count,
-PSR status, complaints procedure, payment-difficulty process); billing (frequency, bill calculation
-transparency, bill contents). Plus a one-off organisation stage with an SMRI fit-and-proper
-declaration.
+activities, shared ground loop classification, network type, service status, activation date);
+technical (energy centre address and coordinates, service types, capacity, primary technology);
+customers and metering (domestic/non-domestic mix, micro/small business presence, PPM deployment,
+billing agent); consumer protections (vulnerable customer count, PSR status, complaints and
+payment-difficulty processes); billing (frequency, bill transparency and contents). Plus a one-off
+organisation stage with an SMRI fit-and-proper declaration.
 
 Two operator-critical facts: the service is **in private beta** as of this fetch, and — importantly —
 **"We will not ask you to upload supporting documents or evidence."** Registration is a
@@ -334,9 +323,9 @@ the annual re-assessment. The RAM roadmap confirms the re-assessment is permanen
 published July 2026, RAM 2028 July 2027, RAM 2029, RAM 2030**, with quarterly Technical Advisory
 Committee meetings and a scheduled sequence of material reviews (flexible plastics Q4 2026, rigid
 plastics Q1 2027, printing inks and security tags Q3 2027, glass Q3 2028, paper and board Q4 2028,
-aluminium and steel Q1 2029, bioplastics Q2 2029, wood Q3 2029). Every one of those can flip a
-component's rating. A producer who assessed once must re-assess annually against a moving
-methodology — which is a compounding record, not a one-off project.
+aluminium and steel Q1 2029, bioplastics Q2 2029, wood Q3 2029). Every one can flip a component's
+rating. A producer who assessed once must re-assess annually against a moving methodology — a
+compounding record, not a one-off project.
 
 ### 4.4 Integration reality
 
@@ -346,16 +335,15 @@ portal we operate ourselves (we control both ends: producer invites supplier, su
 That is a far better integration posture than S1 (must integrate with the audited party) or S2 (must
 integrate with vendors that publish no APIs).
 
-**Incumbency, honestly stated.** ADR-011 scored this incumbency 2 and it is the right worry. Valpak
-sells "Advanced RAM services" — packaging reviews and recyclability assessments, format redesign
-advice, and explicitly "RAM Data Solutions… collect, manage and report information aligned with RAM
-criteria". Ecosurety has 500+ brands. Compliance schemes already hold the producer's submission file,
-which is precisely the asset I described as our onboarding advantage — **they have it too, and they
-have it already.** Defra signposts them: "You can also contact a third party provider… Third party
-providers are likely to charge a fee for this." The counter is that these are consultancy
-engagements, not systems of record with supplier-attestation workflow — but that is an assertion, and
-Wave 2's incumbency reviewer should test it. Note also that no free PackUK tool exists; the support
-package published is guidance notes and infographic cards, not software.
+**Incumbency, honestly stated.** ADR-011 scored incumbency 2 and it is the right worry. Valpak sells
+"Advanced RAM services" — recyclability assessments, format redesign advice, and explicitly "RAM Data
+Solutions… collect, manage and report information aligned with RAM criteria". Compliance schemes
+already hold the producer's submission file, which is precisely the asset I called our onboarding
+advantage — **they have it too, and they have it already.** Defra signposts them: "You can also
+contact a third party provider… Third party providers are likely to charge a fee for this." The
+counter — that these are consultancy engagements, not systems of record with supplier-attestation
+workflow — is an assertion, and Wave 2's incumbency reviewer should test it. Note that no free PackUK
+tool exists: the published support package is guidance notes and infographic cards, not software.
 
 ---
 
@@ -404,17 +392,16 @@ were Saferec doing over that time?"* and advice to ignore the accreditation and 
 accounts for the listed umbrellas… That's far more important."* Practitioners have already concluded
 that a Companies House filing check beats a payslip audit. That is a brutal verdict on the category.
 
-**S2 — the complaint is definitional, not operational.** Ofgem's own support page shows what it
-fields: queries on "the registration process", "technical issues with the digital registration
-service", "locating relevant Ofgem guidance", "the structure and purpose of authorisation
-conditions" — while explicitly refusing "providing legal advice or confirming how legislation applies
-to your specific circumstances". The pain is *"am I the operator or the supplier, and is this
-building even a heat network?"* — Ofgem's who-should-register guidance turns on whether a building is
-"divided into separate premises", with care homes out of scope. A housing association's first
-question is not "how do I file the return", it is **"how many heat networks do I actually have, and
-which of them am I the supplier of?"** If we build a reporting tool we will be answering the second
-question for someone still stuck on the first. A scoping/classification product may be the better
-wedge.
+**S2 — the complaint is definitional, not operational.** Ofgem's support page shows what it fields:
+"the registration process", "technical issues with the digital registration service", "locating
+relevant Ofgem guidance", "the structure and purpose of authorisation conditions" — while explicitly
+refusing "providing legal advice or confirming how legislation applies to your specific
+circumstances". The pain is *"am I the operator or the supplier, and is this building even a heat
+network?"* — the who-should-register test turns on whether a building is "divided into separate
+premises", with care homes out of scope. A housing association's first question is not "how do I file
+the return", it is **"how many heat networks do I actually have, and which am I the supplier of?"**
+Build a reporting tool and we answer the second question for someone still stuck on the first. A
+scoping and classification product may be the better wedge.
 
 **S3 — the regulator has already conceded the complaint, in writing.** PackUK's 2025 recyclability
 assessment requirements:
@@ -473,17 +460,16 @@ data does not**, and the product cannot answer the question the buyer is liable 
 
 ## 8. What I could not check (budget and access)
 
-- **Reddit** — `reddit.com/search.json` returns 403 to this environment. No Reddit evidence.
-- **LinkedIn** — not attempted; blocks unauthenticated fetch.
-- **Switch2** — `switch2.co.uk` returns HTTP 202 to non-browser clients. Could not assess their
-  regulation offering or APIs. This is a material gap for S2 incumbency.
+- **Reddit** (403 to this environment) and **LinkedIn** (blocks unauthenticated fetch) — no evidence.
+- **Switch2** — returns HTTP 202 to non-browser clients. Could not assess their regulation offering
+  or APIs. Material gap for S2 incumbency.
 - **Association for Decentralised Energy** — news page 404. No trade-body evidence for S2.
-- **letsrecycle / packagingnews** — fetch returned a 2013 archive page, not current headlines. No
-  trade-press evidence for S3; the regulator's own position statement substitutes and is stronger.
+- **letsrecycle / packagingnews** — fetch returned a 2013 archive page. No trade-press evidence for
+  S3; the regulator's own position statement substitutes and is stronger.
 - **NEC, Civica, MRI** housing management API documentation — not reached.
-- **Job postings** — still blocked as in Wave 1. **LAW 3 evidence class 1 remains absent for all three
-  candidates.** No candidate should reach build without it.
-- **Counts:** number of SafeRec-certified umbrellas (directory loads dynamically); number of heat
-  networks registered to date (not published on the pages fetched).
-- **Fees:** 2027-28 and 2028-29 modulation multipliers — only the 2026-27 red uplift (+20%) was found
-  in primary source. ADR-011's 1.6×/2.0× figures are **not verified here**.
+- **Job postings** — still blocked as in Wave 1. **LAW 3 evidence class 1 remains absent for all
+  three candidates.** None should reach build without it.
+- **Counts:** SafeRec-certified umbrellas (directory loads dynamically); heat networks registered to
+  date (not published on the pages fetched).
+- **Fees:** only the 2026-27 red uplift (+20%) was found in primary source. ADR-011's 1.6×/2.0×
+  figures for 2027-28 and 2028-29 are **not verified here**.
