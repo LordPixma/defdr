@@ -179,9 +179,10 @@ smaller customers.
 services attach rate is enormous and is where the margin risk lives — RIVIAM's mandatory setup
 (£40,000) can exceed a full year of subscription.
 
-Civica's Xpress pricing is the perfect LAW 2 illustration. UK election management software: roughly
-380 UK local authorities, at £30,000 core. **The entire national category is worth about £11m a
-year, and Civica already has it.**
+Civica's Xpress pricing is the perfect LAW 2 illustration. UK election management software: on the
+order of 380 UK local authorities `[buyer count approximate — not verified against a published
+local-government list; verify before any candidate relies on it]`, at £30,000 core. **The entire
+national category is worth roughly £11m a year, and Civica already has it.**
 
 ### 2.5 The self-serve / sales-led boundary — derived from the evidence
 
