@@ -44,6 +44,18 @@ Before scoring the forcing-function axis above **3**, you must answer:
 Score **5** only where there is a live enforcement record **or** non-compliance mechanically blocks
 the business from operating.
 
+### LAW 1c — Read the provision, never the summary
+> A forcing function may not be scored above **2** until someone has **quoted the section text from
+> legislation.gov.uk**.
+
+Added 19 Sep 2026. Wave 1 scored an umbrella-PAYE regime from its March 2025 *announcement*; the
+March 2026 *statute* turned out to describe something materially different — joint and several
+liability, not a transfer of PAYE operation — which erased a claimed market of 1,500–3,000 buyers.
+
+Announcements, policy papers, law-firm alerts and trade press are **pointers to** a provision, never
+evidence of its content. This is the defence run's failure in a new disguise: there the instrument
+did not exist; here it existed and said something else.
+
 ### LAW 2 — Count buyers, never market size
 > "£X billion market" is a vanity metric and is **banned** as a justification.
 
