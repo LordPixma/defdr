@@ -4,27 +4,23 @@
 **Date:** 19 September 2026
 **Method:** `/home/user/defdr/docs/method/01-opportunity-scoring-rubric.md` v1 (binding)
 
-> **Research constraint disclosed up front (Hard Rule 1 / Rule 3).** The session's WebSearch budget
-> (200 calls) was exhausted by the wider team partway through this run. Roughly 10 keyword searches
-> were made before exhaustion; the remainder of this research was conducted via ~35 direct fetches of
-> primary sources (legislation.gov.uk, the Home Office impact assessment PDF, the Charity Commission
-> register, ONS bulletins, Acas, gov.uk guidance) plus the gov.uk Search API used as a URL-discovery
-> substitute. **Job-posting evidence (LAW 3 class 1) could not be obtained: CV-Library returned 403,
-> Totaljobs reset the connection, and DWP Find a Job errored.** Contracts Finder's keyword parameter
-> does not bind over GET and returned unfiltered results, so procurement-record evidence (class 2) is
-> also absent. Every candidate below is therefore triangulated on **regulator datasets/enforcement
-> instruments (class 4)** and **competitor pricing pages (class 3)**, which satisfies LAW 3's
-> "two different classes from 1–5", but the analysis is weaker than it should be on proof that the
-> *role* exists with a budget. Treat every buyer count as a modelled estimate, not an observation.
+> **Research constraint, disclosed up front (Hard Rule 1).** The session's WebSearch budget (200
+> calls) was exhausted by the wider team partway through this run. ~10 keyword searches were made
+> before exhaustion; the rest was done via ~35 direct fetches of primary sources plus the gov.uk
+> Search API as a URL-discovery substitute. **Job-posting evidence (LAW 3 class 1) could not be
+> obtained** — CV-Library 403, Totaljobs connection reset, DWP Find a Job errored — and Contracts
+> Finder's keyword parameter does not bind over GET, so **procurement records (class 2) are also
+> absent**. Every candidate is triangulated on **regulator datasets (class 4)** and **competitor
+> pricing pages (class 3)**, satisfying LAW 3, but is weaker than it should be on proof that the role
+> exists with a budget. Treat every buyer count as a modelled estimate, not an observation.
 
 ---
 
 ## 1. Executive summary — top five candidates ranked
 
-Ranked by total 8-axis score, with the honest caveat that **not one of these scores 4+ on
-incumbency**. That is the defining finding of this sector sweep: these are the most
-software-saturated SME markets in the UK economy, and every regulatory shock lands on a field that
-already contains five to ten funded vendors.
+Ranked by total 8-axis score, with the honest caveat that **not one scores 4+ on incumbency**. That
+is the defining finding of this sweep: these are the most software-saturated SME markets in the UK
+economy, and every regulatory shock lands on a field already holding five to ten funded vendors.
 
 | # | Candidate | Winnable UK buyers | Score | Forcing function |
 |---|---|---|---|---|
@@ -37,17 +33,15 @@ already contains five to ten funded vendors.
 **Three corrections to the brief, made before anything else:**
 
 1. **There is no "Employment Rights Act 2026."** The instrument is the **Employment Rights Act 2025
-   (c. 36)**, Royal Assent 2025. Verified against legislation.gov.uk.
+   (c. 36)**. Verified against legislation.gov.uk.
 2. **Day-one unfair dismissal did not survive Parliament.** The Government accepted a Lords amendment
-   substituting a **six-month qualifying period**, effective **1 January 2027**. The unfair dismissal
-   compensation cap is removed on the same date. Building on "day one" would have been building on a
-   manifesto commitment that was legislated away.
-3. **The single most under-noticed binding obligation in these sectors is not in the brief at all:**
-   the **annual-leave record-keeping duty in force since 6 April 2026**, requiring records of holiday
-   entitlement and holiday pay to be kept **for six years**, breach of which is a **criminal offence
-   with an unlimited fine**. Almost every variable-hours employer in retail and hospitality is
-   already in breach. That is a textbook LAW 1 forcing function — obligation, date, buyer already
-   non-compliant — and it was hiding behind the noisier zero-hours headlines.
+   substituting a **six-month qualifying period**, effective **1 January 2027**; the compensation cap
+   goes on the same date. "Day one" is a manifesto commitment that was legislated away.
+3. **The most under-noticed binding obligation in these sectors is not in the brief at all:** the
+   **annual-leave record-keeping duty in force since 6 April 2026** — records of holiday entitlement
+   *and holiday pay* kept **six years**, breach a **criminal offence with an unlimited fine**. Almost
+   every variable-hours employer in retail and hospitality is already in breach. Textbook LAW 1:
+   obligation, date, buyer already non-compliant — hidden behind noisier zero-hours headlines.
 
 **And the headline negative:** the brief's hypothesis that Martyn's Law is "the single largest
 obligated population in the UK economy" is **arithmetically true and commercially misleading**.
@@ -73,11 +67,11 @@ The obligated population is 178,891 premises. The *addressable* population is ro
 | **UK businesses with 5+ trading sites (all sectors)** | **12,615** | £5k–£500k | low | ONS *UK Business* 2025, Table 5 |
 | — of which 20+ sites | 2,750 | | | same |
 
-**The most important row in that table is the last block.** Across the *entire* UK economy there are
-**12,615 businesses operating five or more sites**, and only **2,750** operating twenty or more.
-Every "multi-site compliance platform" pitch in retail and hospitality is fishing in a pond of
-roughly **5,000–6,000 plausible buyers**, not the 570,000 businesses the sector headcount implies.
-Single-site businesses number 2,676,440 and buy almost nothing. This is LAW 2 in its purest form.
+**The most important row is the last block.** Across the *entire* UK economy only **12,615
+businesses operate five or more sites**, and **2,750** operate twenty or more. Every "multi-site
+compliance platform" pitch in retail and hospitality is fishing in a pond of roughly **5,000–6,000
+plausible buyers**, not the 570,000 the sector headcount implies. Single-site businesses number
+2,676,440 and buy almost nothing. LAW 2 in its purest form.
 
 ---
 
@@ -87,14 +81,14 @@ The brief asked for real scepticism here. It is warranted, but the picture is mo
 "hospitality SMEs won't pay".
 
 **What is proven.** UK hospitality operators demonstrably pay **£32–£82.50 per site per month** for
-an operational compliance product — that is Trail's published pricing, £384–£990 per site per year,
-sold to pub and restaurant estates. They pay **£2.99–£3.50 per employee per month** for workforce
-management (Planday, Deputy), which is ~£110–£130/month for a 25-person site. Charities with income
-over £500k pay **£444–£3,900/year** for a CRM (Beacon's published tiers). So the "cheapest buyers in
-the economy" framing is half-wrong: the *multi-site operator* is a normal SaaS buyer.
+an operational compliance product (Trail's published pricing: £384–£990 per site per year), and
+**£2.99–£3.50 per employee per month** for workforce management (Planday, Deputy) — ~£110–£130/month
+for a 25-person site. Charities over £500k income pay **£444–£3,900/year** for a CRM (Beacon). The
+"cheapest buyers in the economy" framing is half-wrong: the *multi-site operator* is a normal SaaS
+buyer.
 
-**What is not proven, and is probably false.** The *independent* single-site operator is not a
-viable SaaS buyer for a compliance point-solution. Two pieces of evidence converge:
+**What is probably false.** The *independent* single-site operator is not a viable buyer for a
+compliance point-solution. Two pieces of evidence converge:
 
 - The Home Office's own impact assessment models the **ongoing** annual burden on a standard-tier
   premises as **4.5 hours of management time** for counter-terrorism procedure review, at £29.34/hour
@@ -109,13 +103,12 @@ Overall five-year business survival is **38.4%**. A vendor selling to independen
 ~13% annual logo churn from customer *death alone*, before a single voluntary cancellation. Layer
 normal SMB voluntary churn on top and 25–35% annual churn is the realistic planning assumption.
 
-**The arithmetic the brief demanded.** A £20/month product with 40% annual churn has an LTV of roughly
-£600 at a 60% gross margin, against a UK SMB CAC that is rarely below £300–£500 for a compliance
-product requiring explanation. That is not a business. **The only defensible shapes in these sectors
-are (a) sell to the ~5,000–6,000 multi-site operators at £3,000–£30,000 ACV, or (b) sell to the
-professional intermediary — the accountant, the payroll bureau, the licensing solicitor, the
-recruitment agency — who aggregates thousands of end sites behind one contract.** Every candidate
-below is scored on that basis. Direct-to-independent-SME is treated as a rejection criterion.
+**The arithmetic.** A £20/month product at 40% annual churn returns ~£600 LTV on a 60% gross margin,
+against a UK SMB CAC rarely below £300–£500 for a compliance product that needs explaining. That is
+not a business. **Only two shapes work here: (a) sell to the ~5,000–6,000 multi-site operators at
+£3,000–£30,000 ACV, or (b) sell to the professional intermediary — accountant, payroll bureau,
+licensing solicitor, recruitment agency — who aggregates thousands of sites behind one contract.**
+Direct-to-independent-SME is treated below as a rejection criterion.
 
 ---
 
@@ -130,14 +123,14 @@ Scoring: 1–5 per axis. **Any axis scoring 1 is an automatic rejection.**
 | 1 | **The gap** | Since 6 April 2026 an agency or end client is legally responsible for PAYE being operated correctly when an umbrella company employs its workers, and HMRC can recover the umbrella's underpayment from the client — but the client has no systematic way to verify, per worker per pay period, that the umbrella actually did it. |
 | 2 | **Pain owner** | Head of Resourcing / Resourcing Compliance Manager in a multi-site retail, hospitality or logistics group; Production Accountant or Line Producer in film/TV. |
 | 3 | **Budget holder** | Finance Director / Group Financial Controller. Tax-risk line, not IT. |
-| 4 | **UK buyer count** | Method: end clients with material umbrella-sourced labour = multi-site operators (5+ sites: 12,615 across all sectors, ~45% in retail/hospitality/leisure ≈ 5,700) filtered to those using agency labour at scale (judgement: ~30%) ≈ 1,700; plus UK production companies and event operators (~400); plus recruitment agencies who will buy it defensively. **Winnable: ~1,500–3,000.** For £3m ARR at 2,000 buyers, ACV = £1,500. Credible against existing accreditation spend. |
-| 5 | **Forcing function** | **BINDING.** Income Tax (Pay As You Earn) rules for labour supply chains including umbrella companies, in force **6 April 2026**, applying to money paid on or after that date to both new and existing arrangements (gov.uk guidance, last updated 19 June 2026). Reinforced by ERA 2025 extending guaranteed-hours duties to agency workers **with the hirer responsible by default** (SCHEDULED 2027). |
+| 4 | **UK buyer count** | Method: multi-site operators (12,615 UK businesses with 5+ sites, ~45% in retail/hospitality/leisure ≈ 5,700), filtered to those using agency labour at scale (~30%) ≈ 1,700; plus UK production companies and event operators (~400); plus agencies buying defensively. **Winnable: ~1,500–3,000.** £3m ARR at 2,000 buyers = £1,500 ACV. Credible against existing accreditation spend. |
+| 5 | **Forcing function** | **BINDING.** PAYE rules for labour supply chains including umbrella companies, in force **6 April 2026**, applying to money paid on or after that date under both new and existing arrangements (gov.uk guidance, updated 19 June 2026). Reinforced by ERA 2025 extending guaranteed-hours duties to agency workers **with the hirer responsible by default** (SCHEDULED 2027). |
 | 6 | **Solved today by** | Accreditation badges (FCSA, Professional Passport) checked once at onboarding; annual supply-chain audits by accountants; spreadsheets of approved umbrellas; hope. |
 | 7 | **Named incumbents** | **SafeRec** (AI payslip auditing, sold agency-side), **Professional Passport**, **FCSA** accreditation, **Workwell**. All are oriented to accrediting the *umbrella*, not to giving the *end client* a per-period reconciliation it can show HMRC. Pricing not published by any of them. |
 | 8 | **Willingness to pay** | £2,000–£15,000/yr. Anchor: agencies already pay four-figure annual sums for FCSA/Professional Passport accreditation and for SafeRec auditing; the downside anchor is uncapped PAYE recovery. |
 | 9 | **Data required** | Customer-supplied: assignment records, agency invoices, umbrella payslips/RTI confirmations. Externally sourced: Companies House filings, HMRC named-avoidance-scheme list. All licensable/public. |
 | 10 | **Cloudflare fit** | Strong. Document ingest → R2; reconciliation → Workers + Queues; ledger → D1. No GPU, no scraping of blocking sites. **4/5** (payslip OCR may need an external model call). |
-| 11 | **5–10 year durability** | Survives to 2031+ if umbrella working survives. **What kills it:** HMRC abolishing umbrella intermediation outright (repeatedly floated); or SafeRec pivoting to the client side and owning it. Moderate risk. |
+| 11 | **5–10 year durability** | Survives to 2031+ if umbrella working does. **What kills it:** HMRC abolishing umbrella intermediation outright (repeatedly floated), or SafeRec pivoting client-side. Moderate risk. |
 | 12 | **Evidence** | Class 4 (regulator instrument): https://www.gov.uk/guidance/paye-rules-for-labour-supply-chains-that-include-umbrella-companies-from-6-april-2026 · Class 4: ERA 2025 c.36 agency-worker provisions, https://www.legislation.gov.uk/ukpga/2025/36/contents · Class 3 (pricing/market): accreditation market as described above — **pricing not published; marked partially [UNVERIFIED]**. |
 
 **Scores:** Pain 5 · Forcing 5 · Buyers 3 · WTP 4 · Incumbency 2 · Moat 3 · Cloudflare 4 · Durability 3 = **29**
@@ -148,10 +141,10 @@ Scoring: 1–5 per axis. **Any axis scoring 1 is an automatic rejection.**
 
 | # | Field | |
 |---|---|---|
-| 1 | **The gap** | Since 6 April 2026 employers must keep records adequate to show compliance with holiday entitlement *and holiday pay* for **six years**, and failure is a criminal offence. Variable-hours employers calculate accrual at 12.07% of hours worked and often pay rolled-up holiday pay; the calculation lives in payroll runs and spreadsheets, is not retained as an auditable entitlement record, and does not survive a change of payroll provider. |
+| 1 | **The gap** | Since 6 April 2026 employers must keep records adequate to show compliance with holiday entitlement *and holiday pay* for **six years**; failure is a criminal offence. Variable-hours employers accrue at 12.07% of hours worked and often pay rolled-up holiday pay; that calculation lives in payroll runs and spreadsheets, is not retained as an auditable entitlement record, and does not survive a change of payroll provider. |
 | 2 | **Pain owner** | Payroll Manager; Head of Reward. |
 | 3 | **Budget holder** | HR Director or Finance Director. Payroll opex. |
-| 4 | **UK buyer count** | Employers with large variable-hours populations: multi-site retail/hospitality/leisure (~5,700 with 5+ sites), plus recruitment agencies, care providers, and education. **Winnable: ~3,000–6,000.** At £1,000 ACV × 3,000 = £3m ARR. Credible. |
+| 4 | **UK buyer count** | Employers with large variable-hours populations: multi-site retail/hospitality/leisure (~5,700 with 5+ sites), plus agencies, care providers, education. **Winnable: ~3,000–6,000.** £1,000 ACV × 3,000 = £3m ARR. Credible. |
 | 5 | **Forcing function** | **BINDING.** Annual-leave record-keeping duty, in force **6 April 2026**, six-year retention, criminal offence for breach. Confirmed by Acas (statutory body) and independently by Lewis Silkin and Hill Dickinson trackers. |
 | 6 | **Solved today by** | The payroll system, while you remain its customer. Spreadsheets for accrual. Nothing for six-year immutable retention across provider migration. |
 | 7 | **Named incumbents** | **Sage**, **IRIS**, **MHR**, **Moorepay**, **Dayforce**, plus WFM vendors (**Deputy** ~£3.50/user/mo, **Planday** £2.99/user/mo). None markets a six-year portable entitlement audit trail; all retain data only for the life of the contract. |
@@ -169,11 +162,11 @@ Scoring: 1–5 per axis. **Any axis scoring 1 is an automatic rejection.**
 
 | # | Field | |
 |---|---|---|
-| 1 | **The gap** | A multi-site operator with 200+ premises must classify every site as out-of-scope / standard / enhanced against a capacity model, notify the SIA per premises, re-notify within 28 days of any change, notify every qualifying public event within 14 days of publicising it, run an annual documented terrorism risk assessment per enhanced site, and evidence that a continuously churning workforce is trained on current procedures. No system holds that register. |
+| 1 | **The gap** | A 200+ site operator must classify every site out-of-scope/standard/enhanced against a capacity model, notify the SIA per premises, re-notify within 28 days of any change, notify every qualifying public event within 14 days of publicising it, run an annual documented terrorism risk assessment per enhanced site, and evidence that a churning workforce is trained on current procedures. No system holds that register. |
 | 2 | **Pain owner** | Group Head of Security / Head of Risk & Compliance; at enhanced-tier sites, the statutory **Designated Senior Individual**. |
 | 3 | **Budget holder** | COO or Group Risk Director. Insurance/risk or property-operations line. |
-| 4 | **UK buyer count** | 24,268 enhanced-tier premises exist, of which **22,165 (91%) sit in this analyst's sectors** (retail & hospitality 15,997; sports facilities 2,859; visitor attractions 1,561; zoos/theme parks 386; stadiums/arenas 268; racecourses 61; hotels 58; festivals 975). Premises ≠ buyers: enhanced-tier sites concentrate in multi-site estates. Estimated ~1,100 multi-site operators holding ≥1 enhanced site, plus ~2,500 independent enhanced operators = ~3,600 gross; discount ~25% foreign-parented (tooling decided abroad); discount again for those who will bolt it onto an existing H&S GRC platform. **Winnable: ~800–1,200.** For £3m ARR at 1,000 buyers, ACV = £3,000 — which is 58% of the Home Office's entire modelled annual enhanced-tier cost. **Tight.** |
-| 5 | **Forcing function** | **SCHEDULED**, and advancing. Terrorism (Protection of Premises) Act 2025 (c.10), RA 3 April 2025. Commencement No.1 Regs 2026 (SI 2026/320); **Commencement No.2 Regs 2026 (SI 2026/622), provisions in force 15 June 2026**; **Notification Requirements Regs 2026 (SI 2026/793)**; **Principal Use of Premises Regs 2026 (SI 2026/1005)**. Main duties expected **Spring 2027**. Not yet BINDING on operators. |
+| 4 | **UK buyer count** | 24,268 enhanced-tier premises, of which **22,165 (91%) sit in my sectors** (retail & hospitality 15,997; sports facilities 2,859; visitor attractions 1,561; zoos/theme parks 386; stadiums/arenas 268; racecourses 61; hotels 58; festivals 975). Premises ≠ buyers: enhanced sites concentrate in estates. ~1,100 multi-site operators with ≥1 enhanced site + ~2,500 independent enhanced operators = ~3,600 gross; discount ~25% foreign-parented, discount again for those bolting it onto an existing EHS platform. **Winnable: ~800–1,200.** £3m ARR at 1,000 buyers = £3,000 ACV — 58% of the Home Office's entire modelled annual enhanced-tier cost. **Tight.** |
+| 5 | **Forcing function** | **SCHEDULED**, advancing. TPoP Act 2025 c.10, RA 3 April 2025. SI 2026/320 (Commencement No.1); **SI 2026/622 (No.2), in force 15 June 2026**; **SI 2026/793 (Notification Requirements)**; **SI 2026/1005 (Principal Use)**. Main duties expected **Spring 2027**. Not yet BINDING on operators. |
 | 6 | **Solved today by** | Word templates from ProtectUK; counter-terrorism security advisers; an H&S consultant; nothing at estate level. |
 | 7 | **Named incumbents** | **Momentus** (venue risk/incident management, enhanced-tier positioning, no public pricing); **standardtier.co.uk** (**£18/mo**, discounted from £38); **martynslawsoftware.co.uk** (**£19 / £29 / £79 per month**); generic EHS GRC (**Alcumus**, **Evotix**, **EcoOnline**) which will absorb this as a module. |
 | 8 | **Willingness to pay** | £1,500–£8,000/yr for an estate operator. Anchor: Home Office IA models **£52,093 ten-year PV per enhanced-tier premises** (~£5,209/yr) and £3,313 per standard-tier premises; Trail proves £384–£990/site/yr is payable in this buyer set. |
@@ -190,11 +183,11 @@ Scoring: 1–5 per axis. **Any axis scoring 1 is an automatic rejection.**
 
 | # | Field | |
 |---|---|---|
-| 1 | **The gap** | A 300-site estate cannot answer, on demand, which premises licence conditions apply where, who the DPS is, which personal licences expire when, which sites are enhanced-tier under Martyn's Law, which hold a food hygiene rating below 4, and which have an outstanding allergen or age-verification action. The answer lives in a solicitor's filing cabinet and six spreadsheets. |
+| 1 | **The gap** | A 300-site estate cannot answer on demand which premises licence conditions apply where, who the DPS is, which personal licences expire when, which sites are Martyn's Law enhanced tier, which hold a food hygiene rating below 4, and which have an open allergen or age-verification action. The answer lives in a solicitor's filing cabinet and six spreadsheets. |
 | 2 | **Pain owner** | Group Licensing Manager / Head of Compliance. |
 | 3 | **Budget holder** | Property & Operations Director. |
 | 4 | **UK buyer count** | Businesses with 5+ sites in retail/hospitality/leisure ≈ 5,700, of which those with licensed or food-serving estates ≈ 3,500; discount foreign-parented and those already inside Zonal/Access suites. **Winnable: ~2,000–3,000.** |
-| 5 | **Forcing function** | **Mixed BINDING, no single driver.** Licensing Act 2003 (in force); Employment (Allocation of Tips) Act 2023 + statutory Code (in force **1 October 2024**); Natasha's Law (in force 2021); DMCC Act 2024 Part 4 Ch.1 (in force **6/7 April 2025**); Martyn's Law (SCHEDULED 2027). **No one of these forces the purchase of *this* product** — which is the candidate's principal weakness under LAW 1. |
+| 5 | **Forcing function** | **Mixed BINDING, no single driver.** Licensing Act 2003; Employment (Allocation of Tips) Act 2023 + statutory Code (**1 Oct 2024**); Natasha's Law (2021); DMCC Act 2024 Pt 4 Ch.1 (**7 Apr 2025**); Martyn's Law (SCHEDULED 2027). **None forces the purchase of *this* product** — the candidate's principal weakness under LAW 1. |
 | 6 | **Solved today by** | Poppleston Allen / John Gaunt licensing retainers; SharePoint; Trail task lists; the memory of one long-serving manager. |
 | 7 | **Named incumbents** | **Trail** (£32–£82.50 per site per month; food-safety logs and custom audits, **no Martyn's Law or security content found on its pricing page**); **Nory** (no published pricing); **Zonal**, **Airship**, **Access Group Hospitality Suite**, **Alcumus**. Trail owns the daily task layer; nobody visibly owns the *permission register* layer. |
 | 8 | **Willingness to pay** | £6,000–£40,000/yr for a 100–500 site estate. Anchor: Trail at £65/site/mo annual = £78,000/yr for 100 sites, so a £15k register sits comfortably beneath existing accepted spend. |
@@ -211,11 +204,11 @@ Scoring: 1–5 per axis. **Any axis scoring 1 is an automatic rejection.**
 
 | # | Field | |
 |---|---|---|
-| 1 | **The gap** | From 2027 an employer must, at the end of each rolling reference period, offer qualifying zero/low-hours workers a guaranteed-hours contract reflecting hours actually worked; give reasonable notice of shifts and changes; and pay for shifts cancelled, curtailed or moved at short notice — **unless the worker initiated it**. Defending a tribunal claim requires a per-shift, per-worker, timestamped record of who changed what and when. No one keeps that today. |
+| 1 | **The gap** | From 2027 an employer must, at the end of each rolling reference period, offer qualifying zero/low-hours workers a guaranteed-hours contract reflecting hours actually worked; give reasonable notice of shifts and changes; and pay for shifts cancelled, curtailed or moved at short notice — **unless the worker initiated it**. Defending a tribunal claim needs a per-shift, per-worker, timestamped record of who changed what, when. Nobody keeps that. |
 | 2 | **Pain owner** | Group Head of People Operations / Employee Relations Manager. |
 | 3 | **Budget holder** | HR Director. |
 | 4 | **UK buyer count** | Multi-site retail/hospitality/leisure with 5+ sites ≈ 5,700, plus large single-site employers (hotels, stadiums, universities). **Winnable: ~4,000–5,000** — the largest buyer pool in this report. |
-| 5 | **Forcing function** | **SCHEDULED, with the operative detail still PROPOSED.** ERA 2025 c.36 ss.1–3. Reference-period length, hours threshold (Government preference 8–20 hrs/wk), "reasonable notice" presumption and payment amounts are all to be set in regulations. The consultation *Ending one-sided flexibility* closed **25 August 2026**; the Government response is outstanding as at today. **Per LAW 1, the detail carries no weight yet.** |
+| 5 | **Forcing function** | **SCHEDULED; operative detail still PROPOSED.** ERA 2025 c.36 ss.1–3. Reference-period length, hours threshold (Government preference 8–20 hrs/wk), the "reasonable notice" presumption and payment amounts all sit in regulations not yet made. Consultation *Ending one-sided flexibility* closed **25 August 2026**; response outstanding today. **Per LAW 1, the detail carries no weight yet.** |
 | 6 | **Solved today by** | The rota system's change log, if it has one; email; WhatsApp. |
 | 7 | **Named incumbents** | **Access Group / Rotaready Evo** — already markets "contractual minimums with visual indicators showing whether guaranteed-hour obligations are met", rota publication weeks ahead, and change audit trails. **Fourth** (compliance page makes no mention of guaranteed hours, reference periods, cancellation payments or notice tracking — checked). **Sona**, **Deputy** (~£3.50/user/mo), **Planday** (£2.99/user/mo), **Bizimply**, **S4labour** (250+ UK clients), **Harri**, **Legion**, **UKG**. |
 | 8 | **Willingness to pay** | £1,400–£10,000/yr per operator. Anchor: existing WFM spend of £110–£130/month per 25-head site. |
@@ -232,76 +225,70 @@ Scoring: 1–5 per axis. **Any axis scoring 1 is an automatic rejection.**
 
 **6 · Qualifying public event notification & event-level CT assurance — 24/40.**
 Every qualifying public event (800+, controlled access) must be notified to the SIA **within 14 days
-of being publicised**, with a further 14 days to correct inaccurate information (SI 2026/793 reg 3).
-Unlike premises, this is genuinely *repeat-transactional*. Buyers: festival and event organisers,
-promoters, agricultural shows, local authorities — call it **2,000–4,000**, of which festivals alone
-number 975 in the Home Office model. Penalties for events reach £18m/5% of global turnover plus
-£50,000/day. **Why it does not rank higher:** buyer count is modest, seasonality makes revenue lumpy,
-and Momentus already sells into exactly this room. Pain 4 · Forcing 4 · Buyers 3 · WTP 3 ·
-Incumbency 3 · Moat 2 · Cloudflare 5 · Durability 3? — recorded as 3 → **27 gross, 24 on a
-conservative durability read.** Worth folding into Candidate 3 rather than building separately.
+of being publicised**, plus 14 days to correct inaccurate information (SI 2026/793 reg 3). Unlike
+premises, this is genuinely *repeat-transactional*, and event penalties reach £18m/5% of global
+turnover plus £50,000/day. Buyers: festival and event organisers, promoters, agricultural shows,
+local authorities — **2,000–4,000**, of which festivals alone number 975 in the Home Office model.
+**Why it does not rank higher:** modest buyer count, lumpy seasonal revenue, and Momentus already
+sells into this room. Pain 4 · Forcing 4 · Buyers 3 · WTP 3 · Incumbency 3 · Moat 2 · Cloudflare 5 ·
+Durability 2 = **24**. Fold into Candidate 3 rather than build separately.
 
 **7 · Martyn's Law standard tier (200–799) — REJECTED.** See §5. Willingness-to-pay axis scores **1**
 (the Home Office models £132/year of avoidable labour). Automatic rejection under Part C.
 
-**8 · Charity governance, annual return & impact reporting — 22/40.** Verified buyer pool is far
+**8 · Charity governance, annual return & impact reporting — 22/40.** The verified buyer pool is far
 smaller than the sector headline: of 171,867 registered charities in England and Wales, **128,435
-(74.7%) have income under £100,000** and buy nothing. The software-capable population is the
-**15,334 with income over £500k** and realistically the **9,302 over £1m**. The Annual Return itself
-is a free Commission portal form. Incumbents own the CRM layer: **Blackbaud**, **Beacon**
-(£37–£325/month published), **Donorfy**, **Access Charity CRM**, **Salesforce NPSP**. Incumbency 2,
-Forcing 2 (Charity Commission reporting is BINDING but long-standing and not newly onerous). Not
-recommended.
+(74.7%) have income under £100,000** and buy nothing. The software-capable population is the **15,334
+over £500k**, realistically the **9,302 over £1m**. The Annual Return is a free Commission portal
+form. Incumbents own the CRM layer: **Blackbaud**, **Beacon** (£37–£325/month), **Donorfy**, **Access
+Charity CRM**, **Salesforce NPSP**. Incumbency 2, Forcing 2 (reporting is BINDING but long-standing
+and not newly onerous). Not recommended.
 
-**9 · DMCC price transparency & fake-review prevention evidence — 21/40.** The regime is genuinely
-**BINDING from 6/7 April 2025**, with CMA *direct* enforcement and fines to **10% of global
-turnover**, and the CMA's stated first-year priorities are hidden fees and drip pricing. But the duty
-to prevent fake reviews is already absorbed by **Trustpilot, Feefo, Reviews.io, Yotpo, Bazaarvoice**,
-and price-presentation changes are a one-off engineering task on a checkout, not a subscription.
-Incumbency 2, Durability 2. The subscription-contracts regime (DMCC ss.253–281) is **not yet
-commenced** — PROPOSED for practical purposes — and is the one part worth re-checking in 2027, since
-it will force reminder notices, cooling-off and easy-exit flows on every gym, subscription box and
-streaming service in the country.
+**9 · DMCC price transparency & fake-review prevention — 21/40.** Genuinely **BINDING from 7 April
+2025**, with CMA *direct* enforcement, fines to **10% of global turnover**, and stated first-year
+priorities of hidden fees and drip pricing. But fake-review prevention is already absorbed by
+**Trustpilot, Feefo, Reviews.io, Yotpo, Bazaarvoice**, and price-presentation is a one-off checkout
+engineering task, not a subscription. Incumbency 2, Durability 2. The **subscription-contracts regime
+(ss.253–281) is not yet commenced** and is the part worth re-checking in 2027: it will force reminder
+notices, cooling-off and easy-exit flows on every gym, subscription box and streaming service.
 
 **10 · Online Safety Act compliance for mid-sized UK services — 20/40.** BINDING: illegal-content
 duties enforceable **17 March 2025**, children's risk assessments due **24 July 2025**, age assurance
-for pornographic content from **17 January 2025**, fines to **£18m or 10% of qualifying worldwide
-revenue**. But neither DSIT nor Ofcom publishes a figure for in-scope services that I could verify in
-this run — **marked [UNVERIFIED]** — and the UK-headquartered, budget-holding subset is small relative
-to the noise. Incumbents: **OneTrust**, **Tremau**, **Cinder**, **ActiveFence**, **Checkstep**.
+from **17 January 2025**, fines to **£18m or 10% of qualifying worldwide revenue**. But no DSIT or
+Ofcom figure for in-scope services could be verified in this run (**[UNVERIFIED]**), and the
+UK-headquartered budget-holding subset is small relative to the noise. Incumbents: **OneTrust**,
+**Tremau**, **Cinder**, **ActiveFence**, **Checkstep**.
 
 **11 · Film/TV production tax-credit evidence pack (AVEC/IFTC) — 19/40.** A real new BINDING
 administrative requirement: claims submitted **on or after 6 April 2026** must include the **CT600P
-Creative Industries supplementary page**, alongside a BFI British cultural certificate and a
-UK/non-UK core-cost split. Rates: 34% general, 39% animation/children's TV and VFX, **53% independent
-film** (budgets under £23.5m core cost, cap £15m). **But the buyer count fails LAW 2**: the work is
-done by perhaps 20 specialist accountancy practices and 150–250 active production companies, mostly
-on contingent fees, against strong incumbents (**Sargent-Disc/Cast & Crew**, **Entertainment
-Partners**, **Wrapbook**, **Greenslate**). Buyer-count axis scores **2**; ACV would need to exceed
-£15,000 for £3m ARR. Not recommended as a standalone.
+Creative Industries supplementary page**, plus a BFI British cultural certificate and a UK/non-UK
+core-cost split. Rates: 34% general, 39% animation/children's TV and VFX, **53% independent film**
+(core costs under £23.5m, cap £15m). **But it fails LAW 2**: the work sits with perhaps 20 specialist
+accountancy practices and 150–250 active production companies, mostly on contingent fees, against
+**Sargent-Disc/Cast & Crew**, **Entertainment Partners**, **Wrapbook**, **Greenslate**. Buyer-count
+axis **2**; ACV would need to exceed £15,000 for £3m ARR. Not recommended standalone.
 
 ---
 
 ## 5. Deep section — Martyn's Law: honest verdict
 
-**The instrument.** Terrorism (Protection of Premises) Act 2025 (c.10), Royal Assent 3 April 2025.
-Government committed to an implementation period of "at least 24 months". As at today the regime is
-part-commenced: **SI 2026/320** (Commencement No.1), **SI 2026/622** (Commencement No.2, provisions
-in force **15 June 2026** — principally s.12, requiring the SIA to produce statutory guidance on its
-regulatory functions, and s.18(5)–(7) on "qualifying worldwide revenue"), **SI 2026/793**
-(Notification Requirements) and **SI 2026/1005** (Principal Use of Premises). Home Office s.27
-statutory guidance published **15 April 2026**. The SIA's s.12 enforcement consultation closed
-**12 June 2026**, with final guidance and a consultation report due autumn 2026. Operator duties are
-expected to commence **Spring 2027**. Grade: **SCHEDULED**, not BINDING.
+**The instrument.** Terrorism (Protection of Premises) Act 2025 (c.10), Royal Assent 3 April 2025,
+with a committed implementation period of "at least 24 months". The regime is part-commenced:
+**SI 2026/320** (Commencement No.1); **SI 2026/622** (No.2, in force **15 June 2026** — principally
+s.12, requiring the SIA to produce statutory guidance on its regulatory functions, and s.18(5)–(7) on
+"qualifying worldwide revenue"); **SI 2026/793** (Notification Requirements); **SI 2026/1005**
+(Principal Use). Home Office s.27 statutory guidance published **15 April 2026**; the SIA's s.12
+enforcement consultation closed **12 June 2026**, final guidance due autumn 2026. Operator duties
+expected **Spring 2027**. Grade: **SCHEDULED**, not BINDING.
 
 **The obligated population — verified, not estimated.** The Home Office impact assessment models
-928,554 publicly accessible locations in the UK, of which **749,662 are out of scope**, **154,623 are
-standard tier** and **24,268 are enhanced tier** (total in scope: **178,891**). Sensitivity range:
-standard 123,900–177,000; enhanced 17,800–31,100. By sector, the standard tier is dominated by
-**retail and hospitality (84,617)**, **places of worship (33,323)** and **education (24,689)**; the
-enhanced tier by **retail and hospitality (15,997)**, **sports facilities (2,859)**, **hospitals
-(1,921)**, **visitor attractions (1,561)** and **festivals (975)**. **91% of the enhanced tier sits in
-this analyst's sectors.** The brief's "100,000+ standard tier" is correct and conservative.
+928,554 publicly accessible UK locations: **749,662 out of scope**, **154,623 standard tier**,
+**24,268 enhanced tier** (total in scope **178,891**). Sensitivity: standard 123,900–177,000;
+enhanced 17,800–31,100. The standard tier is dominated by **retail and hospitality (84,617)**,
+**places of worship (33,323)** and **education (24,689)**; the enhanced tier by **retail and
+hospitality (15,997)**, **sports facilities (2,859)**, **hospitals (1,921)**, **visitor attractions
+(1,561)** and **festivals (975)**. **91% of the enhanced tier sits in my sectors.** The brief's
+"100,000+ standard tier" is correct and conservative.
 
 **What compliance actually requires.**
 *Standard tier (200–799):* notify the SIA of the premises and responsible person; put in place
@@ -330,11 +317,10 @@ obstructing the regulator. Breach is **not actionable in civil proceedings**. Th
   per year**. Expected civil monetary penalties across the whole regime: **1–4 per year**.
 
 **Verdict.** For the 154,623 standard-tier premises, **Martyn's Law is a one-off form with a biennial
-reminder, not a SaaS**. A £132/year labour burden, a 1% annual inspection probability, and an
+reminder, not a SaaS**. A £132/year labour burden, a 1% annual inspection probability and an
 advisory-first regulator do not create a buying moment. The market has already priced this correctly:
-two vendors are live at **£18** and **£19 per month**, and one of them openly describes itself as "a
-small UK operation" and refuses to claim it makes you compliant. That is a commodity template
-business, not a durable one. **Recommendation: do not build for the standard tier.**
+two vendors are live at **£18** and **£19 per month**, one openly describing itself as "a small UK
+operation" that will not claim to make you compliant. **Do not build for the standard tier.**
 
 For the **24,268 enhanced-tier premises** the picture inverts. An annually refreshed documented risk
 assessment, a named individual carrying personal accountability, documents filed with a regulator,
@@ -376,7 +362,7 @@ dismissal qualifying period and compensation = **s.25**; statutory sick pay = **
 | **1 Jan 2027** | **Unfair dismissal qualifying period cut to 6 months** (not day one); **compensation cap removed**; fire-and-rehire restrictions | SCHEDULED |
 | 2027 (date TBC) | **Guaranteed hours, shift notice, cancellation payments** (incl. agency workers) | SCHEDULED; detail PROPOSED |
 
-**Who now has to track what nobody tracked before?** Four things:
+**What nobody tracked before — four things:**
 
 1. **The rolling reference period per worker.** Expected ~12 weeks, but the length is not yet in
    regulations. An employer must detect, per worker, when average hours over the period exceed the
@@ -392,7 +378,7 @@ dismissal qualifying period and compensation = **s.25**; statutory sick pay = **
 
 Item 4 is the genuinely new data object. Items 1–3 are reporting layers over data WFM already holds.
 
-**Do the incumbents cover it?** Partially, and the strongest one says it already does.
+**Do the incumbents cover it?** Partially — and the strongest one says it already does.
 
 - **Access Group / Rotaready Evo** — explicitly markets recording of contractual minimums with
   "visual indicators showing whether guaranteed-hour obligations are met", rota publication weeks in
@@ -436,13 +422,12 @@ itself (Candidate 2).**
 | EPOS / payments / e-commerce | Shopify; Lightspeed; Zettle; Square | Public | Owned, saturated |
 | EHS / risk GRC (will absorb Martyn's Law) | Alcumus; Evotix; EcoOnline | Not published | Likely future owner of Candidate 3 |
 
-**Reading of the graveyard.** Fourteen of the sixteen obvious gaps in these sectors have a named,
-funded incumbent with a published or inferable price. The two that do not — **end-client umbrella PAYE
-liability** and **six-year portable holiday-records retention** — are both liability-shifting
-obligations that arrived on the same day, **6 April 2026**, and both sit in the seam *between*
-existing vendors rather than inside any one of them. That is not a coincidence; it is where new
-statutory liability lands when it is drafted to catch the party with the deepest pockets rather than
-the party with the data.
+**Reading of the graveyard.** Fourteen of the sixteen obvious gaps here have a named, funded
+incumbent with a published or inferable price. The two that do not — **end-client umbrella PAYE
+liability** and **six-year portable holiday-records retention** — are liability-shifting obligations
+that arrived on the same day, **6 April 2026**, and both sit in the seam *between* existing vendors
+rather than inside any one of them. That is where new statutory liability lands when it is drafted to
+catch the party with the deepest pockets rather than the party holding the data.
 
 ---
 
