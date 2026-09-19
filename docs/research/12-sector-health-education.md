@@ -71,80 +71,149 @@ killed outright and appear in the Graveyard (§5) rather than being padded into 
 
 ### C-01 — Funder income assurance for adult social care providers **(RANK 1)**
 
-| # | Field | Answer |
-|---|---|---|
-| 1 | **The gap** | A care group invoices 153 councils, 26 ICB clusters and hundreds of self-funders under dozens of rate cards, then reconciles the money actually received in a spreadsheet; underpayments, silent rate errors, unbilled visits and part-period charges are written off unrecovered. |
-| 2 | **Pain owner** | Head of Income & Contracts / Group Finance Manager at a 5–60 site care group. At single sites, the Registered Manager. |
-| 3 | **Budget holder** | Group Finance Director or owner-operator. **Own P&L, not a compliance line** — which is precisely why it closes fast. |
-| 4 | **UK buyer count** | 19,000 organisations run 42,000 establishments (Skills for Care) — an average of 2.2, so a long singleton tail. Method: discount to organisations running ≥3 establishments or with ≥£2m annual public-funder income. **Winnable: ~2,500–4,000.** At £5k ACV, £3m ARR needs 600 customers — 15–24% penetration of the winnable set. Credible. |
-| 5 | **Forcing function** | **NONE.** This is an operational/financial pain, which field 5 expressly permits. The adjacent SCHEDULED instrument (Fair Pay Agreement, April 2028) *increases* the value of the product but is not required for the sale. |
-| 6 | **Solved today by** | Excel, plus the invoice-generation module inside the roster system, plus a part-time credit controller. |
-| 7 | **Named incumbents** | **Birdie** — from **£200/month** ex-VAT, priced on care hours; "multiple invoice formats", "multi-payer invoicing"; *no remittance reconciliation module listed*. **CareLineLive** — invoicing, split private/LA billing, exports to Xero/Sage/CM2000/ContrOCC; its own payroll & invoicing page describes **no remittance reconciliation, payment matching, rate-change management or dispute handling**. **CoolCare** — occupancy + finance/ledgers; markets **"£30–50k average annual savings per home"** and "62% higher fees"; no LA/NHS payment reconciliation described. **Access Group (Adam / Liquidlogic Social Care Finance, formerly ContrOCC)** — owns the *commissioner* side, i.e. the council paying, not the provider getting paid. **Sage/Xero** — general ledger with no care-contract logic. |
-| 8 | **Willingness to pay** | **£3,000–£12,000/year per group.** Anchors: Birdie's £2,400/yr floor for a small agency; CoolCare's own £30–50k-per-home savings claim; recovering 1% of a £5m public-funder income is £50k against a £6k licence. |
-| 9 | **Data required** | Customer-supplied: rosters/visit logs, issued invoices, bank remittance files, contract rate cards. Externally sourced and licensable: **CQC care directory** (weekly 18MB CSV, Open Government Licence) and councils' published fee rates and market position statements. Nothing needs a private licence. |
-| 10 | **Cloudflare fit** | **Excellent.** Workers for ingest/matching, D1 for the reconciliation ledger, R2 for remittance and invoice files, Queues for batch matching, KV for rate cards. No GPU, no on-prem, no scraping of blocking sites (CQC and council data are published downloads). |
-| 11 | **5–10 year durability** | **Strong and deepening.** Funder complexity increases: the Fair Pay Agreement (2028) forces annual fee renegotiation, ICB consolidation rewrites CHC/FNC routing, and council rate cards change annually. **What kills it:** Birdie or Access shipping reconciliation as a bolt-on (the realistic threat — mitigated by owning the cross-customer council payment-behaviour dataset, which a single-vendor bolt-on cannot replicate); or a national standard care-billing schema (implausible across 153 independent councils). |
-| 12 | **Evidence** | Class 3 (competitor pricing): birdie.care/pricing; carelinelive.com/our-solution/payroll-invoicing; coolcare.co.uk. Class 4 (regulator dataset): cqc.org.uk/about-us/transparency/using-cqc-data; DHSC ASC provider statistics Aug 2026. Class 5 (named-sample survey): Skills for Care *State of the ASC Sector 2025*. **Three independent classes.** |
+**1 Gap:** A care group invoices 153 councils, 26 ICB clusters and hundreds of self-funders under dozens of
+rate cards, then reconciles the money actually received in a spreadsheet. Underpayments, silent rate errors,
+unbilled visits and part-period charges are written off unrecovered.
+**2 Pain owner:** Head of Income & Contracts / Group Finance Manager at a 5–60 site group; the Registered
+Manager at single sites.
+**3 Budget holder:** Group Finance Director or owner-operator — **own P&L, not a compliance line**, which is
+precisely why it closes fast.
+**4 Buyer count:** 19,000 organisations run 42,000 establishments (Skills for Care), an average of 2.2, so
+there is a long singleton tail. Method: discount to organisations running ≥3 establishments or with ≥£2m
+annual public-funder income. **Winnable ~2,500–4,000.** At £5k ACV, £3m ARR needs 600 customers — 15–24%
+penetration of the winnable set. Credible.
+**5 Forcing function: NONE.** An operational/financial pain, which field 5 expressly permits. The adjacent
+SCHEDULED instrument (Fair Pay Agreement, April 2028) raises the product's value but is not needed for the sale.
+**6 Solved today by:** Excel, the invoice-generation module inside the roster system, and a part-time credit
+controller.
+**7 Named incumbents:** **Birdie** — from **£200/month** ex-VAT, priced on care hours; "multiple invoice
+formats" and "multi-payer invoicing"; *no remittance reconciliation module listed*. **CareLineLive** —
+invoicing, split private/LA billing, exports to Xero/Sage/CM2000/ContrOCC; its own payroll and invoicing page
+describes **no remittance reconciliation, payment matching, rate-change management or dispute handling**.
+**CoolCare** — occupancy plus finance/ledgers; markets **"£30–50k average annual savings per home"**; no
+LA/NHS payment reconciliation described. **Access Group (Adam / Liquidlogic Social Care Finance, formerly
+ContrOCC)** — owns the *commissioner* side, the council paying, not the provider getting paid. **Sage/Xero** —
+general ledger with no care-contract logic.
+**8 Willingness to pay:** **£3,000–£12,000/year per group.** Anchors: Birdie's £2,400/yr floor for a small
+agency; CoolCare's own £30–50k-per-home savings claim; recovering 1% of £5m of public-funder income is £50k
+against a £6k licence.
+**9 Data required:** customer-supplied rosters/visit logs, issued invoices, bank remittance files and contract
+rate cards; externally the **CQC care directory** (weekly 18MB CSV, Open Government Licence) and councils'
+published fee rates. Nothing needs a private licence.
+**10 Cloudflare fit: excellent.** Workers for ingest and matching, D1 for the reconciliation ledger, R2 for
+remittance and invoice files, Queues for batch matching, KV for rate cards. No GPU, no on-prem, no scraping of
+blocking sites.
+**11 Durability: strong and deepening.** Funder complexity increases — the Fair Pay Agreement (2028) forces
+annual fee renegotiation, ICB consolidation rewrites CHC/FNC routing, and rate cards change annually.
+**What kills it:** Birdie or Access shipping reconciliation as a bolt-on — the realistic threat, mitigated only
+by owning the cross-customer council payment-behaviour dataset a single-vendor module cannot replicate; or a
+national standard care-billing schema, implausible across 153 independent councils.
+**12 Evidence:** Class 3 (competitor pricing — birdie.care/pricing, carelinelive.com, coolcare.co.uk);
+Class 4 (regulator dataset — CQC care directory; DHSC ASC provider statistics Aug 2026); Class 5 (named-sample
+survey — Skills for Care *State of the ASC Sector 2025*). **Three independent classes.**
 
 **Scores:** Pain 4 · Forcing 2 · Buyers 4 · WTP 4 · Incumbency 3 · Moat 4 · Cloudflare 5 · Durability 4 = **30/40**
 
-*Forcing function scores 2, not 1: the rubric reserves 1 for "none, **in a market that needs one**".
-This market demonstrably buys software without a regulatory gun — 19,000 providers already pay Birdie,
-CoolCare and Nourish for operational tools. Notes: the compounding asset is not the software, it is a
-longitudinal record of how every English council actually pays — days-to-pay, underpayment rate,
-dispute outcomes. No one publishes this. It gets better with every customer and it is the answer to
-"why can't Access just ship this?".*
+*Forcing function scores 2, not 1: the rubric reserves 1 for "none, **in a market that needs one**", and this
+market demonstrably buys software without a regulatory gun. The compounding asset is not the software but a
+longitudinal record of how every English council actually pays — days-to-pay, underpayment rate, dispute
+outcomes. Nobody publishes it, it improves with every customer, and it is the answer to "why can't Access just
+ship this?".*
 
 ---
 
 ### C-02 — Fair Pay Agreement readiness for adult social care **(RANK 2)**
 
-| # | Field | Answer |
-|---|---|---|
-| 1 | **The gap** | From April 2028 every adult social care employer in England must pay to a nationally negotiated agreement, then prove the cost to 153 councils to get a fee uplift. Nobody can currently map their workforce onto bands, cost the agreement, or generate the evidence pack. |
-| 2 | **Pain owner** | Group HR Director / Head of People at a care group; Registered Manager at small providers. |
-| 3 | **Budget holder** | Group Finance Director. Own P&L — the spend is defensive (margin protection). |
-| 4 | **UK buyer count** | 19,000 organisations, 1.6m filled posts. Method: employers with >50 staff — roughly 3,000–4,000 organisations account for the bulk of the 1.6m posts. **Winnable: ~3,000.** £4k ACV → 750 customers for £3m ARR. |
-| 5 | **Forcing function** | **SCHEDULED.** Employment Rights Act 2025 creates the Adult Social Care Negotiating Body for England; **first round of negotiations 2027, first agreement in effect April 2028**; DHSC has allocated **£500m** for councils to fund it in 2028–29. Instrument enacted, commencement dated, detail not yet made. |
-| 6 | **Solved today by** | Nothing. Consultants (LaingBuisson, Carterwood, Christie & Co) do one-off cost modelling at £10–40k an engagement. |
-| 7 | **Named incumbents** | **None found for this specific job** after a real search. Adjacent: Skills for Care's **ASC-WDS** (free, government-backed, already holds 700,000+ staff records across 21,000 locations — both the best data partner and the most serious threat, because DHSC could fund a free calculator); Access Group and CoolCare payroll modules; **Nourish**, **Person Centred Software** (care records, not pay). |
-| 8 | **Willingness to pay** | £3,000–£8,000/year. Anchor: a single consultant costing engagement is £10–40k; a 1p/hour modelling error across 500 staff is ~£10k/year. |
-| 9 | **Data required** | Customer-supplied payroll and contracted-hours data. Externally: ASC-WDS published benchmarks, council fee rates, NLW rates. All public or customer-owned. |
-| 10 | **Cloudflare fit** | **Excellent.** Modelling is arithmetic over modest datasets. Workers + D1 + R2. No GPU. |
-| 11 | **5–10 year durability** | **High — the agreement is renegotiated annually**, so the product has a perpetual seasonal cycle from 2028. **What kills it:** DHSC/Skills for Care publishing a free official calculator (the single biggest risk, and it has precedent — see the DSPT graveyard entry below); or the agreement being repealed by a future government. |
-| 12 | **Evidence** | Class 4 (regulator/government dataset & publication): gov.uk *Fair pay agreement process in adult social care: government response*; DHSC factsheet on Social Care Negotiating Bodies (Feb 2026). Class 5 (named-sample survey): Skills for Care pay data (median care worker £12.00/hr, Mar 2025). Class 6: Nuffield Trust implementation commentary. **Two qualifying classes (4 and 5).** |
+**1 Gap:** From April 2028 every adult social care employer in England must pay to a nationally negotiated
+agreement, then prove the cost to 153 councils to win a fee uplift. Nobody can currently map their workforce
+onto bands, cost the agreement, or generate the evidence pack.
+**2 Pain owner:** Group HR Director / Head of People; the Registered Manager at small providers.
+**3 Budget holder:** Group Finance Director. Own P&L; the spend is defensive margin protection.
+**4 Buyer count:** 19,000 organisations, 1.6m filled posts. Method: employers with >50 staff — roughly
+3,000–4,000 organisations account for the bulk of posts. **Winnable ~3,000.** £4k ACV → 750 customers for £3m ARR.
+**5 Forcing function: SCHEDULED.** Employment Rights Act 2025 creates the Adult Social Care Negotiating Body for
+England; **first negotiations 2027, first agreement in effect April 2028**; DHSC has allocated **£500m** for
+councils to fund it in 2028–29. Enacted, commencement dated, detail not yet made.
+**6 Solved today by:** nothing. Consultants (LaingBuisson, Carterwood, Christie & Co) do one-off cost modelling
+at £10–40k per engagement.
+**7 Named incumbents: none found for this specific job** after a real search. Adjacent: Skills for Care's
+**ASC-WDS** — free, government-backed, already holding 700,000+ staff records across 21,000 locations, and
+therefore both the best data partner and the most serious threat, because DHSC could fund a free calculator;
+plus Access Group and CoolCare payroll modules, and **Nourish** / **Person Centred Software** (care records,
+not pay).
+**8 Willingness to pay:** £3,000–£8,000/year. Anchors: a single consultant costing engagement at £10–40k; a
+1p/hour modelling error across 500 staff is ~£10k/year.
+**9 Data required:** customer-supplied payroll and contracted-hours data; externally ASC-WDS published
+benchmarks, council fee rates, NLW rates. All public or customer-owned.
+**10 Cloudflare fit: excellent.** Modelling is arithmetic over modest datasets — Workers + D1 + R2, no GPU.
+**11 Durability: high — the agreement is renegotiated annually**, giving the product a perpetual seasonal cycle
+from 2028. **What kills it:** DHSC or Skills for Care publishing a free official calculator (the single biggest
+risk, with direct precedent — see the DSPT graveyard entry); or repeal by a future government.
+**12 Evidence:** Class 4 (gov.uk *Fair pay agreement process in adult social care: government response*; DHSC
+factsheet on Social Care Negotiating Bodies, Feb 2026); Class 5 (Skills for Care pay data — median care worker
+£12.00/hr, Mar 2025); Class 6 (Nuffield Trust implementation commentary). **Two qualifying classes.**
 
 **Scores:** Pain 3 · Forcing 3 · Buyers 4 · WTP 2 · Incumbency 4 · Moat 4 · Cloudflare 5 · Durability 4 = **29/40**
 
-*Honest caveat: WTP scores 2 because there is no evidenced spend on this today — the thing does not
-exist yet. This is a 2027 product with a 2028 revenue ramp. It is ranked 2 on quality of gap, not on
-speed to first pound. Build it as the second module of C-01, not as a standalone company.*
+*Honest caveat: WTP scores 2 because there is no evidenced spend today — the thing does not exist yet. This is
+a 2027 product with a 2028 revenue ramp, ranked on quality of gap, not speed to first pound. Build it as the
+second module of C-01, not as a standalone company.*
 
 ---
 
 ### C-03 — Sponsor licence payroll assurance for CQC-regulated employers **(RANK 3)**
 
-| # | Field | Answer |
-|---|---|---|
-| 1 | **The gap** | Since 8 April 2026 UKVI receives live HMRC RTI payroll data for every sponsored worker and automatically flags mismatches against the Certificate of Sponsorship; care providers whose rotas deliver fewer hours than the CoS promised are being caught, and licence revocation is existential. No tool reconciles rostered hours → payroll → CoS. |
-| 2 | **Pain owner** | Level 1 User / Authorising Officer on the sponsor licence — in practice the HR Director or Registered Manager. |
-| 3 | **Budget holder** | Managing Director / owner. Risk budget, signed under duress. |
-| 4 | **UK buyer count** | 127,728 licensed sponsors overall; health & social care is the **largest single revoked sector (872 identified revocations, ~29% of the sectoral total, Q1 2022–Q3 2025)**. Method: CQC-regulated sponsor licence holders are obtainable exactly by joining the Home Office register (daily CSV) to the CQC care directory (weekly CSV). Estimate 3,000–5,000; discount to those with ≥20 sponsored workers (below that, a spreadsheet wins). **Winnable: ~800–1,500.** At £4k ACV, £3m ARR needs 750 — i.e. ~50–90% of the winnable set. **That is not credible.** The candidate only clears the LAW 2 threshold if sold cross-sector (all 127,728), which is outside this sector remit and into a crowded market. |
-| 5 | **Forcing function** | **BINDING.** Sponsor duties under *Workers and Temporary Workers: guidance for sponsors*, Part 3 (record-keeping, reporting within 10 working days, genuine vacancy, salary as stated on CoS). Enforcement is live and automated from 8 April 2026. **4,403 licences revoked in the 12 months to June 2026** — the highest since the post-Brexit system began. Providers are already in breach. |
-| 6 | **Solved today by** | Spreadsheets and an immigration solicitor's mock audit (£3–8k per engagement). |
-| 7 | **Named incumbents** | **SponsorPro** — Right to Work Starter **£39/mo**, RTW Professional £69/mo, Sponsor Starter **£79/mo (50 workers)**, Sponsor Professional **£149/mo (250)**, Sponsor Business **£249/mo (500)**; its own pricing page states it **does not reconcile payroll or RTI data, does not track rota hours, and HR/payroll sync is "coming soon"**. **Soteriaa** £149/mo unlimited. **RootHR** £10/mo for 15 employees. **HireComply** (tiered by sponsored headcount). **CloudNet UKVI Sponsor Licence Compliance Software** £998 one-off perpetual licence. **SponsorFort**. Conclusion: document-vault sponsor tooling is a commoditised £500–3,000/yr market; the *reconciliation* layer is genuinely unbuilt. |
-| 8 | **Willingness to pay** | £2,000–£8,000/year for care groups. Anchors: SponsorPro Business £2,988/yr; a mock audit £3–8k; the alternative is losing the licence, the workers and, downstream, CQC registration. |
-| 9 | **Data required** | Customer-supplied: RTI/FPS payroll submissions, rota exports, CoS records, right-to-work checks. Externally licensable: Home Office register of licensed sponsors (**daily CSV, 10.4MB, free**) and CQC care directory. A daily diff of the sponsor register builds a proprietary longitudinal record of every licence suspension and revocation — the Home Office publishes only the current snapshot. |
-| 10 | **Cloudflare fit** | **Excellent.** Workers + D1 + R2 + Cron Triggers for the daily register diff. No GPU, no blocking-site scraping. |
-| 11 | **5–10 year durability** | **WEAK — this is the finding that demotes the candidate.** The Health and Care Worker visa was **closed to overseas care-worker applicants in July 2025**. Sponsored direct-care recruitment fell from **105,000 (2023/24) → 50,000 (2024/25) → 30,000 (2025/26)**, and only **~1,500** of the 2025/26 cohort came in on the Health and Care Worker visa; **95% arrived on dependent, family or student routes** and are not sponsored at all. The addressable stock of sponsored care workers decays as they settle or leave. The compliance panic is at its peak now. |
-| 12 | **Evidence** | Class 3 (competitor pricing): sponsorpro.co.uk/pricing (with the explicit feature gap). Class 4 (regulator dataset/enforcement): Home Office transparency data — 4,403 revocations, via Work Rights Centre FOI; Home Office register of licensed sponsors. Class 5 (named-sample survey): Skills for Care international recruitment estimates. **Three classes.** Class 1 (job postings) **fails**: a reed.co.uk search for "sponsor licence compliance" returns only **30 results, almost all false positives** (logistics compliance, drivers), with **no NHS or education employers and one care employer**. There is no dedicated budget-holding job family. That is disconfirming and is recorded as such. |
+**1 Gap:** Since 8 April 2026 UKVI receives live HMRC RTI payroll data for every sponsored worker and
+automatically flags mismatches against the Certificate of Sponsorship. Care providers whose rotas deliver fewer
+hours than the CoS promised are being caught, and revocation is existential. No tool reconciles rostered hours →
+payroll → CoS.
+**2 Pain owner:** the Level 1 User / Authorising Officer on the licence — in practice the HR Director or
+Registered Manager.
+**3 Budget holder:** Managing Director / owner. A risk budget, signed under duress.
+**4 Buyer count:** 127,728 licensed sponsors overall; health and social care is the **largest single revoked
+sector (872 identified revocations, ~29% of the sectoral total, Q1 2022–Q3 2025)**. Method: CQC-regulated
+sponsor licence holders are obtainable exactly by joining the Home Office register (daily CSV) to the CQC care
+directory (weekly CSV). Estimate 3,000–5,000; discount to those with ≥20 sponsored workers, below which a
+spreadsheet wins. **Winnable ~800–1,500.** At £4k ACV, £3m ARR needs 750 — 50–90% of the winnable set.
+**That is not credible.** The candidate only clears LAW 2 if sold cross-sector to all 127,728, which is outside
+this remit and into a crowded market.
+**5 Forcing function: BINDING.** Sponsor duties under *Workers and Temporary Workers: guidance for sponsors*,
+Part 3 — record-keeping, reporting within 10 working days, genuine vacancy, salary as stated on the CoS.
+Enforcement is live and automated from 8 April 2026. **4,403 licences revoked in the 12 months to June 2026**,
+the highest since the post-Brexit system began. Providers are already in breach.
+**6 Solved today by:** spreadsheets plus an immigration solicitor's mock audit at £3–8k per engagement.
+**7 Named incumbents: SponsorPro** — RTW Starter **£39/mo**, RTW Professional £69/mo, Sponsor Starter **£79/mo
+(50 workers)**, Sponsor Professional **£149/mo (250)**, Sponsor Business **£249/mo (500)**; its own pricing page
+states it **does not reconcile payroll or RTI data, does not track rota hours, and HR/payroll sync is "coming
+soon"**. **Soteriaa** £149/mo unlimited. **RootHR** £10/mo for 15 employees. **HireComply** (tiered by sponsored
+headcount). **CloudNet UKVI Sponsor Licence Compliance Software** £998 one-off perpetual licence.
+**SponsorFort**. Conclusion: document-vault sponsor tooling is a commoditised £500–3,000/yr market; the
+*reconciliation* layer is genuinely unbuilt.
+**8 Willingness to pay:** £2,000–£8,000/year for care groups. Anchors: SponsorPro Business £2,988/yr; a mock
+audit £3–8k; the alternative is losing the licence, the workers and, downstream, CQC registration.
+**9 Data required:** customer-supplied RTI/FPS payroll submissions, rota exports, CoS records, right-to-work
+checks; externally the Home Office register of licensed sponsors (**daily CSV, 10.4MB, free**) and the CQC care
+directory. A daily diff of the register builds a proprietary longitudinal record of every suspension and
+revocation — the Home Office publishes only the current snapshot.
+**10 Cloudflare fit: excellent.** Workers + D1 + R2 + Cron Triggers for the daily register diff.
+**11 Durability: WEAK — the finding that demotes the candidate.** The Health and Care Worker visa was **closed
+to overseas care-worker applicants in July 2025**. Sponsored direct-care recruitment fell **105,000 (2023/24) →
+50,000 (2024/25) → 30,000 (2025/26)**, and only **~1,500** of the 2025/26 cohort came in on the Health and Care
+Worker visa; **95% arrived on dependent, family or student routes** and are not sponsored at all. The
+addressable stock decays as workers settle or leave. The panic peaks now.
+**12 Evidence:** Class 3 (sponsorpro.co.uk/pricing, with the explicit feature gap); Class 4 (Home Office
+transparency data — 4,403 revocations, via Work Rights Centre FOI; register of licensed sponsors); Class 5
+(Skills for Care international recruitment estimates). **Three classes.** Class 1 (job postings) **fails**: a
+reed.co.uk search for "sponsor licence compliance" returns **30 results, almost all false positives**, with no
+NHS or education employers and one care employer. There is no dedicated budget-holding job family — disconfirming,
+and recorded as such.
 
 **Scores:** Pain 5 · Forcing 5 · Buyers 3 · WTP 3 · Incumbency 2 · Moat 3 · Cloudflare 5 · Durability 2 = **28/40**
 
-*No axis scores 1, so it is not auto-rejected. But durability 2 plus a failed job-posting test plus a
-winnable-buyer count that only clears the ACV maths at implausible penetration means: **do not bet two
-years on this as a standalone company.** It is a strong 18-month cash-generative wedge into care
-groups — and a legitimate reason to talk to the same finance director who buys C-01.*
+*No axis scores 1, so it is not auto-rejected. But durability 2, a failed job-posting test, and a winnable-buyer
+count that only clears the ACV maths at implausible penetration means: **do not bet two years on this as a
+standalone company.** It is a strong 18-month cash-generative wedge into care groups — and a legitimate reason to
+talk to the same finance director who buys C-01.*
 
 ---
 
