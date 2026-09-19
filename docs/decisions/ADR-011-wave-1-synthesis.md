@@ -70,7 +70,8 @@ filtered figure, so anything needing >15% of it is treated as implausible.
 | BNG 30-year ledger | 31 | 250–450 | £10k | 300 | **67–120%** | **DEAD — arithmetic** |
 | Social care income assurance | 30 | 2,500–4,000 | £5k | 600 | 15–24% | Marginal — survives only on value-based pricing |
 | Holiday pay evidence vault | 27 | 3,000–6,000 | ~£2k | 1,500 | 25–50% | **DEAD — arithmetic + churn** |
-| Martyn's Law (standard tier) | 27 | 178,891 obligated | ~£500 | 6,000 | — | **DEAD — sub-£10k rule.** Addressable is ~24,000, not 178,891 |
+| Martyn's Law (standard tier) | 27 | 154,623 standard | ~£220/yr | — | — | **DEAD.** Two vendors already live at **£18–19/month**; government models ongoing burden at **4.5 hrs/yr**, 1% inspection rate, 1–4 civil penalties expected nationally per year. WTP scores 1 = auto-reject |
+| Martyn's Law (enhanced tier) | 27 | ~1,000 estate operators | £3k | — | — | **DEAD.** £3k ACV is **58% of the entire modelled annual compliance cost**. Regulator's own numbers cap it |
 | FCA material third-party register | 26 | 1,500–1,800 | — | — | — | **DEAD — regulator's CBA caps the whole category at £0.04–0.12m/yr** |
 | UK CBAM | 28 | 500–800 | £4–12k | 300 | 38–60% | **DEAD standalone** — a module, not a company |
 | DRS producer onboarding | 26 | ~1,200 | — | — | — | Deferred — deposit level still unpublished |
@@ -114,6 +115,10 @@ Three survive both the arithmetic and the qualitative filters.
   later entrant cannot backfill it — the same shape as the defence run's temporal-moat insight.
 - **Incumbency:** SafeRec does forensic payslip audit; its own due-diligence page does not mention
   the April 2026 shift. Nothing reconciles agency rate → umbrella payslip → RTI → HMRC remittance.
+- **The unserved side is the end client.** The consumer analyst's finding is decisive: *"SafeRec,
+  FCSA and Professional Passport serve the agency; the liable client has nothing."* HMRC can recover
+  the umbrella's unpaid PAYE from the agency **or the end client**. Existing vendors sell agency-side
+  accreditation. The end client carries the same liability with no product at all.
 - **Convergence check (LAW 3):** PASSES. The two analysts identified *different buyers* (agency vs
   end-client) and *different populations* from the same statute. This is structurally independent
   analysis, not the same source read twice. **But both rest on one instrument — Wave 2 must verify
