@@ -67,10 +67,9 @@ Three further traps specific to offsets:
 
 ## 3. TRUE UK BUYER COUNTS (method shown)
 
-**Method:** count organisations, not obligations. For each candidate I identify the specific role that
-holds the budget, then count UK organisations plausibly employing that role at a scale that justifies
-software rather than a spreadsheet. I then discount for (a) foreign-parented firms whose tooling
-decision sits abroad, (b) organisations already served by an incumbent.
+**Method:** count organisations, not obligations. Identify the role holding the budget; count UK
+organisations employing that role at a scale justifying software over a spreadsheet; discount for
+(a) foreign-parented firms whose tooling decision sits abroad and (b) organisations already served.
 
 | Candidate | Budget-holding role | UK organisations | Winnable subset | ACV needed for £3m ARR | Verdict vs ~50 threshold |
 |---|---|---|---|---|---|
@@ -96,12 +95,12 @@ I verified each independently. **The most important row is the first one.**
 | **UK "Back British" offsets regime** | **NO — consultation only** | Published 23 Oct 2025; closed 23 Dec 2025 | **"Closed consultation — awaiting outcome."** GOV.UK still shows *"We are analysing your feedback… Visit this page again soon to download the outcome."* **No government response, no policy, no instrument, nine months after closing.** The stated implementation target ("first half of 2026", NAD Rupert Pearce) has **already been missed.** | [GOV.UK consultation](https://www.gov.uk/government/consultations/defence-industrial-strategy-dis-offset-written-consultation) |
 | Defence Investment Plan restates offsets intent | Partially | 30 June 2026 | DIP says the UK will introduce an offsets regime **"subject to consultation"** — a restatement of intent, not a commitment. Pollard "reconfirmed interest" at DPRTE on 25 Mar 2026. | [DIP](https://assets.publishing.service.gov.uk/media/6a44e989167a99cf0018da38/The_Defence_Investment_Plan.pdf) |
 | **DCC Level 0 for all MOD suppliers by 31/12/2026** | **Real but REQUESTED, not mandated** | Statement 8 May 2026 | Eleanor Fairford (MOD Director Cyber Defence & Risk): *"I have also recently asked all industry partners to achieve Level 0 DCC certification by 31st December 2026."* The **scheme is voluntary** and IASME's own FAQ still states DCC is **not currently mandatory**. | [Defence Digital blog](https://defencedigital.blog.gov.uk/2026/05/08/one-year-of-defence-cyber-certification-building-stronger-cyber-resilience-together/) |
-| **DEFCON 658 / Def Stan 05-138 Iss 4 / CSM v4** | **Real and contractually binding** | Mandatory on all new **and existing** MOD contracts containing DEFCON 658 since **3 Dec 2025**; **ISN 2026/02 (30 Mar 2026)** confirms DCC as the recognised evidence pathway, mapped to each contract's Cyber Risk Profile | **This — not the Level 0 "ask" — is the real UK forcing function.** It binds primes to risk-assess every subcontractor and flow obligations down. | [Fig](https://www.figgroup.co.uk/blog/mod-ciso-dcc-level-0-mandatory-2026); [Logiq](https://www.logiq.co.uk/insights/defcon-658-cyber-obligations/) |
+| **DEFCON 658 / Def Stan 05-138 Iss 4 / CSM v4** | **Real, contractually binding** | Mandatory on all new **and existing** DEFCON 658 contracts since **3 Dec 2025**; **ISN 2026/02 (30 Mar 2026)** makes DCC the recognised evidence pathway, mapped to each contract's Cyber Risk Profile | **This — not the Level 0 "ask" — is the real UK forcing function.** Binds primes to risk-assess every subcontractor and flow down. | [Fig](https://www.figgroup.co.uk/blog/mod-ciso-dcc-level-0-mandatory-2026); [Logiq](https://www.logiq.co.uk/insights/defcon-658-cyber-obligations/) |
 | **Segmented Acquisition Model, 3-month software lane** | **Real, live** | April 2026 | Process reform, not statute. A **target**, against a prior average of 6.5 years to award >£20m contracts. No enforcement mechanism; no published evidence yet of a 3-month award. | [Gowling](https://gowlingwlg.com/en/insights-resources/articles/2026/uk-defence-investment-plan-2026); [UKDJ](https://ukdefencejournal.org.uk/defence-shifts-to-10-year-plan-and-new-procurement-model/) |
 | **DIP £298bn / £4.7bn unfunded** | **Real, and worse than reported** | Published 30 June 2026, one year late | £15bn headline ≈ **£11.6bn new cash + £3.4bn reclassified**; **£4.7bn unfunded**, including **£1.8bn needed next financial year**, pending Budget 2026. Military advice asked for ~£28bn. | [Calibre Defence](https://www.calibredefence.co.uk/confirmed-but-not-funded-defence-investment-plan-lands-a-year-late-with-a-4-7-billion-gap-attached/); [Commons Library CBP-10935](https://commonslibrary.parliament.uk/research-briefings/cbp-10935/) |
 | **DFARS FOCI, 37,000 entities** | Real proposed rule (**37,740**) | Published 7 May 2026; comments closed 6 Jul 2026 | **Proposed rule only.** DFARS Case **2021-D011** implements **§847 FY2020 NDAA** and **§819 FY2021 NDAA** — statutes from Dec 2019 and Jan 2021. **Six-plus years from statute to proposed rule.** Out of UK scope regardless. | [Federal Register](https://www.federalregister.gov/documents/2026/05/07/2026-09067/defense-federal-acquisition-regulation-supplement-mitigating-risks-related-to-foreign-ownership) |
 | **NDAA §805 indirect ban, 30 Jun 2027** | Dates real; **effect overstated** | Direct 30 Jun 2026; indirect 30 Jun 2027 | Statutory — **but the indirect prohibition expressly does not apply to "components"**, defined broadly as an item supplied as part of an end item or another component. That carve-out removes most of its force as an N-tier mandate. **US-only.** | [Crowell / GovCon Legal Forum](https://www.governmentcontractslegalforum.com/2025/01/articles/supply-chain/new-year-updated-list-the-u-s-department-of-defense-updates-its-list-of-chinese-military-companies-with-ancillary-supply-chain-and-usg-contracting-impacts/) |
-| **CMMC** | **In flux** | Phase 2 suspended 13 Jul 2026; Reform Task Force reported to the DoW CIO ~mid-Sept 2026 | 1,100 responses / 10,000+ pages ingested. A task-force report **changes nothing on its own** — only a class deviation, a DFARS change or an amendment to 32 CFR 170 does. US-only. | [DefenseScoop](https://defensescoop.com/2026/07/17/pentagon-task-force-to-review-cmmc-hits-the-ground-running/) |
+| **CMMC** | **In flux** | Phase 2 suspended 13 Jul 2026; Reform Task Force reported ~mid-Sept 2026 | A task-force report **changes nothing on its own** — only a class deviation, a DFARS change or an amendment to 32 CFR 170 does. US-only. | [DefenseScoop](https://defensescoop.com/2026/07/17/pentagon-task-force-to-review-cmmc-hits-the-ground-running/) |
 
 **Net:** of the four forcing functions the team is relying on, **one** (DEFCON 658 / Def Stan 05-138
 Iss 4 / CSM v4) is real, dated, binding and UK. One (DCC L0) is a dated request riding on that
@@ -171,23 +170,21 @@ UK-real.
 IL4 is now irrelevant, which removes the largest theoretical harm. Three real ones remain, and one of
 them is not in the platform document.
 
-**Harm A — there is no `uk` jurisdiction.** Cloudflare's R2 and D1 jurisdictional options are `eu`
-and `fedramp`. **Post-Brexit, `eu` is not UK data residency.** Durable Object placement is driven by
-*location hints* (`weur`), which are hints, not guarantees. UK buyers at OFFICIAL-SENSITIVE ask for
-contractual UK residency; "Western Europe, probably" will not clear a Secure by Design review without
-Regional Services and the Data Localisation Suite configured and evidenced. This is a specific,
-checkable gap that `00-cloudflare-platform-constraints.md` does not flag. **Verify before any
-customer claim.**
+**Harm A — there is no `uk` jurisdiction.** R2 and D1 jurisdictional options are `eu` and `fedramp`.
+**Post-Brexit, `eu` is not UK data residency**, and Durable Object placement uses *location hints*
+(`weur`), not guarantees. UK buyers at OFFICIAL-SENSITIVE ask for contractual UK residency; "Western
+Europe, probably" will not clear a Secure by Design review without Regional Services and the Data
+Localisation Suite configured and evidenced. `00-cloudflare-platform-constraints.md` does not flag
+this. **Verify before any customer claim.**
 
-**Harm B — CLOUD Act exposure.** Cloudflare is US-owned, so UK-hosted data remains reachable under the
-US CLOUD Act. UK public-sector buyers increasingly ask for that exposure to be eliminated for
-sensitive workloads; the MOD's £400m Google Distributed Cloud air-gapped deal shows the appetite is
-real at the top end. At OFFICIAL this is survivable; at OFFICIAL-SENSITIVE it is an objection to
-answer in every deal.
+**Harm B — CLOUD Act exposure.** Cloudflare is US-owned, so UK-hosted data stays reachable under the
+US CLOUD Act. UK buyers increasingly ask for that exposure to be eliminated on sensitive workloads;
+the MOD's £400m air-gapped Google Distributed Cloud deal shows the appetite is real at the top end.
+Survivable at OFFICIAL; an objection to answer in every OFFICIAL-SENSITIVE deal.
 
-**Harm C — Workers egress 403s.** Verified by our own webscraper against war.gov, dla.mil, usgs.gov,
-tenders.gov.au, NSPA and NCIA. Harms data-ingestion-heavy products; harmless where data comes from
-the customer.
+**Harm C — Workers egress 403s.** Verified by our own webscraper (war.gov, dla.mil, usgs.gov,
+tenders.gov.au, NSPA, NCIA). Harms ingestion-heavy products; harmless where data comes from the
+customer.
 
 | Candidate | Cloudflare harm (UK) | Why |
 |---|---|---|
@@ -230,13 +227,13 @@ business on it.
 
 ## 9. THE "WHY NOW" TEST
 
-| Candidate | Why hasn't it been built? | Honest answer |
-|---|---|---|
-| Offsets | It has been, repeatedly, and quietly: PwC India's web tool, Eurostep ShareAspace, Rheinmetall's in-house function, and generic CLM obligation modules (Icertis, Conga, Agiloft, Aavenir). None scaled. | **The market is too small.** ~14 US primes report in a typical year; 8–15 UK organisations. Forty years, no winner. |
-| Readiness passport | **It has been built — well.** JOSCAR (30+ buyers, 6,000+ suppliers, MOD as member, free under £1m turnover), Exostar, Risk Ledger, Achilles. | **Taken.** Only the prime-side workflow layer is open. |
-| FOCI | Because the rule is still proposed after six years, and the filing destination is a closed government system. | **Not yet real, and the system of record is not ours to own.** |
-| Munitions capacity | Because the input data sits with sub-tier energetics firms who will not share it without government compulsion. | **Data acquisition is the product, and we cannot get it** without MOD sponsorship. |
-| Inventory DQ | Because the MOD is doing it itself: **£2.5bn BMfS** (~65,000 users), **£1.8bn FDSS** replacing LCST in 2028, plus a **£350m deal being prepared in September 2026** to upgrade legacy weapons-management systems. | **One buyer, already spending £4.3bn+ on it, behind a network boundary we cannot reach.** |
+| Candidate | Why hasn't it been built? |
+|---|---|
+| Offsets | **It has been, quietly and repeatedly** — PwC India's web tool, Eurostep ShareAspace, Rheinmetall in-house, generic CLM obligation modules. None scaled. **The market is too small:** ~14 US primes report in a typical year; 8–15 UK organisations. Forty years, no winner. |
+| Readiness passport | **It has been built, well** — JOSCAR (30+ buyers, 6,000+ suppliers, MOD a member, free under £1m turnover), Exostar, Risk Ledger, Achilles. **Taken.** Only the prime-side workflow is open. |
+| FOCI | **Not yet real** — the rule is still proposed six years after the statute, and the filing destination (NISS) is a closed government system we cannot own. |
+| Munitions capacity | **Data acquisition is the product and we cannot get it.** The inputs sit with sub-tier energetics firms who will not share without government compulsion. |
+| Inventory DQ | **The MOD is doing it itself** — £2.5bn BMfS (~65,000 users), £1.8bn FDSS replacing LCST in 2028, and a £350m deal being prepared in Sept 2026 for legacy weapons-management systems. One buyer, £4.3bn+ already committed, behind a boundary we cannot reach. |
 
 ---
 
@@ -259,14 +256,13 @@ business on it.
 **Candidate 3, inverted: DEFCON 658 / Def Stan 05-138 Issue 4 sub-tier flow-down assurance, sold to
 UK primes — not a supplier passport.**
 
-It is the only candidate that clears all five criteria. The buyer is a **prime**, which satisfies the
-criterion the Orchestrator already ruled on. The obligation is **contractual and dated**, not
-consultative: CSM v4 mandatory on DEFCON 658 contracts since 3 December 2025, ISN 2026/02 of 30 March
-2026 mapping DCC levels to contract Cyber Risk Profiles, and a 31 December 2026 Level 0 ask sitting
-on top. The data is supplied by the customer, so no licence and no egress problem. Cloudflare harm is
-the lowest of any candidate. UK buyer count is **100–200**, the only shortlist entry above the
-50-buyer threshold with a commercial buyer. Price it at £25k–50k per prime against the £4–£12/user/
-month Kahootz anchor, and £3m ARR needs 60–120 logos rather than five impossible ones.
+The only candidate clearing all five criteria. The buyer is a **prime**. The obligation is
+**contractual and dated**, not consultative: CSM v4 mandatory on DEFCON 658 contracts since 3 Dec
+2025, ISN 2026/02 (30 Mar 2026) mapping DCC levels to contract Cyber Risk Profiles, and the 31 Dec
+2026 Level 0 ask on top. Data is customer-supplied — no licence, no egress problem — and Cloudflare
+harm is the lowest of any candidate. UK buyer count **100–200**, the only shortlist entry above the
+50-buyer threshold with a commercial buyer. At £25k–50k per prime, £3m ARR needs 60–120 logos rather
+than five impossible ones.
 
 **Conditions I attach:** do not sell it as a passport or a register — JOSCAR owns that word and the
 MOD is its customer. Sell the *chase*: which of my 400 subcontractors need which DCC level under
@@ -295,26 +291,24 @@ has not landed.**
 ### My single strongest warning
 
 **Stop treating regulatory *intent* as a forcing function.** Of the four instruments this team has
-been building theses on, one is real, dated and binding in the UK (DEFCON 658 / Def Stan 05-138
-Issue 4 / CSM v4); one is a request from an official (DCC Level 0); one is a proposed US rule six
-years from statute and still not final (DFARS FOCI); and one is a consultation with no published
-outcome and a missed implementation date (UK offsets). **Build only against the first kind.** The
-test is not "has a minister said it" — it is "is there a contract clause, with a date, that a buyer
-is already in breach of." Only one of our candidates passes that test, and it is not the one that
-came first.
+built theses on: one is real, dated and binding in the UK (DEFCON 658 / Def Stan 05-138 Iss 4 / CSM
+v4); one is a request from an official (DCC Level 0); one is a proposed US rule six years from
+statute (DFARS FOCI); one is a consultation with no outcome and a missed implementation date (UK
+offsets). **Build only against the first kind.** The test is not "has a minister said it" — it is
+"is there a contract clause, with a date, that a buyer is already in breach of." Only one candidate
+passes, and it is not the one that came first.
 
 ---
 
 ### Items I could not verify
 
-- **Cloudflare service-level FedRAMP scope** — no public itemisation of Workers/Durable Objects in the
-  authorisation. Do not claim inheritance. Check the FedRAMP Marketplace entry directly.
-- **Absence of a `uk` R2/D1 jurisdiction** — inferred from published `eu`/`fedramp` options; confirm
-  with Cloudflare before any UK residency commitment.
-- **GOCA/GICA membership count** — DNS resolution failed for globaloffset.org; my 8–15 UK offset buyer
-  estimate is built from named UK exporters, not from a membership roll.
-- **JOSCAR module coverage** — Hellios does not publish which compliance domains JOSCAR assesses. My
-  "declarations, not workflow" claim is inference from their public marketing and should be confirmed
-  with a supplier who holds a JOSCAR record.
-- **Whether any UK prime currently buys flow-down assurance software** — I found no evidence either
-  way. This is the single highest-value validation call to make before writing code.
+- **Cloudflare service-level FedRAMP scope** — no public itemisation of Workers/Durable Objects.
+  Do not claim inheritance; check the FedRAMP Marketplace entry.
+- **Absence of a `uk` R2/D1 jurisdiction** — inferred from the published `eu`/`fedramp` options.
+  Confirm with Cloudflare before any UK residency commitment.
+- **GOCA/GICA membership count** — globaloffset.org failed DNS resolution. The 8–15 UK offset buyer
+  estimate is built from named UK exporters, not a membership roll.
+- **JOSCAR module coverage** — Hellios does not publish which domains JOSCAR assesses. The
+  "declarations, not workflow" claim is inference from public marketing; confirm with a JOSCAR holder.
+- **Whether any UK prime buys flow-down assurance software today** — no evidence either way. This is
+  the highest-value validation call to make before writing code.
