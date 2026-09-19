@@ -3,9 +3,8 @@
 **Author:** Focus Group Agent C (Sceptic / Red Team)
 **Date:** 19 September 2026
 **Scope:** **UK market only** (re-scoped mid-task by the Orchestrator; every test below is UK-scoped)
-**Method:** 24 independent web searches and 11 direct page fetches. I did not accept any claim from
-`01`, `02` or `03` without re-verifying it against a primary or near-primary source. Where I could
-not verify, I say so.
+**Method:** 24 independent web searches, 11 page fetches. No claim from `01`/`02`/`03` accepted
+without re-verification against a primary or near-primary source. Unverified items are flagged.
 
 ---
 
@@ -47,25 +46,22 @@ postings and found none at BAE, Babcock or Rolls-Royce — the only live posting
 Three further traps specific to offsets:
 
 - **The vanity-metric error.** Both agents quote obligation dollars ($371bn, $142bn, $251bn) as if
-  they indicated software spend. They do not. The **BIS 28th Study** records **1,304 offset
-  agreements across 51 countries over 30 years** — roughly 43 agreements a year globally from the
-  entire US industry. BIS's own historical series shows **48 US firms total** reported offset
-  agreements across 1993–2008, and in a representative year (2004) just **fourteen prime contractors**
-  reported any. This is not a market. It is a guild.
-- **"No incumbent" is being read backwards.** Offsets have existed as a discipline for forty years
-  and have generated $142bn of agreements. If no software company has won that category in forty
-  years, the null hypothesis is that **the category does not support a software company** — not that
-  nobody has noticed. The adjacent truth is that generic contract-obligation management (Icertis,
-  Conga, Agiloft, Aavenir Obligationflow) plus a Big-4 bespoke build already absorbs the demand, and
-  neither agent tested that hypothesis.
-- **The direction of travel is against offsets.** The European Commission's Guidance Note under
-  **Directive 2009/81/EC** states that offsets "violate basic rules and principles of primary EU law"
-  — so the EU-27 is largely closed. **Poland abolished indirect offsets.** And **India**, the case
-  study both agents used as proof of enforcement, has signed **no new offset contract in five years**;
-  only one contract materialised between March 2021 and March 2025; and the **draft DAP 2026**
-  (released 10 February 2026) omits offsets from Volume 1 entirely, replacing them with indigenous-
-  content requirements written directly into the contract. The world is moving from *offsets* to
-  *embedded local content* — a different product with a different buyer.
+  they indicated software spend. The **BIS 28th Study** records **1,304 offset agreements across 51
+  countries over 30 years** — ~43 a year from the entire US industry. BIS's historical series shows
+  **48 US firms total** reported agreements across 1993–2008, and in 2004 just **fourteen prime
+  contractors** reported any. This is not a market. It is a guild.
+- **"No incumbent" is being read backwards.** Forty years of the discipline and $142bn of agreements
+  have produced no category winner. The null hypothesis is that **the category does not support a
+  software company** — not that nobody noticed. Generic contract-obligation management (Icertis,
+  Conga, Agiloft, Aavenir Obligationflow) plus a Big-4 bespoke build already absorbs the demand.
+  Neither agent tested that.
+- **The direction of travel is against offsets.** The Commission's Guidance Note under **Directive
+  2009/81/EC** holds that offsets "violate basic rules and principles of primary EU law" — the EU-27
+  is largely closed. **Poland abolished indirect offsets.** **India** — the enforcement case study
+  both agents used — has signed **no new offset contract in five years** (one materialised Mar 2021–
+  Mar 2025) and the **draft DAP 2026** (10 Feb 2026) omits offsets from Volume 1, replacing them with
+  indigenous content written into the contract. The world is moving from *offsets* to *embedded local
+  content*: a different product, a different buyer.
 
 ---
 
@@ -131,14 +127,13 @@ vendors, one of which counts the MOD as a customer and is free for the SME segme
 target.** Worse, selection criterion 4 forbids us depending on JOSCAR data — so we cannot even
 interoperate with the incumbent we would be displacing.
 
-**What JOSCAR does not do**, and this is the entire residual opportunity: it collects *declarations*;
-it does not run the **DEFCON 658 → contract Cyber Risk Profile → required DCC level → subcontractor
-gap → chase → evidence pack** workflow that ISN 2026/02 now obliges primes to perform across tiers
-2–n. A prime today has a register (JOSCAR), a standard (Def Stan 05-138 Iss 4), a deadline
-(31 Dec 2026) and no workflow between them. That gap is real. It is also small, and the ~dozens of
-IASME-licensed certification bodies plus consultancies (Fig, Periculo, Vincent, Pera Prometheus,
-CyberSmart, Logiq, RightCue) are already selling into it — I found nine of them on page one of a
-single search. A product started now ships **after** the 31 December rush.
+**What JOSCAR does not do** — the entire residual opportunity — is run the **DEFCON 658 → contract
+Cyber Risk Profile → required DCC level → subcontractor gap → chase → evidence pack** workflow that
+ISN 2026/02 obliges primes to perform across tiers 2–n. It collects declarations. A prime today has a
+register (JOSCAR), a standard (Def Stan 05-138 Iss 4), a deadline (31 Dec 2026) and no workflow
+between them. That gap is real but small, and dozens of IASME certification bodies and consultancies
+(Fig, Periculo, Vincent, Pera Prometheus, CyberSmart, Logiq, RightCue) are already selling into it —
+nine appeared on page one of a single search. A product started now ships **after** the December rush.
 
 **Verdict: candidate 3 dies as a supplier-side passport. It survives only inverted — sold to the
 prime who must chase, not the supplier who must comply.**
@@ -153,17 +148,16 @@ The Procurement Expert's case rests entirely on **NDAA §805**, a US statute —
 indirect limb carves out components, which is most of the sub-tier. The Sector Expert's case rests on
 **SCRIPTS**, a $919m **US federal** vehicle. Under UK-only scope **both instruments are irrelevant**.
 
-Is there a UK substitute forcing function for sub-tier visibility? Partially, and it is narrower than
-either agent assumed:
+Is there a UK substitute? Partially, and narrower than either agent assumed:
 
-- **Yes, for cyber.** DEFCON 658 + Def Stan 05-138 Issue 4 + CSM v4 require primes to risk-assess
-  *every* subcontractor and flow obligations down, binding since 3 December 2025. That is a genuine,
-  dated, contractual UK sub-tier obligation.
-- **No, for ownership and country-of-origin.** The UK has **no analogue of §1260H or §805**. Its
-  instruments are the **NSI Act 2021** (transaction-triggered, episodic, law-firm-owned) and
-  sanctions. There is no UK supply-chain content ban to build a product against.
-- **Weakly, for SME spend.** MOD must measure indirect SME spend through primes to hit £5bn → £7.5bn
-  by 2028. Real, but the buyer is a ministry.
+- **Yes, for cyber.** DEFCON 658 + Def Stan 05-138 Iss 4 + CSM v4 require primes to risk-assess *every*
+  subcontractor and flow obligations down — binding since 3 December 2025. A genuine, dated,
+  contractual UK sub-tier obligation.
+- **No, for ownership or country-of-origin.** The UK has **no analogue of §1260H or §805**. Its
+  instruments are the **NSI Act 2021** (transaction-triggered, episodic, law-firm-owned) and sanctions.
+  There is no UK supply-chain content ban to build against.
+- **Weakly, for SME spend.** MOD must measure indirect SME spend through primes (£5bn → £7.5bn by
+  2028) — real, but the buyer is a ministry.
 
 **Adjudication: the N-tier *illumination* thesis was US-dependent and does not survive UK-only scope.
 The N-tier *cyber assurance flow-down* thesis does, and it is the same thing as the inverted
@@ -213,8 +207,8 @@ the customer.
 
 - **Govini Ark (Supply Chain)** — *"maps foreign ownership risks and generates vendor due diligence
   reports… evaluating foreign influence, geographic risk, supplier financial health"* across contract
-  portfolios. On the $919m SCRIPTS BPA **and** a five-year Army IDIQ. Reported **~$150k/seat/yr** and
-  **>$100m ARR**. This is award data joined to ownership joined to risk. Exactly Join 1.
+  portfolios. On the $919m SCRIPTS BPA **and** a five-year Army IDIQ; reported **~$150k/seat/yr**,
+  **>$100m ARR**. Award data joined to ownership joined to risk. Exactly Join 1.
 - **Sayari** — **1.5bn+ entities, 250+ jurisdictions, 11.7bn+ primary-source records, 4bn trade
   transactions**; markets ownership-to-sanctions traversal explicitly (*"one Tier-2 supplier… shares
   three officers with a sanctioned entity added to OFAC SDN Q3 2024"*); customers include US CBP and

@@ -70,13 +70,13 @@ But the three months is **contracting time from an approved requirement with mon
 
 ### 3.1 Offsets — obligor side (UK exporter with foreign obligations)
 
-**Buy: yes, and this customer can pay this quarter.** The buyer is a head of industrial participation at a UK exporter — BAE, Babcock, Leonardo UK, Thales UK, MBDA UK, QinetiQ, plus mid-tiers — carrying obligations into GAMI (50% localisation of military spend by 2030 against 24.89% at end-2024), Tawazun (60% of contract value, secured by an unconditional 8.5% bank guarantee), DAP 2020 (30%) and DAPA. It is corporate money, no public-sector business case, no Cabinet Office gate. **Who signs:** a commercial or compliance director, typically £50k–£250k without board approval.
-**What kills it:** the 1–3 people per prime who currently do this in Excel are also the people who would be displaced, and they own the evaluation.
+**Buy: yes, and this customer can pay this quarter.** The buyer is a head of industrial participation at a UK exporter — BAE, Babcock, Leonardo UK, Thales UK, MBDA UK, QinetiQ, plus mid-tiers — carrying obligations into GAMI (50% localisation by 2030 against 24.89% at end-2024), Tawazun (60% of contract value, secured by an unconditional 8.5% bank guarantee), DAP 2020 (30%) and DAPA. Corporate money: no public-sector business case, no Cabinet Office gate. **Who signs:** a commercial or compliance director, typically £50k–£250k without board approval.
+**What kills it:** the 1–3 people per prime who do this in Excel today are the people who would be displaced — and they own the evaluation.
 
 ### 3.2 Offsets — authority side (NAD, Back British)
 
-**Buy: conditional, FY2027/28.** Budget line: NAD Group. **Who signs:** at £60k–£150k on a G-Cloud direct award, a commercial officer with standing delegation; helpfully, most Cabinet Office digital and technology spend controls **ceased as a requirement from 1 April 2026**, removing a gate that used to add three months ([CDDO](https://cddo.blog.gov.uk/2024/05/14/understanding-the-new-digital-and-technology-spend-controls/)).
-**What kills it:** the policy not landing; a credits-and-multipliers data model that does not match a commitments-and-milestones regime; and the conflict in §4.
+**Buy: conditional, FY2027/28.** Budget line: NAD Group. **Who signs:** at £60k–£150k on a G-Cloud direct award, a commercial officer with standing delegation — and helpfully most Cabinet Office digital and technology spend controls **ceased as a requirement from 1 April 2026**, removing a gate that used to add three months ([CDDO](https://cddo.blog.gov.uk/2024/05/14/understanding-the-new-digital-and-technology-spend-controls/)).
+**What kills it:** the policy not landing; a credits-and-multipliers data model meeting a commitments-and-milestones regime; the conflict in §4.
 
 ### 3.3 Inventory data-quality layer
 
