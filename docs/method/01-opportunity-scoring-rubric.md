@@ -26,6 +26,24 @@ Grade every forcing function you cite:
 - **PROPOSED** — consultation, draft, or announced intent. **Carries no weight on its own.**
 - **ASPIRATIONAL** — strategy, target, ambition. **Zero weight. Do not build on it.**
 
+### LAW 1b — The Enforcement Test
+> A dated obligation with **no enforcement history** is a weak forcing function.
+> Check the enforcement record, not just the statute.
+
+Added 19 Sep 2026 by the regulatory analyst, on evidence. UK **gender pay gap reporting** is
+binding, dated, and applies to thousands of employers — and the EHRC issued **1,886 warning notices
+between 2023 and 2025 resulting in zero fines, zero investigations and zero court orders**. A
+statute nobody enforces does not make anybody buy software.
+
+Before scoring the forcing-function axis above **3**, you must answer:
+- Has the regulator actually penalised anyone? How many, how much, how recently?
+- Is there a published enforcement register, or only a threat?
+- Does non-compliance block something the business needs (filing, licence, contract, insurance)?
+  *A blocked transaction is stronger than a theoretical fine.*
+
+Score **5** only where there is a live enforcement record **or** non-compliance mechanically blocks
+the business from operating.
+
 ### LAW 2 — Count buyers, never market size
 > "£X billion market" is a vanity metric and is **banned** as a justification.
 
