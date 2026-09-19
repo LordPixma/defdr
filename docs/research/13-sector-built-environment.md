@@ -86,19 +86,16 @@ an independent NDPB since 27 January 2026, with named natural persons exposed to
 ### The failure rate — where the money is being lost
 
 - BSR has directed PAPs to apply for Building Assessment Certificates for **nearly 2,000 buildings**
-  since April 2024, against a stated intention to assess all **12,500** HRBs in five years.
-- **66% of BAC applications submitted in 2026 have been refused** (BSR, 9 July 2026).
-- Assessments are taking **roughly twice as long as BSR originally projected**; BSR's own guidance
-  says a BAC assessment "will usually take a minimum of 6 months".
-- PAPs have **28 days** from direction to upload the evidence pack.
-- Refusals are attributed to applications that demonstrate *process* compliance rather than *effective
-  management of risk* — the report asserts compliance instead of evidencing that the management system
-  produces it.
-- Gateway 2, to 1 August 2026: **349 determinations in 12 weeks**, 82% overall approval; median **22
-  weeks** for new HRBs against a 12-week statutory target, down from a reported median approaching 43
-  weeks in August 2025. Live caseload: 131 new-build applications covering **30,421 units** and 330
-  external remediation applications covering **28,778 units**. Legacy backlog cut from 60 cases (Dec
-  2025) to 3 (Feb 2026). BSR's target for March 2027 is 18 weeks non-complex.
+  since April 2024, against an intention to assess all **12,500** HRBs in five years.
+- **66% of BAC applications submitted in 2026 have been refused** (BSR, 9 July 2026); assessments take
+  **twice as long as BSR projected**, with a stated minimum of six months. PAPs have **28 days** from
+  direction to upload the evidence pack.
+- Refusals are attributed to applications demonstrating *process* compliance rather than *effective
+  management of risk* — asserting compliance instead of evidencing that the management system produces it.
+- Gateway 2 to 1 Aug 2026: **349 determinations in 12 weeks**, 82% approval; median **22 weeks** for new
+  HRBs against a 12-week statutory target, down from ~43 weeks in Aug 2025. Live caseload 131 new-build
+  applications (**30,421 units**) and 330 external remediation applications (**28,778 units**). Legacy
+  backlog cut from 60 cases (Dec 2025) to 3 (Feb 2026). March 2027 target: 18 weeks non-complex.
 
 Note the direction of travel honestly: **Gateway 2 is getting better, not worse.** The "notorious
 backlog" premise was true in 2025 and materially less true by August 2026. Building on Gateway 2
@@ -138,17 +135,17 @@ reforming from September 2026. A candidate (C4), not a certainty.
 | # | Field | Answer |
 |---|---|---|
 | 1 | **The gap** | ~14,000 GB heat networks became regulated activities on 27 January 2026. Two-thirds are run by social landlords, councils, managing agents and BTR operators who have never been an energy supplier, have no regulatory reporting function, and must register every network with Ofgem by 26 January 2027 then submit quarterly and annual returns under authorisation condition **A09 (Provision of Information to the Authority)**. |
-| 2 | **Pain owner** | Head of Energy / Head of Assets & Compliance at a registered provider or council housing service; Operations Director at a managing agent; the "nominated regulatory contact" Ofgem requires — expressly "the most senior member of staff with responsibility for heat networks". |
+| 2 | **Pain owner** | Head of Energy / Head of Assets & Compliance at an RP or council housing service; Operations Director at a managing agent; the "nominated regulatory contact" Ofgem requires — "the most senior member of staff with responsibility for heat networks". |
 | 3 | **Budget holder** | Director of Assets/Property (RP), or Head of Energy Services. Budget line: compliance opex, recoverable through the heat charge and/or service charge. |
 | 4 | **UK buyer count** | Method: 14,000 × 66% social-landlord-owned (Ofgem) ≈ 9,200 networks held inside the 1,581 registered providers, plus managing agents, BTR operators and developers; ~1,600 operator/supplier entities GB-wide. **Winnable ~600–900** after excluding self-supply/industrial (reduced obligations), schemes fully outsourced to a bureau that will absorb this, and micro-operators who will use a spreadsheet. |
-| 5 | **Forcing function** | **BINDING** — Heat Networks (Market Framework) Regulations 2025; authorisation conditions in force **27 January 2026**; operators currently "deemed authorised" under a grace period and already subject to consumer-protection conditions. **SCHEDULED** — mandatory registration deadline **26 January 2027** (four months away). **SCHEDULED** — regular data reporting guidance published **10 March 2026** following a consultation that closed 13 January 2026, setting quarterly and annual submission periods. Evidence of live non-compliance: on 27 January 2026, the day regulation began, **only 290 suppliers had registered with the Energy Ombudsman against ~14,000 operational sites**. |
+| 5 | **Forcing function** | **BINDING** — Heat Networks (Market Framework) Regulations 2025; authorisation conditions in force **27 January 2026**; operators "deemed authorised" under a grace period and already subject to consumer-protection conditions. **SCHEDULED** — registration deadline **26 January 2027** (four months away); regular data reporting guidance published **10 March 2026** setting quarterly and annual submission periods. Live non-compliance: on day one of regulation, **only 290 suppliers had registered with the Energy Ombudsman against ~14,000 operational sites**. |
 | 6 | **Solved today by** | Spreadsheets plus the HMS service-charge module; an outsourced bureau for metering/billing; Word-template packs for registration. Nothing joins registration, the material asset register, the priority services register, the business continuity plan, tariff cost-allocation evidence and the quarterly A09 return into one auditable record. |
 | 7 | **Named incumbents** | **Insite Energy** (metering/billing, ~38,000 heat network residents), **Switch2 Energy** (end-to-end metering/billing/prepayment for HAs, councils, developers — already blogging "Ofgem heat network reporting: what operators and suppliers need to prepare"), **Evinox Residential** ("hundreds of schemes"), **KJ Tait** (registration consultancy), **heatnetwork-compliance.co.uk** (document generator: "forty-six templates covering all 29 Authorisation Conditions"). No bureau publishes pricing. **Assessment: the bureaux own billing, not regulatory compliance.** Their bolting reporting onto their existing base is the principal threat — but that base is a minority of the 14,000. |
 | 8 | **Willingness to pay** | Anchors: RiskBase sells compliance workflow to the same buyer at **£1/unit/month** (500 homes = £6,000/yr); bureau metering/billing is already a per-dwelling annual charge on the same budget line; Energy Act 2023 civil penalties make non-compliance dearer than the software. Realistic ACV **£4k–£25k**. 250 customers at £12k = £3m ARR. **Credible.** |
 | 9 | **Data required** | Customer-supplied: network topology, premises schedule, meter estate, tariff and cost build-up, complaint log, PSR/vulnerability flags, asset register and condition, outage records. External: Ofgem guidance and data-point schema (free), wholesale reference prices for cost-allocation justification (licensable). Only sensitive item is the vulnerability register — GDPR special-category. |
 | 10 | **Cloudflare fit** | **Excellent.** D1 for records, R2 for evidence and meter CSVs, Queues + Cron for submissions and reminders, Durable Objects for per-organisation isolation. No GPU, no scraping, no on-prem — meter data arrives as bureau CSV/API exports, not hardware polling. |
 | 11 | **5–10 year durability** | **Deepens.** HNTAS technical standards expected 2027+, heat network zoning expands the regulated estate, price regulation is on Ofgem's roadmap — each adds reporting. **What kills it:** (a) Ofgem's digital-first service expanding from registration into free compliance management — the biggest and most real risk; (b) Switch2/Insite/Evinox bundling reporting into billing; (c) a future government de-scoping small communal networks. |
-| 12 | **Evidence** | **Class 4 (regulator dataset/guidance):** [Ofgem — who needs to register](https://www.ofgem.gov.uk/guidance/heat-networks-who-needs-register); [Ofgem — comply with heat networks consumer protection regulations](https://www.ofgem.gov.uk/guidance/comply-heat-networks-consumer-protection-regulations); [Ofgem — regular data reporting guidance](https://www.ofgem.gov.uk/guidance/heat-networks-regulation-regular-data-reporting). **Class 3 (competitor pricing):** [RiskBase pricing](https://riskbase.uk/pricing) (£1/unit/month comparable in the same buyer); heatnetwork-compliance.co.uk template tiers. **Class 5 (trade body with named sample):** [National Housing Federation — housing associations and heat network regulation](https://www.housing.org.uk/resources/housing-associations-and-heat-network-regulation/), citing Ofgem's 66% social-landlord ownership estimate and 180,000 HA households, and warning explicitly about cost of compliance stacking with MEES and a revised Decent Homes Standard. **Three independent classes. LAW 3 satisfied.** |
+| 12 | **Evidence** | **Class 4 (regulator guidance/dataset):** Ofgem — who needs to register; comply with heat networks consumer protection regulations; regular data reporting guidance (all linked in Sources). **Class 3 (competitor pricing):** RiskBase £1/unit/month in the same buyer; heatnetwork-compliance.co.uk template tiers. **Class 5 (trade body, named sample):** NHF, citing Ofgem's 66% social-landlord ownership estimate and 180,000 HA households, warning that compliance cost stacks with MEES and a revised Decent Homes Standard. **Three independent classes. LAW 3 satisfied.** |
 
 **Why this beats building safety.** The regulated population is new, has no incumbent tooling built
 for it, and is in breach at scale (290 vs ~14,000). The buyer is the same Director of Assets who
@@ -174,7 +171,7 @@ exist. The rarest configuration in this sweep.
 | 9 | **Data required** | Customer-supplied: HMMP, baseline and post-intervention metric sheets, site geometry, S106/covenant terms, monitoring reports, photographs. External: the **biodiversity gain sites register** (Natural England, open data), Defra statutory metric versions, LPA planning registers. Licensability fine. |
 | 10 | **Cloudflare fit** | **Good.** D1 for records, R2 for photos and reports, Cron + Queues for the 30-year schedule, geometry as GeoJSON. **Flag:** satellite/NDVI habitat verification needs GPU and raster handling — off-platform, exclude from v1 or push to a partner API. |
 | 11 | **5–10 year durability** | **Structurally durable — 30 years by statute.** An obligation created in 2026 is live in 2056. **What kills it:** the August 2026 deregulatory trend continuing until on-site BNG is effectively voluntary; or LPAs never enforcing, so the pain never becomes acute enough to buy for. |
-| 12 | **Evidence** | **Class 4 (regulator dataset):** [gov.uk — search the biodiversity gain sites register](https://www.gov.uk/guidance/search-the-biodiversity-gain-sites-register) (confirms NSIP extension from 2 Nov 2026). **Class 5 (trade survey, named sample):** Home Builders Federation 2025 survey — nine in ten respondents had applications delayed by LPA BNG capacity; ~40% of councils have no in-house ecologist. **Class 3 (market/competitor pricing):** [LandBNG market data](https://landbng.uk/blog/bng-market-prices-habitat-banks-2026/) — 312 sites, 28,000 units, £93m, unit prices by habitat. **Three classes.** |
+| 12 | **Evidence** | **Class 4 (regulator dataset):** gov.uk biodiversity gain sites register (confirms NSIP extension from 2 Nov 2026). **Class 5 (trade survey, named sample):** HBF 2025 — nine in ten respondents had applications delayed by LPA BNG capacity; ~40% of councils have no in-house ecologist. **Class 3 (market/pricing):** LandBNG — 312 sites, 28,000 units, £93m, unit prices by habitat. **Three classes.** |
 
 ---
 
@@ -195,7 +192,7 @@ exist. The rarest configuration in this sweep.
 | 9 | **Data required** | Customer-supplied: repairs job data, tenant contact records, inspection findings and photographs, correspondence. Highly sensitive personal data about vulnerable households. |
 | 10 | **Cloudflare fit** | **Excellent.** Clocks, state machines and SLA breach alerting are the canonical Durable Objects + Queues + Cron workload. |
 | 11 | **5–10 year durability** | **Weak-to-moderate.** Phase 3 lands in 2027, then the regime stabilises. The HMS vendors will absorb clock tracking into repairs as a checkbox feature — the classic "incumbent ships it" failure mode. **What kills it:** NEC/Civica/MRI/Aareon shipping it as standard within 24 months. |
-| 12 | **Evidence** | **Class 4:** [gov.uk Awaab's Law guidance for social landlords](https://www.gov.uk/government/publications/awaabs-law-guidance-for-social-landlords/awaabs-law-guidance-for-social-landlords-timeframes-for-repairs-in-the-social-rented-sector); [SI 2025/1042](https://www.legislation.gov.uk/uksi/2025/1042/contents/made); [gov.uk Phase 2 guidance](https://www.gov.uk/government/publications/awaabs-law-phase-2-guidance-for-social-housing-landlords/awaabs-law-phase-2-guidance-for-social-landlords). **Class 3:** RiskBase pricing; Switchee £5m raise and 130+ providers. **Class 1 (job postings):** Building Safety / Compliance Manager roles at Vico Homes, Flint Housing and MTVH, £60,000–£68,460, explicitly scoped to "managing the Golden Thread of information" and "tracking compliance-related KPIs". |
+| 12 | **Evidence** | **Class 4:** gov.uk Awaab's Law guidance; SI 2025/1042; gov.uk Phase 2 guidance. **Class 3:** RiskBase pricing; Switchee's £5m raise and 130+ providers. **Class 1 (job postings):** Building Safety / Compliance Manager roles at Vico Homes, Flint Housing and MTVH, £60,000–£68,460, scoped to "managing the Golden Thread of information" and "tracking compliance-related KPIs". |
 
 **Verdict:** best forcing function and best buyer count in the sweep; loses on incumbency. A generic
 "Awaab's Law tracker" launched in Q4 2026 arrives alongside HazardClock and behind four housing
@@ -220,7 +217,7 @@ management systems. **Only worth building as a module of a wider statutory-clock
 | 9 | **Data required** | Customer-supplied: safety case drafts, FRAs, FRAEWs, compartmentation surveys, as-built drawings, O&M manuals, maintenance records, resident engagement strategy. **The moat data — BSR's actual refusal reasons — is not published** and must be accumulated from customers: slow, and a chicken-and-egg problem. |
 | 10 | **Cloudflare fit** | **Good, with a caveat.** Large drawing sets and PDF bundles in R2 are fine; heavy CAD/BIM/IFC model processing is not a Workers workload and must be excluded. |
 | 11 | **5–10 year durability** | **Moderate-to-good** — BSR intends to reassess every HRB every five years, a recurring cycle. **What kills it:** BSR's own September 2026 reform (simplified criteria, clearer technical guidance with professional bodies, single points of contact, pre-application advice) is the regulator attacking the exact pain this product sells against. If BSR succeeds the 66% refusal rate collapses, and so does the wedge. |
-| 12 | **Evidence** | **Class 4:** [BSR press release, 9 Jul 2026](https://www.gov.uk/government/news/bsr-to-introduce-more-proportionate-and-targeted-approach-for-higher-risk-building-assessments); [BSR strategic plan 2026–27](https://www.gov.uk/government/publications/building-safety-regulator-strategic-plan-2026-to-2027/building-safety-regulator-strategic-plan-2026-to-2027); [Gateway 2 statistics to 1 Aug 2026](https://www.thebuildingsafetyact.com/gateway-2/timescales/). **Class 3:** [RiskBase pricing](https://riskbase.uk/pricing); Zutec/Operance consolidation. **Class 1:** Building Safety Manager job adverts, £60k–£68.5k. |
+| 12 | **Evidence** | **Class 4:** BSR press release 9 Jul 2026; BSR strategic plan 2026–27; Gateway 2 statistics to 1 Aug 2026. **Class 3:** RiskBase pricing; the Zutec/Operance consolidation. **Class 1:** Building Safety Manager adverts, £60k–£68.5k. |
 
 ---
 
@@ -228,13 +225,12 @@ management systems. **Only worth building as a module of a wider statutory-clock
 
 **Score 28/40** — Pain 4 · Forcing 4 · Buyers 4 · WTP 3 · **Incumbency 2** · Moat 3 · Cloudflare 5 · Durability 3
 
-- **The gap:** outdated stock condition data is the number one issue across non-compliant RSH inspection outcomes. In nearly three quarters of C3/C4 gradings the findings included low survey coverage or failure to demonstrate an understanding of tenants' homes. Named examples: Tower Hamlets — only **47%** of properties surveyed in five years; Winchester City Council — last comprehensive survey over a decade ago. RSH has signalled that a rolling five-year survey cycle "may no longer be enough".
-- **Pain owner:** Head of Asset Management. **Budget holder:** Executive Director of Property.
-- **Buyers:** 1,581 RPs; winnable ~700–900. **98 providers (34%) had not yet received a consumer grade** as of April 2026 — a queue of organisations facing a first inspection.
-- **Forcing function:** **BINDING** — revised Consumer Standards under the Social Housing (Regulation) Act 2023, in force **1 April 2024** `[commencement date not re-verified in this run]`; Safety and Quality Standard requires accurate, up-to-date information on stock condition. Grading is published, which makes it reputational as well as regulatory.
-- **Incumbents:** survey firms (Savills, Pennington Choices, Rand Associates), data providers (**Cotality**, formerly CoreLogic), and asset modules inside **Civica**, **MRI**, **NEC**, **Aareon**, **MIS ActiveH**. The gap is not survey capture — it is **confidence scoring**: which of my records are stale, statistically unsupported, or contradicted by repairs history, and what is my defensible coverage figure for the inspector.
-- **Durability:** moderate. A Decent Homes Standard review and MEES tightening will keep demand alive, but the asset-module vendors are the obvious absorbers.
-- **Evidence:** Class 4 (RSH regulatory judgements and inspection findings); Class 5 (Inside Housing / Local Government Lawyer reporting with named landlords); Class 1 (compliance and asset data job adverts).
+- **The gap / pain owner / budget holder:** outdated stock condition data is the number one issue across non-compliant RSH inspection outcomes; in nearly three quarters of C3/C4 gradings the findings included low survey coverage or failure to demonstrate understanding of tenants' homes. Named examples: Tower Hamlets — **47%** of properties surveyed in five years; Winchester City Council — last comprehensive survey over a decade ago. RSH has signalled a rolling five-year cycle "may no longer be enough". Owner: Head of Asset Management; signer: Executive Director of Property.
+- **Buyers:** 1,581 RPs, winnable ~700–900. **98 providers (34%) had no consumer grade** as of April 2026 — a queue awaiting a first inspection.
+- **Forcing function:** **BINDING** — revised Consumer Standards under the Social Housing (Regulation) Act 2023, in force **1 April 2024** `[date not re-verified]`; the Safety and Quality Standard requires accurate, up-to-date stock condition information, and grading is published.
+- **Solved today by / incumbents:** survey firms (Savills, Pennington Choices, Rand Associates), data providers (**Cotality**), and asset modules inside **Civica**, **MRI**, **NEC**, **Aareon**, **MIS ActiveH**. The gap is not survey capture but **confidence scoring** — which records are stale, statistically unsupported or contradicted by repairs history, and what coverage figure is defensible to an inspector.
+- **WTP / data / Cloudflare / durability:** ACV £10k–£30k against survey spend; customer-supplied asset and repairs data; clean Workers/D1/R2 fit; durability moderate — asset-module vendors are the obvious absorbers.
+- **Evidence:** Class 4 (RSH regulatory judgements); Class 5 (Inside Housing / Local Government Lawyer, named landlords); Class 1 (compliance and asset data job adverts).
 
 ---
 
@@ -296,26 +292,22 @@ LAW 4.**
 
 ## Disconfirming evidence, reported prominently (Hard Rule 3)
 
-1. **Gateway 2 is improving, not deteriorating.** Median for new HRBs fell from a reported ~43 weeks
-   (Aug 2025) to 22 weeks (Aug 2026); the legacy backlog fell from 60 cases to 3. The "Gateway 2
-   crisis" is a 2025 story being actively closed out. Any product premised on it is premised on a
-   closing window.
-2. **BSR is attacking the BAC refusal problem directly.** Simplified criteria, clearer technical
-   guidance with professional bodies, single points of contact and pre-application advice, from
-   September 2026 — i.e. this month. C4's wedge may be narrowing as it is written.
-3. **BNG is being deregulated, not tightened.** A 0.2 hectare exemption came into force 6 August 2026.
-   The trend line on C2's forcing function points down, even though the 30-year obligations already
-   created are irreversible.
-4. **The most-cited commercial property deadline in this sector — "EPC B by 2030" — is not law.**
-   It is a June 2026 interim consultation response proposing EPC B by 2031 for >1,000 m² lettings,
-   awaiting secondary legislation.
-5. **Someone has already seen the Awaab's Law gap.** HazardClock is on a waitlist as of 2 September
-   2026, targeting exactly the sub-5,000-unit registered providers a new entrant would target.
-6. **The single largest risk to C1 is the regulator itself.** Ofgem has built a digital-first
-   registration service and says "in future, you will also use this service to submit regular data
-   about your organisation and heat network." If Ofgem's free service grows into compliance
-   management, C1's surface shrinks to the parts Ofgem will not build: internal evidence assembly,
-   multi-entity role allocation, tariff cost-allocation justification and audit trail.
+1. **Gateway 2 is improving, not deteriorating.** Median for new HRBs fell from ~43 weeks (Aug 2025)
+   to 22 weeks (Aug 2026); the legacy backlog fell from 60 cases to 3. The "Gateway 2 crisis" is a
+   2025 story being closed out. Any product premised on it is premised on a closing window.
+2. **BSR is attacking the BAC refusal problem directly** — simplified criteria, clearer technical
+   guidance, single points of contact and pre-application advice, from September 2026, i.e. now.
+   C4's wedge may be narrowing as it is written.
+3. **BNG is being deregulated, not tightened.** A 0.2 ha exemption came into force 6 August 2026.
+   C2's forcing function trends down, though obligations already created are irreversible.
+4. **The most-cited commercial property deadline — "EPC B by 2030" — is not law.** It is a June 2026
+   interim response proposing EPC B by 2031 for >1,000 m² lettings, awaiting secondary legislation.
+5. **Someone has already seen the Awaab's Law gap.** HazardClock has been on a waitlist since
+   2 September 2026, targeting exactly the sub-5,000-unit RPs a new entrant would target.
+6. **The largest risk to C1 is the regulator itself.** Ofgem says "in future, you will also use this
+   service to submit regular data about your organisation and heat network." If its free service grows
+   into compliance management, C1 shrinks to what Ofgem will not build: internal evidence assembly,
+   multi-entity role allocation, tariff cost-allocation justification, audit trail.
 
 ---
 
