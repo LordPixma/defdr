@@ -364,43 +364,41 @@ dismissal qualifying period and compensation = **s.25**; statutory sick pay = **
 
 **What nobody tracked before — four things:**
 
-1. **The rolling reference period per worker.** Expected ~12 weeks, but the length is not yet in
-   regulations. An employer must detect, per worker, when average hours over the period exceed the
-   contractual minimum, and then generate an offer. Repeatedly, after each period.
-2. **The guaranteed-hours offer and the worker's response.** Offer made, date, terms, accepted or
+1. **The rolling reference period per worker** (expected ~12 weeks; length not yet in regulations).
+   Detect, per worker, when average hours exceed the contractual minimum, then generate an offer —
+   repeatedly, after every period.
+2. **The guaranteed-hours offer and the worker's response.** Offer, date, terms, accepted or
    declined. A declined offer is the employer's entire defence.
-3. **Notice given per shift, and per change.** Not just the rota, but *when it was published* and
-   *when each subsequent change was communicated*.
+3. **Notice given per shift and per change** — not the rota, but *when it was published* and *when
+   each change was communicated*.
 4. **Attribution of every cancellation.** The statutory test turns on whether the cancellation,
-   curtailment or movement was **employer-initiated or worker-initiated** — including shift swaps
-   agreed between two workers, which attract no payment. If the system cannot distinguish a manager
-   cutting a shift from two staff swapping it in a WhatsApp group, the employer pays.
+   curtailment or movement was **employer-initiated or worker-initiated**; swaps agreed between two
+   workers attract no payment. If the system cannot distinguish a manager cutting a shift from two
+   staff swapping it in a WhatsApp group, the employer pays.
 
 Item 4 is the genuinely new data object. Items 1–3 are reporting layers over data WFM already holds.
 
 **Do the incumbents cover it?** Partially — and the strongest one says it already does.
 
-- **Access Group / Rotaready Evo** — explicitly markets recording of contractual minimums with
-  "visual indicators showing whether guaranteed-hour obligations are met", rota publication weeks in
-  advance with automatic notifications, and audit trails of when changes occurred and what changed.
-  That covers items 1–3. Access is a >£1bn-revenue software group. **This is the incumbency answer.**
-- **Fourth** — its UK labour-and-wage compliance page names HMRC-compliant payroll, work-rule alerts,
-  labour forecasting, absence/break monitoring and document handling. It makes **no mention** of the
-  Employment Rights Act, guaranteed hours, reference periods, cancellation payments or notice
-  tracking. Fourth publishes commentary on the Act but has not, on the evidence of its own product
-  page, shipped against it.
-- **Sona** — markets predictable-pattern monitoring, day-one SSP absence tracking and "audit trails
-  showing what happened, when and why". Positioning, not a demonstrated reference-period engine.
+- **Access Group / Rotaready Evo** — explicitly markets contractual-minimum recording with "visual
+  indicators showing whether guaranteed-hour obligations are met", rota publication weeks ahead with
+  automatic notifications, and audit trails of what changed when. That covers items 1–3, from a
+  >£1bn-revenue software group. **This is the incumbency answer.**
+- **Fourth** — its UK compliance page names HMRC-compliant payroll, work-rule alerts, forecasting,
+  absence/break monitoring and document handling, and makes **no mention** of the Employment Rights
+  Act, guaranteed hours, reference periods, cancellation payments or notice tracking. It publishes
+  commentary on the Act but has not, on its own product page, shipped against it.
+- **Sona** — markets predictable-pattern monitoring, day-one SSP tracking and "audit trails showing
+  what happened, when and why". Positioning, not a demonstrated reference-period engine.
 - **Deputy (~£3.50/user/mo), Planday (£2.99/user/mo), Bizimply, S4labour (250+ UK clients), Harri,
   Legion, UKG** — all in the room.
 
-**Conclusion.** The Employment Rights Act is a real forcing event for these sectors, but it is a
-*feature* forcing event, and the incumbents get to ship the feature to an installed base at zero
-CAC. A standalone guaranteed-hours product is a 2027 land-grab against Access Group. **The only
-defensible wedges are the ones the WFM vendors structurally cannot reach: (a) the agency/umbrella
-three-party reconciliation, where the hirer is liable by default but the data sits with the agency
-(Candidate 1), and (b) the six-year holiday-records vault that must outlive the payroll contract
-itself (Candidate 2).**
+**Conclusion.** The Employment Rights Act is a real forcing event, but a *feature* forcing event —
+and the incumbents ship the feature to an installed base at zero CAC. A standalone guaranteed-hours
+product is a 2027 land-grab against Access Group. **The only defensible wedges are the two the WFM
+vendors structurally cannot reach: (a) the agency/umbrella three-party reconciliation, where the
+hirer is liable by default but the data sits with the agency (Candidate 1); and (b) the six-year
+holiday-records vault that must outlive the payroll contract itself (Candidate 2).**
 
 ---
 
@@ -434,22 +432,20 @@ catch the party with the deepest pockets rather than the party holding the data.
 ## 8. Disconfirming evidence, reported prominently (Hard Rule 3)
 
 1. **Martyn's Law standard tier is dead as a SaaS market, and the Home Office's own impact assessment
-   proves it.** £132/year of ongoing avoidable labour; 1% annual inspection probability; 1–4 civil
-   penalties expected per year across all 178,891 in-scope premises. Two vendors are already at £18–19
-   per month. This is the single most valuable finding in this report because it kills the biggest
-   number in the brief.
-2. **"Day-one unfair dismissal" does not exist.** It became a six-month qualifying period via a Lords
-   amendment. Any thesis resting on day-one rights is resting on a headline, not a statute.
-3. **Access Group has pre-announced the guaranteed-hours feature.** Rotaready Evo's marketing already
-   describes contractual-minimum indicators and change audit trails. The largest buyer pool in this
+   proves it** — £132/year of avoidable labour, 1% annual inspection probability, 1–4 civil penalties
+   expected per year across all 178,891 in-scope premises, and two vendors already at £18–19/month.
+   The most valuable finding here, because it kills the biggest number in the brief.
+2. **"Day-one unfair dismissal" does not exist** — six months, via a Lords amendment. Any thesis
+   resting on day-one rights rests on a headline, not a statute.
+3. **Access Group has pre-announced the guaranteed-hours feature.** The largest buyer pool in this
    report (4,000–5,000) is the one with the strongest incumbent.
-4. **The charity sector is three-quarters unbuyable.** 128,435 of 171,867 registered charities have
-   income under £100k. The real buyer pool is 15,334, and Blackbaud, Beacon and Donorfy already hold it.
-5. **The multi-site pond is 12,615 businesses.** Every "estate compliance" thesis in retail and
-   hospitality, including two of my own candidates, is constrained by this number.
-6. **Evidence class 1 and 2 are missing from this report.** No job postings, no procurement records.
-   The buyer counts are modelled from ONS and Home Office data, not observed from hiring or spending
-   behaviour. A red team should attack them there first.
+4. **The charity sector is three-quarters unbuyable** — 128,435 of 171,867 charities have income
+   under £100k. The real pool is 15,334, already held by Blackbaud, Beacon and Donorfy.
+5. **The multi-site pond is 12,615 businesses.** Every "estate compliance" thesis here, including two
+   of my own candidates, is constrained by that number.
+6. **Evidence classes 1 and 2 are missing.** No job postings, no procurement records; buyer counts
+   are modelled from ONS and Home Office data, not observed from hiring or spending behaviour. A red
+   team should attack them there first.
 
 ---
 
