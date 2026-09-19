@@ -98,3 +98,148 @@
 
 **Disconfirming evidence.** This is a crowded neighbourhood. If the answer to "why has nobody done this" is "because practice-management integration is miserable and each firm's ledger is bespoke", that is a moat; if it is "because firms will not pay for assurance they can fake with a spreadsheet", it is a grave. The SRA's own numbers suggest the former — firms *are* paying consultancies for Regulation 21 audits today — but the 52% who do not do the audit at all are evidence of a population that tolerates non-compliance.
 
+---
+
+## Candidate 3 — FCA material third-party register and operational incident reporting readiness (PS26/2)
+
+**Score: 26/40** — Pain 3 · Forcing 5 · Buyers 3 · WTP 2 · Incumbency 2 · Moat 3 · Cloudflare 5 · Durability 3
+
+| # | Field | Answer |
+|---|---|---|
+| 1 | **The gap** | From 18 March 2027 in-scope firms must notify the FCA of every new or significantly changed material third-party arrangement and submit an annual relational register across six linked data groups keyed on LEI — and today that data sits across procurement, legal, IT and risk in nobody's single system. |
+| 2 | **Pain owner** | Head of Third Party Risk Management / Head of Operational Resilience; in smaller in-scope firms the COO or the SMF24 (Chief Operations function). |
+| 3 | **Budget holder** | CRO or COO. Budget line: regulatory change programme, then BAU compliance. |
+| 4 | **UK buyer count** | Third-party reporting scope is **narrow and named**: enhanced-scope SM&CR firms, banks, designated investment firms, building societies, Solvency II firms, CASS large firms, UK RIEs, authorised electronic money and payment institutions, and consolidated tape providers. Estimate by component: enhanced SM&CR ~350; banks ~350; building societies 42; Solvency II insurers ~300; CASS large ~100; authorised EMIs and PIs ~550; RIEs and CTPs <20. Total ≈ **1,700–2,000**, with heavy overlap between categories, so call it **1,500–1,800 distinct firms**. Incident reporting is far broader — all Part 4A firms and PSPs, tens of thousands — but is episodic and mostly form-filling. Winnable subset for a register product: **600–900**, after removing the largest banks and insurers who already own enterprise TPRM. |
+| 5 | **Forcing function** | **SCHEDULED, high quality.** FCA PS26/2 *Operational incident and third party reporting*, final rules and FG26/3 and FG26/4 published **18 March 2026**, in force **18 March 2027**, with a 90-day annual submission window thereafter via FCA Connect. FCA instrument 2026/6. This is enacted with a date — it passes the Standing Test as SCHEDULED, not PROPOSED. Adjacent and already **BINDING**: SYSC 15A operational resilience, fully in force since **31 March 2025**, requiring a board-level self-assessment document. |
+| 6 | **Solved today by** | SharePoint and Excel contract registers; the procurement system's supplier master; a consultancy-run gap analysis; and, at the top end, an enterprise TPRM platform. The FCA is itself shipping **two Excel templates** for the submission. |
+| 7 | **Named incumbents** | Gatekeeper (UK; Pro / Enterprise / Enterprise Plus tiered by third-party count — up to 250 / up to 750 / 750+ — **quote-only**, no published prices); Mitratech; ProcessUnity; Aravo; Prevalent; Archer; Diligent; Workiva; plus the Big Four selling readiness programmes. This is a mature global category with well-funded incumbents, all of whom will add an FCA template export. |
+| 8 | **Willingness to pay** | **Weak, and this is the killing axis.** The FCA's own cost-benefit analysis in PS26/2: £12.63m one-off familiarisation across all firms; **£6.51m–£14.08m one-off and only £0.04m–£0.12m ongoing annual cost** to the firms in scope of third-party reporting; 10-year NPV of -£16.51m to -£24.69m; EANDCB £1.92m–£2.87m. The regulator is telling the market that maintaining this register costs the *entire population* under £120,000 a year. Even allowing that regulators underestimate by an order of magnitude, that is a £1.2m annual category. |
+| 9 | **Data required** | Contract metadata, LEI identifiers, supplier due-diligence and audit records, mapping to important business services. Customer-supplied. LEI reference data is free from GLEIF and openly licensed — a genuine but shallow enrichment opportunity. |
+| 10 | **Cloudflare fit** | Excellent — D1, R2, Workers, Queues, no unusual dependency. |
+| 11 | **5–10 year durability** | The regime will persist and probably widen. **What kills it:** the incumbents ship an FCA template in a quarter, and the FCA's pre-population of fields it already holds shrinks the job further every year. Scored 3. |
+| 12 | **Evidence** | **Class 4:** [FCA PS26/2](https://www.fca.org.uk/publications/policy-statements/ps26-2-operational-incident-third-party-reporting) and the [reporting-requirements page with the Excel templates](https://www.fca.org.uk/firms/outsourcing-and-operational-resilience/reporting-material-third-party-arrangements); PS26/2 PDF chapter 4 for the CBA figures. **Class 1 (job posting):** Reed lists **472** third-party-risk-manager vacancies, including "Operational Resilience & Third Party Risk Management Analyst" at Atom Bank (£30,000), "Third Party Cyber Risk Lead" via Hays (£80–90k, City of London), "Third-Party Assurance Manager" at MERJE, "Third Party Cyber Oversight Specialist" at Grant Thornton. **Class 3:** Gatekeeper pricing tiers. LAW 3 satisfied. |
+
+**Verdict.** The forcing function is the best in the sector and the buyer roles demonstrably exist and are being hired. It fails on the economics: the FCA has published the number that tells you what this is worth, and it is small. Include in the shortlist only as a wedge into a broader operational-resilience product, never as the product.
+
+---
+
+## Candidate 4 — Consumer Duty annual board-report evidence pack for small FCA firms
+
+**Score: 25/40** — Pain 3 · Forcing 4 · Buyers 4 · WTP 2 · Incumbency 2 · Moat 2 · Cloudflare 5 · Durability 3
+
+**The gap:** every FCA firm's board must annually assess whether it is delivering good outcomes, and small firms with no compliance function cannot produce the data to support the conclusion they are required to reach. **Pain owner:** SMF16/SMF17 (Compliance Oversight / MLRO), or the sole director. **Budget holder:** the firm's principal. **Buyer count:** 4,294 advice firms plus ~12,000 RMAR-reporting intermediaries; winnable subset — firms under 50 staff with no compliance hire — **5,000–7,000**. **Forcing function: BINDING** — PRIN 2A, in force since 31 July 2023, requires an annual board assessment; the FCA reviewed 180 firms' reports, including 55 small firms "some with less than 10 employees", and on 24 February 2026 published supplementary guidance for them. Graded 4 not 5 because the obligation is outcome-based rather than a dated submission — there is no filing deadline the firm can miss. **Solved today by:** compliance consultants and networks producing a template, at £2,000–£10,000 a report. **Incumbents:** network compliance services (Openwork, Quilter, PRIMIS), TCC Group, Ocorian, Model Office, plus every back-office and planning platform adding a Consumer Duty dashboard — Intelliflo, FE fundinfo, Dynamic Planner. **WTP:** £1,500–£4,000/year; a Head of Compliance costs £70,000–£90,000 (Wealthlink Recruitment, Birmingham) and an FCA Head of Compliance (SMF16/17) is advertised in London on a negotiable basis (Mphasis UK) — the small firm is buying an alternative to hiring. **Data:** complaints, fee and charges data, client outcome and vulnerability flags, product governance records — all customer-supplied, mostly from the back-office system. **Cloudflare fit:** excellent. **Durability:** the Duty is politically entrenched, but the FCA's own emphasis on proportionality for small firms and its willingness to strip rules (see the ongoing-advice review, below) means the requirement could soften. **Evidence:** Class 4 — [FCA good and poor practice on Consumer Duty board reports](https://www.fca.org.uk/publications/good-and-poor-practice/consumer-duty-board-reports-good-practice-areas-improvement) (180 firms, 55 small, findings on MI insufficiency); Class 1 — Reed lists **350** Consumer Duty vacancies, including "Operations Lead – Consumer Duty (Insurance)" at WTW and "Head of Compliance" at £70–90k.
+
+**Why it ranks fourth, not first.** Everybody has noticed. The advice-network layer already supplies this to its members as part of the network fee, which removes a large share of the population from the market before you start.
+
+---
+
+## Candidate 5 — Professional-services consolidator control plane
+
+**Score: 24/40** — Pain 4 · Forcing 3 · Buyers 2 · WTP 4 · Incumbency 3 · Moat 4 · Cloudflare 4 · Durability 3
+
+**The gap:** a PE-backed group that has bought 30–120 firms runs them on a dozen incompatible practice-management systems and cannot produce group-level WIP, lockup, client conflicts, AML status or regulatory attestation without a quarter-end spreadsheet exercise. **Pain owner:** Group COO or Head of Integration. **Budget holder:** Group CFO, funded from the deal budget — which is why willingness to pay is high. **Buyer count:** this is where it fails LAW 2. Over a quarter of the UK Top 75 accountancy firms are PE-backed (20 firms, £3.18bn combined fee income, up 20%); add advice and wealth consolidators, legal consolidators and broker consolidators and the population is **60–120 groups**, of which perhaps **40–70** are winnable. Below the ~50 threshold on a strict reading, so the ACV test applies: £3m ARR across 50 customers needs **£60,000 ACV**. For a group spending seven figures on integration, that is credible — but it is an enterprise sale with a long cycle, which is a different company from the other candidates. **Forcing function: mixed.** For advice-sector consolidators the FCA's 31 October 2025 multi-firm review is supervisory pressure with teeth but no date — graded **PROPOSED/ongoing supervisory**, not binding. For accountancy consolidators there is **no forcing function**; the pain is purely operational. Graded 3 on the axis because the operational pain is severe enough to stand alone. **Solved today by:** a data analyst, Power BI and a monthly extract from each subsidiary; Big Four integration consultants. **Incumbents:** IRIS and Wolters Kluwer CCH both sell consolidation modules and cross-suite reporting; Silverfin positions explicitly against CCH and IRIS for standardised group working papers; BrightManager, Karbon (**$59–$89 per user per month**) and FYI at practice level. None of them solves the *heterogeneous multi-system* case, because each wants the group to standardise onto it — which is precisely what a consolidator cannot do for five years post-deal. **WTP:** £50,000–£150,000/year. **Data:** extracts from every subsidiary's practice-management, time-recording and AML system; customer-supplied; the integration surface is the moat and the barrier. **Cloudflare fit:** good, with a caveat — some older on-premise practice systems will need a customer-run connector, which is not a Cloudflare component. **Durability:** if consolidation stalls — and there is credible commentary that accounting roll-up EBITDA multiples are overheated — the buyer population shrinks. **Evidence:** Class 4 — [FCA multi-firm review on consolidation in financial advice and wealth management, 31 Oct 2025](https://www.fca.org.uk/publications/multi-firm-reviews/consolidation-financial-advice-and-wealth-management-sector): groups "did not scale systems and controls in line with their growth", insufficient "management information to allow for effective governance of multiple entities", due diligence "'tick box' in nature". Class 5 — Top 75 Firms Survey 2026 (>25% PE-backed; 20 PE-backed firms at £3.18bn). **LAW 3 warning: I could not obtain a class 1, 2 or 3 source for this candidate.** Reed shows six Xeinadin vacancies, all client-facing accounting roles and no group systems or integration role; a "group integration manager" search returns 308 results of which one is professional-services M&A. That absence is itself evidence — consolidators are not hiring the role that would own this product, which usually means the work is being done by a seconded finance analyst.
+
+---
+
+## Candidates 6–11 — analysed, not shortlisted
+
+**6. SRA accountant's report and client-account assurance.** The SRA announced on 2 June 2026 that all firms holding client money must submit annual accountants' reports with a declaration, with fixed penalties for late submission, effective early 2027 subject to LSB approval. **SCHEDULED**, and a real change — today only qualified reports are submitted. Buyers: ~4,000–5,000 firms plus the reporting accountants who prepare the reports. Killed on incumbency: legal cashiering is an established outsourced service (Quill and peers) and every legal accounts package produces the report; the ILFM owns the professional standard. Score ~21. Watch for LSB approval; if the declaration turns out to be a structured data return rather than a PDF, revisit.
+
+**7. Making Tax Digital for Income Tax quarterly capacity triage.** BINDING since 6 April 2026 for qualifying income over £50,000, falling to £30,000 in 2027 and £20,000 in 2028; first quarterly deadline 7 August 2026. The volume shock on small practices is real — four filings where there was one, for clients who already miss deadlines (1.1 million people missed the 31 January 2026 self-assessment deadline). But this is the most contested software market in the UK: Xero, Sage, QuickBooks, FreeAgent, IRIS, TaxCalc, Coconut and Hammock all have HMRC-recognised MTD products, and client-chasing is owned by Karbon, Senta, Glasscubes, Ignition and FYI. Score ~19. **Graveyard-adjacent.**
+
+**8. AI-assisted work-product review evidence for regulated professionals.** *Ayinde v Haringey* [2025] EWHC 1383 (Admin) referred every lawyer involved to the SRA and warned of contempt, strike-out and wasted costs for fabricated citations. Genuine trigger, genuine anxiety, and a new need created by AI rather than destroyed by it. But on the Standing Test the obligation is **PROPOSED at best** — professional guidance and judicial warning, no dated instrument — and citation verification is being absorbed by the research platforms themselves (vLex Vincent, Lexis, Westlaw, Clearbrief). Score ~20, with durability capped by the fact that model providers have every incentive to fix hallucinated citations by 2029.
+
+**9. Insurance broker CASS 5 client money reconciliation.** The FCA has flagged firms misunderstanding the audit exemption threshold and therefore not having audits when they should; treats credit write-backs as breaches of fiduciary duty and trust law; and has fined between £700,000 and ~£9m for CASS failings. Common deficiencies are "inadequate controls, deficient segregation practices, or unreliable reconciliation processes". Real pain, real money. Killed on incumbency and data access: Acturis dominates UK broker back-office and holds the IBA ledger; the audit is a reserved accountancy engagement; and the firm population able to pay is small. Score ~21.
+
+**10. MGA and coverholder bordereaux normalisation.** See graveyard — VIPR.
+
+**11. Law firm PII renewal data pack.** Every SRA-regulated firm completes a lengthy annual proposal form, largely by hand, for a market with a common renewal date. Genuinely spreadsheet-and-email at scale. Not pursued: the broker is the natural owner and already does it for free as part of winning the placement; the buyer's willingness to pay is therefore structurally near zero. `[UNVERIFIED — no primary evidence gathered in this run.]` Score not assigned.
+
+---
+
+## Scoring summary
+
+| # | Candidate | Pain | Forcing | Buyers | WTP | Incumb. | Moat | CF fit | Durab. | **Total** |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Labour-supply-chain PAYE assurance (recruitment) | 5 | 5 | 4 | 3 | 3 | 3 | 5 | 3 | **31** |
+| 2 | Legal AML evidence spine (SoF ↔ ledger, Reg 21) | 4 | 5 | 3 | 3 | 2 | 3 | 5 | 4 | **29** |
+| 3 | FCA material third-party register (PS26/2) | 3 | 5 | 3 | 2 | 2 | 3 | 5 | 3 | **26** |
+| 4 | Consumer Duty board-report pack, small firms | 3 | 4 | 4 | 2 | 2 | 2 | 5 | 3 | **25** |
+| 5 | Consolidator control plane | 4 | 3 | 2 | 4 | 3 | 4 | 4 | 3 | **24** |
+| 6 | SRA accountant's report / client-account assurance | 3 | 4 | 3 | 2 | 2 | 2 | 5 | 3 | **24** |
+| 7 | MTD ITSA quarterly capacity triage | 3 | 5 | 4 | 2 | **1** | 1 | 5 | 2 | **rejected** |
+| 8 | AI work-product review evidence | 3 | 2 | 4 | 2 | 3 | 2 | 5 | 2 | **23** |
+| 9 | Broker CASS 5 reconciliation | 4 | 4 | 2 | 3 | 2 | 3 | 3 | 3 | **24** |
+| 10 | Bordereaux normalisation | 4 | 2 | 2 | 3 | **1** | 2 | 4 | 3 | **rejected** |
+
+Candidates 7 and 10 score 1 on incumbency and are automatically rejected under Part C regardless of total.
+
+---
+
+## Graveyard — gaps that look attractive and are not
+
+**Ongoing advice service evidencing for IFAs — killed by the regulator's own finding.** The natural Consumer Duty adjacency: prove you delivered the annual suitability review you charged for. The FCA wrote to 22 of the largest advice firms in February 2024 and reported in February 2025 that suitability reviews were delivered in **around 83%** of cases, with a further **15%** where the client declined or did not respond, and **fewer than 2%** where the firm made no effort. Its conclusion: *there is no systemic issue*. It is now consulting on **removing the annual review requirement**. This is the most important kill in this sweep because the pain is loudly asserted across the trade press and the regulator has published the number that disproves it. **LAW 1 and LAW 3 both applied: the trade-press consensus was one evidence cluster; the regulator's dataset was the independent class.**
+
+**Bordereaux and delegated-authority data management — owned by VIPR.** VIPR holds **over 50% of the Lloyd's managing agent market**, processes an estimated **375,000–400,000 bordereaux a year**, and is the DA platform for four of the world's ten largest brokers. Competitors already include Artificial Labs, Inari, Quotech, distriBind, Regure and FurtherAI. Reed lists **29** bordereaux vacancies nationally — the entire specialist labour pool is a few hundred people. A decades-old pain with a clear category winner: LAW 4's null hypothesis holds.
+
+**Anything built on London Market Blueprint Two.** Phase one slipped from 2023 to 2024 to 2025 to 2026; in September 2025 Lloyd's said re-platforming would not complete before 2028; the market-engagement team was stood down at the end of 2025; by February 2026 the programme had been "quietly shelved" and Lloyd's has sunset the name and the original vision. **ASPIRATIONAL — zero weight.** Any vendor pitch citing Blueprint Two as a deadline is citing a cancelled programme.
+
+**Audit reform and ARGA compliance tooling.** The Department for Business and Trade has confirmed it will not publish a draft Audit Reform and Corporate Governance Bill this session; ARGA has been abandoned as a name in favour of a "Corporate Reporting Authority". Six years after the Kingman, Brydon and CMA reviews there is still no statute. **ASPIRATIONAL — zero weight.** This is the sector's exact analogue of the defence-run candidate the method killed.
+
+**Law firm client onboarding and ID verification.** Thirdfort, Legl, Amiqus, Verify 365, SmartSearch and First AML all compete here; Thirdfort charges a monthly platform fee plus per-check PAYG or bulk credits. The front end is settled. Do not re-enter.
+
+**COLP file-review and compliance registers.** Riliance launched in **2011 at £150/month** and is still trading; Access Legal, Osprey Approach, Dye & Durham Unity, Insight Legal and Legal Eye all cover it. Fifteen years of competition has set the price of this category at roughly £1,800 a year per firm. That is the ceiling, not the floor.
+
+**Practice management for law and accountancy.** Clio, LEAP, Actionstep, Osprey and Quill on one side; IRIS, Wolters Kluwer CCH, Sage, Silverfin, Karbon ($59–$89 per user per month) and BrightManager on the other. Fully served, heavily capitalised.
+
+**Consumer credit reform tooling.** The CCA reform programme remains a consultation exercise. **PROPOSED — no weight until an instrument exists.**
+
+---
+
+## Sources
+
+**Regulators and government (evidence class 4)**
+- SRA, [Regulated population statistics — firms](https://www.sra.org.uk/sra/research-publications/regulated-community-statistics/data/solicitor_firms/) (8,923 firms, Aug 2026) and [solicitors](https://www.sra.org.uk/sra/research-publications/regulated-community-statistics/data/population_solicitors/) (179,054 practising).
+- SRA, [Anti-Money Laundering Annual Report 2024-25](https://www.sra.org.uk/sra/research-publications/aml-annual-report-2024-25/), 30 Oct 2025.
+- SRA, [Thematic review: source of funds and wealth compliance](https://www.sra.org.uk/sra/research-publications/thematic-review-source-funds-wealth-compliance/), 5 Nov 2025.
+- SRA, [Firm anti-money laundering and sanctions data requirements](https://www.sra.org.uk/news/news/firm-anti-money-laundering-sanctions-data-requirements/) (return deadline 27 July 2026).
+- SRA, [SRA strengthens safeguards to protect client money](https://www.sra.org.uk/news/news/press/safeguards-protect-client-money), 2 June 2026.
+- FCA, [PS26/2 Operational incident and third party reporting](https://www.fca.org.uk/publications/policy-statements/ps26-2-operational-incident-third-party-reporting) and [PS26/2 PDF](https://www.fca.org.uk/publication/policy/ps26-2.pdf) (chapter 4 CBA).
+- FCA, [Reporting material third party arrangements](https://www.fca.org.uk/firms/outsourcing-and-operational-resilience/reporting-material-third-party-arrangements) (Excel templates, 18 March 2027).
+- FCA, [Consumer Duty board reports: good practice and areas for improvement](https://www.fca.org.uk/publications/good-and-poor-practice/consumer-duty-board-reports-good-practice-areas-improvement), 11 Dec 2024, updated 24 Feb 2026.
+- FCA, [Consolidation in the financial advice and wealth management sector](https://www.fca.org.uk/publications/multi-firm-reviews/consolidation-financial-advice-and-wealth-management-sector), 31 Oct 2025.
+- FCA, [Ongoing financial advice services](https://www.fca.org.uk/publications/multi-firm-reviews/ongoing-financial-advice-services) and [press release](https://www.fca.org.uk/news/press-releases/fca-finds-vast-majority-ongoing-suitability-reviews-delivered), Feb 2025.
+- FCA, [Retail intermediary market data 2025](https://www.fca.org.uk/data/retail-intermediary-market-data-2025).
+- HMRC, [PAYE rules for labour supply chains that include umbrella companies from 6 April 2026](https://www.gov.uk/guidance/paye-rules-for-labour-supply-chains-that-include-umbrella-companies-from-6-april-2026), updated 19 June 2026.
+- HMRC, [Umbrella company market — changes to Income Tax rules to tackle non-compliance](https://www.gov.uk/government/publications/paye-changes-for-the-umbrella-company-market/umbrella-company-market-changes-to-income-tax-rules-to-tackle-non-compliance) (30,000 agencies, 400 umbrellas, 700,000 workers, £21.7m continuing burden, £715m yield 2026-27).
+- [Finance Act 2026 c.11, s.24 "Umbrella companies"](https://www.legislation.gov.uk/ukpga/2026/11/contents).
+- DBT, [Business Population Estimates 2025 statistical release](https://www.gov.uk/government/statistics/business-population-estimates-2025/business-population-estimates-for-the-uk-and-regions-2025-statistical-release), 2 Oct 2025.
+- FRC, [Key Facts and Trends in the Accountancy Profession 2025](https://www.frc.org.uk/library/supervision/professional-bodies-supervision/key-facts-and-trends-in-the-accountancy-profession/key-facts-and-trends-in-the-accountancy-profession-2025/), 15 Oct 2025.
+
+**Job postings (evidence class 1)** — all Reed.co.uk, fetched 19 Sep 2026
+- [Third party risk manager](https://www.reed.co.uk/jobs/third-party-risk-manager-jobs) — 472 vacancies (Atom Bank, Hays, MERJE, Grant Thornton).
+- [Consumer Duty](https://www.reed.co.uk/jobs/consumer-duty-jobs) — 350 vacancies (WTW, PRIMIS, Wealthlink at £70–90k).
+- [MLRO](https://www.reed.co.uk/jobs/mlro-jobs) — 100 vacancies, incl. "AML Analyst – Law Firm" £30–35k.
+- [Legal cashier](https://www.reed.co.uk/jobs/legal-cashier-jobs) — 114 vacancies at £30–40k.
+- [Bordereaux](https://www.reed.co.uk/jobs/bordereaux-jobs) — 29 vacancies (market-size evidence *against* the candidate).
+- [Xeinadin](https://www.reed.co.uk/jobs/xeinadin-jobs) — 6 vacancies, no group systems role (disconfirming, candidate 5).
+
+**Competitor pricing and product (evidence class 3)**
+- Riliance at £150/month — [Legal Futures, 28 Sept 2011](https://www.legalfutures.co.uk/regulation/solicitors/law-firm-partner-launches-risk-and-compliance-product-to-help-colps). `[2026 pricing UNVERIFIED]`
+- [Karbon pricing](https://karbonhq.com/pricing/) — $59–$89 per user per month.
+- [Osprey Approach price plans](https://ospreyapproach.com/price-plans/) — 36-month term, 5% annual uplift, minimum three licences; rates not published.
+- [Gatekeeper pricing](https://www.gatekeeperhq.com/pricing) — tiered by third-party count, quote-only.
+- [Legl KYC & AML](https://legl.com/kyc-aml); [SafeRec umbrella due diligence](https://saferec.co.uk/umbrella-due-diligence); [Teal Compliance services](https://www.tealcompliance.com/services/).
+- VIPR market share and bordereaux volumes — vendor and analyst profiles, corroborated across three sources. `[Volume figure of 375,000–400,000/yr UNVERIFIED against a primary VIPR disclosure.]`
+
+**Weak classes, used only to corroborate (classes 6–7)** — RSM and FCSA on the umbrella rules; Insurance Times on Blueprint Two; Burges Salmon and Kennedys on ARGA; Macfarlanes and CMS on PS26/2; Croner-i Top 75 Firms Survey 2026.
+
+---
+
+## Method notes and caveats
+
+1. `[UNVERIFIED]` — the "~40,000 UK accountancy practices" figure in the brief. ICAEW's firm-size statistics page returned navigation only on two attempts and the FRC publishes members and audit firms, not total practices. Do not use the 40,000 figure in any decision document without a primary source.
+2. `[UNVERIFIED]` — Riliance's current price. £150/month is the 2011 launch price and is used only as a category-ceiling indicator.
+3. `[UNVERIFIED]` — the component estimate of 1,500–1,800 firms in scope of FCA third-party reporting is my arithmetic from the named categories in PS26/2, not an FCA-published count. PS26/2 does not state a population.
+4. Several sources returned HTTP 403 to automated fetching (BIBA, Crowe, Croner-i, Clio UK pricing, Dealroom) and are either cited from search-result extracts and marked accordingly, or omitted.
+5. The WebSearch budget for this session was exhausted at 27 searches; the remainder of the research was conducted by direct fetch against regulator, statute and vendor URLs, which is the stronger evidence class in any event.

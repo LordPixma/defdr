@@ -125,6 +125,14 @@ of total.
 > outflow, never against efficiency or risk.* Observed empirically — every candidate scoring 3+ on
 > WTP sat on an existing fee line the buyer already pays; every candidate scoring 1–2 rested on a
 > time-saving or risk-reduction argument. If your pricing story is "we save you time", expect a 1–2.
+
+> **The regulator's CBA is your ceiling (added 19 Sep 2026, finance analyst).** When a UK regulator
+> publishes an impact assessment or cost-benefit analysis for a new obligation, it states the
+> expected ongoing compliance cost *across the entire obligated population*. That figure is a
+> published upper bound on the category's total software spend, and buyers cite it back at you.
+> Example: the FCA's CBA for the material third-party register puts ongoing annual cost across all
+> ~1,500-1,800 firms at **£0.04m-£0.12m** — the regulator has capped the category at roughly £70
+> per firm per year. **Always find the CBA before scoring willingness to pay.**
 | **Incumbency** | Well-funded incumbent owns it | Genuinely unserved, and you know why |
 | **Data moat** | Anyone could rebuild it in a week | Compounding, proprietary, or hard-won |
 | **Cloudflare fit** | Needs on-prem or a non-Cloudflare dependency | Natural fit, customer-supplied data |

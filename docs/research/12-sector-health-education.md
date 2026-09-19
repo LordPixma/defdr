@@ -11,19 +11,18 @@ locally.
 
 ## 0. Headline finding, stated first
 
-**The single best buyer pool in my sectors is not the NHS and it is not schools. It is the ~19,000
-independent adult social care organisations in England** — private money, owner/FD decision-making,
-thin margins, and an unusually weak incumbent stack on the *financial* side of the business (as
-opposed to the care-records side, which is saturated).
+**The best buyer pool in my sectors is not the NHS and not schools. It is the ~19,000 independent adult
+social care organisations in England** — private money, owner/FD decision-making, thin margins, and an
+unusually weak incumbent stack on the *financial* side of the business, as opposed to the care-records
+side, which is saturated.
 
-**The most exciting-looking candidate — sponsor licence compliance — is the one this method should
-be most suspicious of.** It has the best forcing function I found anywhere in the sector (BINDING,
-dated, automated enforcement, existential consequence) and it fails on durability for a reason that
-took two sources to see: the Health and Care Worker visa was **closed to overseas care-worker
-applicants in July 2025**, and sponsored direct-care recruitment collapsed from 105,000 (2023/24) to
-**~1,500 (2025/26)**. The pain is at its historical peak *right now* and decays structurally from
-here. That is a three-year business, not a ten-year one. Reporting this is the point of LAW 1 and
-Hard Rule 3.
+**The most exciting-looking candidate — sponsor licence compliance — is the one this method should be most
+suspicious of.** It has the best forcing function I found anywhere (BINDING, dated, automated enforcement,
+existential consequence) and it fails on durability for a reason that took two sources to see: the Health
+and Care Worker visa was **closed to overseas care-worker applicants in July 2025**, and sponsored
+direct-care recruitment collapsed from 105,000 (2023/24) to **~1,500 (2025/26)**. The pain is at its
+historical peak *right now* and decays structurally from here. That is a three-year business, not a
+ten-year one. Reporting this is the point of LAW 1 and Hard Rule 3.
 
 ---
 
@@ -151,49 +150,72 @@ groups — and a legitimate reason to talk to the same finance director who buys
 
 ### C-04 — Martyn's Law estate compliance for multi-site education **(RANK 4)**
 
-| # | Field | Answer |
-|---|---|---|
-| 1 | **The gap** | A 30-school trust must notify the SIA for every qualifying site, hold public protection procedures, train staff and keep the evidence current across 30 sets of premises, 30 site leads and 30 staff bodies — with no trust-level view of who has done what. |
-| 2 | **Pain owner** | Trust Estates & Compliance Manager / Chief Operating Officer. In HE, the Director of Estates or Head of Security. |
-| 3 | **Budget holder** | MAT Chief Operating Officer or CFO, from the central top-slice. |
-| 4 | **UK buyer count** | 24,499 schools; all early-years, primary, secondary and FE settings fall in the **standard** tier regardless of capacity. Method: sell to the trust, not the school. **~1,110 MATs + ~2,500 independent schools + ~220 FE colleges + ~285 HEIs ≈ 4,100; winnable ~1,500** (trusts with ≥5 schools plus HE/FE). £2,500 ACV → 1,200 customers for £3m ARR — tight but reachable. |
-| 5 | **Forcing function** | **SCHEDULED.** Terrorism (Protection of Premises) Act 2025 (**2025 c.10**), Royal Assent 3 April 2025. Part 3 commenced on assent; **s.27 commenced 10 April 2026**; Home Office guidance published 15 April 2026; SIA consulting on draft guidelines. Main duties expected **spring 2027** after the stated minimum 24-month implementation period. Enacted with a date — but **nobody is in breach yet**, so it is not BINDING. |
-| 6 | **Solved today by** | Nothing, or a Word document and a free ProtectUK e-learning module. |
-| 7 | **Named incumbents** | **teamSOS** (emergency communications for schools/MATs), **RM** (voice/comms), **Little Green Button**, **Praxis42** (counter-terror e-learning), **Controlsoft** (access control). Adjacent trust-compliance platforms that will bolt this on: **Every**, **The Access Group Education**, **SAMpeople**, **The Key**, **Judicium**. Crucially, **ProtectUK provides free statutory guidance and free e-learning**, which satisfies much of the standard-tier duty at zero cost. |
-| 8 | **Willingness to pay** | £150–£500 per school per year; £2,000–£8,000 per trust. Low. Anchor: existing MAT compliance subscriptions (The Key, Every) sit in this band. |
-| 9 | **Data required** | Customer-supplied site register, capacity figures, staff lists, training records. Externally: DfE Get Information About Schools (free, open), SIA register. |
-| 10 | **Cloudflare fit** | **Excellent.** Pure records + workflow + evidence storage. Workers/D1/R2. |
-| 11 | **5–10 year durability** | Moderate. The duty is permanent, but it is a **one-off setup followed by an annual tick** — low ongoing value, and the obvious end state is absorption into an existing MAT compliance suite. **What kills it:** Every or Access shipping a Martyn's Law module in 2027, which they will. |
-| 12 | **Evidence** | Class 4 (regulator/statute + regulator publication): Terrorism (Protection of Premises) Act 2025 c.10; ProtectUK/SIA guidance April 2026. Class 3 (competitor products): teamSOS, RM, Praxis42. **Two classes.** |
+**1 Gap:** A 30-school trust must notify the SIA for every qualifying site, hold public protection
+procedures, train staff and keep evidence current across 30 sets of premises and 30 site leads, with no
+trust-level view of who has done what. **2 Pain owner:** Trust Estates & Compliance Manager / COO; in HE
+the Director of Estates. **3 Budget holder:** MAT Chief Operating Officer or CFO, from the central
+top-slice. **4 Buyer count:** all early-years, primary, secondary and FE settings sit in the **standard**
+tier regardless of capacity, so the duty touches all 24,499 schools — but you sell to the trust. ~1,110
+MATs + ~2,500 independent schools + ~220 FE colleges + ~285 HEIs ≈ 4,100; **winnable ~1,500** (trusts with
+≥5 schools, plus HE/FE). At £2,500 ACV, £3m ARR needs 1,200 customers — tight but reachable.
+**5 Forcing function: SCHEDULED.** Terrorism (Protection of Premises) Act 2025 (**2025 c.10**), Royal
+Assent 3 April 2025; Part 3 commenced on assent; **s.27 commenced 10 April 2026**; Home Office guidance
+published 15 April 2026; SIA consulting on draft guidelines; main duties expected **spring 2027** after the
+stated minimum 24-month implementation period. Enacted and dated — but **nobody is in breach yet**, so it
+is not BINDING. **6 Solved today by:** nothing, or a Word document plus free ProtectUK e-learning.
+**7 Named incumbents: teamSOS** (emergency comms for schools/MATs), **RM**, **Little Green Button**,
+**Praxis42** (counter-terror e-learning), **Controlsoft** (access control); and the trust-compliance
+platforms certain to bolt this on — **Every**, **Access Group Education**, **SAMpeople**, **The Key**,
+**Judicium**. Decisively, **ProtectUK provides free statutory guidance and free e-learning** that satisfies
+much of the standard-tier duty at zero cost. **8 WTP:** £150–£500 per school per year; £2,000–£8,000 per
+trust — the band existing MAT compliance subscriptions already occupy. **9 Data:** customer-supplied site
+register, capacities, staff and training records; externally DfE Get Information About Schools (free, open)
+and the SIA register. **10 Cloudflare fit: excellent** — records, workflow and evidence storage on
+Workers/D1/R2. **11 Durability: moderate.** The duty is permanent but it is a one-off setup followed by an
+annual tick. **What kills it:** Every or Access shipping a Martyn's Law module in 2027, which they will.
+**12 Evidence:** Class 4 (statute + regulator publication — the Act and ProtectUK/SIA guidance); Class 3
+(teamSOS, RM, Praxis42 product pages). Two classes.
 
 **Scores:** Pain 3 · Forcing 4 · Buyers 5 · WTP 2 · Incumbency 3 · Moat 2 · Cloudflare 5 · Durability 3 = **27/40**
 
-*Biggest buyer count in the whole sweep and the weakest willingness to pay. A free government e-learning
-module plus an existing £3k MAT compliance subscription absorbs most of this duty. Do not lead with it.*
+*Biggest buyer count in the sweep and the weakest willingness to pay. Free government e-learning plus an
+existing £3k MAT compliance subscription absorbs most of this duty. Do not lead with it.*
 
 ---
 
 ### C-05 — Local authority care fee-rate and payment-behaviour intelligence **(RANK 5)**
 
-| # | Field | Answer |
-|---|---|---|
-| 1 | **The gap** | Every English council publishes its care fee rates, uplifts, market position statement and payment terms — on 153 different websites, in 153 formats, on 153 timetables. No provider, lender or acquirer can see the national picture, so fee negotiations and acquisition models run on anecdote. |
-| 2 | **Pain owner** | Group Operations Director / Head of Contracts negotiating annual uplifts; Investment Director at a care-home lender or acquirer. |
-| 3 | **Budget holder** | Care group MD (opex, ~£1–3k) or corporate finance / lending desk (£10–25k). |
-| 4 | **UK buyer count** | 19,000 provider organisations (winnable ~3,000 at the low tier) plus a high-ACV tail: care sector lenders, brokers and consultancies — **<100 but at £10–25k ACV**. Blended: £3m ARR = 1,500 providers at £1.5k + 40 institutions at £15k. Plausible but requires volume self-serve. |
-| 5 | **Forcing function** | **None.** Commercial intelligence product. |
-| 6 | **Solved today by** | Manual FOI requests, trade-association member surveys, and consultants (LaingBuisson, Carterwood, Christie & Co) selling reports. |
-| 7 | **Named incumbents** | **LaingBuisson** (paid market reports), **Carterwood** (care-home site analytics — closest real competitor), **Christie & Co** (agency + research), **Homecare Association** (publishes a Minimum Price for Homecare to members), **Skills for Care** (free workforce data). No one sells a maintained, machine-readable national fee-rate dataset. |
-| 8 | **Willingness to pay** | £1,000–£3,000/yr provider tier; £10,000–£25,000 institutional. Anchor: LaingBuisson single-market reports are four figures; Carterwood subscriptions are four to five figures. |
-| 9 | **Data required** | **Externally sourced**: council websites, market position statements, cabinet papers, FOI responses. Licensing: the underlying documents are public-sector publications generally under the Open Government Licence, but **compilation must be done carefully and some councils publish only in PDF**. This is the only candidate with a meaningful data-acquisition cost. |
-| 10 | **Cloudflare fit** | **Good, with a flag.** Workers + R2 + D1 works; but the ingest involves crawling 153 council sites and parsing PDFs. Councils are not aggressive blockers, so this is within Cloudflare's Browser Rendering + Workers envelope — but it is the one candidate here that depends on scraping, and the Architect should review it. |
-| 11 | **5–10 year durability** | Good. Fee rates are renegotiated annually forever, and the Fair Pay Agreement makes 2028 onwards a step change. **What kills it:** DHSC mandating a national fee-rate publication standard (would make the data free but the time series still valuable); or an LLM making ad-hoc council-site retrieval trivial (a real threat — mitigated only by the historic time series, which cannot be retrieved after the fact). |
-| 12 | **Evidence** | Class 4 (government dataset): DHSC ASC provider statistics; councils' published market position statements. Class 6 (paid analyst products as proof of spend): LaingBuisson, Carterwood, Christie & Co. Class 5: Homecare Association minimum-price work. **Two qualifying classes (4 and 5).** |
+**1 Gap:** Every English council publishes its care fee rates, annual uplifts, market position statement and
+payment terms — on 153 different websites, in 153 formats, on 153 timetables. No provider, lender or
+acquirer can see the national picture, so fee negotiations and acquisition models run on anecdote.
+**2 Pain owner:** Group Operations Director / Head of Contracts negotiating annual uplifts; Investment
+Director at a care-sector lender or acquirer. **3 Budget holder:** care group MD (opex, £1–3k) or a
+corporate finance desk (£10–25k). **4 Buyer count:** 19,000 provider organisations (winnable ~3,000 at the
+low tier) plus a high-ACV institutional tail of **under 100** lenders, brokers and consultancies at
+£10–25k. Blended: £3m ARR = 1,500 providers at £1.5k plus 40 institutions at £15k — plausible only with
+volume self-serve. **5 Forcing function: none.** Commercial intelligence. **6 Solved today by:** manual FOI
+requests, trade-association member surveys, and paid consultant reports. **7 Named incumbents:**
+**LaingBuisson** (paid market reports), **Carterwood** (care-home site analytics — the closest real
+competitor), **Christie & Co**, **Homecare Association** (members' Minimum Price for Homecare),
+**Skills for Care** (free workforce data). No one sells a maintained, machine-readable national fee-rate
+dataset. **8 WTP:** £1,000–£3,000/yr provider tier; £10,000–£25,000 institutional — anchored on
+LaingBuisson's four-figure single-market reports and Carterwood's four-to-five-figure subscriptions.
+**9 Data: externally sourced** — council websites, market position statements, cabinet papers, FOI
+responses. Generally Open Government Licence, but many councils publish only in PDF. This is the one
+candidate with a real data-acquisition cost. **10 Cloudflare fit: good, with a flag.** Workers + R2 + D1
+works, but ingest means crawling 153 council sites and parsing PDFs. Councils are not aggressive blockers,
+so this sits inside the Browser Rendering + Workers envelope — **the Architect should review it**, as it is
+the only candidate here that depends on scraping. **11 Durability: good.** Rates are renegotiated annually
+forever and the Fair Pay Agreement makes 2028 onwards a step change. **What kills it:** DHSC mandating a
+national fee-rate publication standard, or an LLM making ad-hoc council-site retrieval trivial — mitigated
+only by the historic time series, which cannot be retrieved after the fact. **12 Evidence:** Class 4
+(DHSC ASC provider statistics; councils' published market position statements); Class 5 (Homecare
+Association minimum-price work); Class 6 (LaingBuisson, Carterwood, Christie & Co as proof of spend).
 
 **Scores:** Pain 3 · Forcing 2 · Buyers 3 · WTP 3 · Incumbency 3 · Moat 5 · Cloudflare 3 · Durability 4 = **26/40**
 
-*Strongest data moat in the sweep and the weakest standalone business. Correct use: build it as the
-free/cheap wedge that gets you the meeting for C-01.*
+*Strongest data moat in the sweep and the weakest standalone business. Correct use: the cheap wedge that
+gets you the meeting for C-01.*
 
 ---
 
@@ -280,64 +302,64 @@ single assessment framework and its implementation*). Two classes, both disconfi
 
 ---
 
-## 4. What AI erases by 2029 — applied to every candidate
+## 4. What AI erases by 2029 (Hard Rule 4, applied to every candidate)
 
-Hard Rule 4 asks whether a general-purpose AI assistant kills each candidate.
-
-| Candidate | Does AI erase it? | Reasoning |
-|---|---|---|
-| C-01 Income assurance | **No** | An LLM can read one remittance advice. It cannot hold the contract rate-card state, the reconciliation ledger, the dispute audit trail, or the cross-customer payment-behaviour history. The value is stateful and multi-party. |
-| C-02 FPA readiness | **No** | Arithmetic is trivial; the asset is the maintained mapping of an agreement that does not exist yet onto 1.6m posts, refreshed annually. |
-| C-03 Sponsor assurance | **Partly** | The document-vault half is already commoditised and will be more so. The RTI-vs-CoS reconciliation requires authorised access to payroll and roster systems — not a chat task. |
-| C-04 Martyn's Law | **Largely yes** | "Write me a public protection procedure for a primary school" is a 2029 chat prompt. Only the multi-site evidence register survives, and Every will own it. |
-| C-05 Fee intelligence | **Threatened** | Ad-hoc retrieval of one council's rates becomes trivial. The *historic time series* cannot be retrieved after the fact — that is the only defensible part. |
-| C-06 Early years funding | **Partly** | Rules interpretation yes; claim workflow no. But incumbents own the workflow. |
-| C-08 CQC evidence | **Yes** | Mapping narrative evidence to quality statements is precisely what a general model does well. Scored durability 2 accordingly. |
-
----
+- **C-01 Income assurance — no.** An LLM can read one remittance advice. It cannot hold the contract
+  rate-card state, the reconciliation ledger, the dispute audit trail or the cross-customer payment-behaviour
+  history. The value is stateful and multi-party.
+- **C-02 Fair Pay Agreement readiness — no.** The arithmetic is trivial; the asset is a maintained mapping of
+  an agreement that does not exist yet onto 1.6m posts, refreshed annually.
+- **C-03 Sponsor assurance — partly.** The document-vault half is already commoditised and will be more so.
+  RTI-versus-CoS reconciliation needs authorised access to payroll and roster systems — not a chat task.
+- **C-04 Martyn's Law — largely yes.** "Write me a public protection procedure for a primary school" is a
+  2029 chat prompt. Only the multi-site evidence register survives, and Every will own it.
+- **C-05 Fee intelligence — threatened.** Ad-hoc retrieval of one council's rates becomes trivial. Only the
+  historic time series is defensible, because it cannot be reconstructed after the fact.
+- **C-06 Early years funding — partly.** Rules interpretation yes; claim workflow no — but incumbents own
+  the workflow.
+- **C-08 CQC evidence — yes.** Mapping narrative evidence to quality statements is exactly what a general
+  model does well. Durability scored 2 accordingly.
 
 ## 5. Graveyard — killed, with named incumbents
 
-**DSPT / CAF-aligned cyber assurance for adult social care.** Looked ideal: mandatory-feeling,
-annual (submission deadline 30 June), 19,000 providers, and the toolkit is migrating to the NCSC
-Cyber Assessment Framework. **Killed by budget, not by pain.** DHSC has confirmed **£21m to March 2029**
-for **Better Security, Better Care**, delivered free by Digital Care Hub — free workshops, free
-one-to-one advice, a free Data Policy Builder, and free local support organisations. Completion has
-gone from under 5% (2019) to **76%** on the back of it. You cannot sell a £2k product against a
-£21m free one. *Incumbents: Digital Care Hub (free), DSPTready, 8fold Governance, RSM, Dionach.*
+**DSPT / CAF-aligned cyber assurance for adult social care.** Looked ideal: annual submission deadline
+(30 June), 19,000 providers, and the toolkit migrating to the NCSC Cyber Assessment Framework.
+**Killed by budget, not by pain.** DHSC has confirmed **£21m to March 2029** for **Better Security, Better
+Care**, delivered free by Digital Care Hub — free workshops, free one-to-one advice, a free Data Policy
+Builder, free local support organisations. Completion has gone from under 5% (2019) to **76%**. You cannot
+sell a £2k product against a £21m free one. *Incumbents: Digital Care Hub (free), DSPTready, 8fold
+Governance, RSM, Dionach.*
 
-**MAT finance consolidation / GAG pooling / ESFA returns.** **IMP Software** states **550+ school
-trusts** — roughly 42% of all 1,323 trusts — and has just launched IMP Finance for MATs, independent
-schools and FE. *Also: HCSS (Access Group), Orovia, Civica, Juniper.* Category has a winner.
+**MAT finance consolidation / GAG pooling / ESFA returns.** **IMP Software** states **550+ school trusts**
+— ~42% of all 1,323 — and has just launched IMP Finance for MATs, independent schools and FE. *Also HCSS
+(Access Group), Orovia, Civica, Juniper.* Category has a winner.
 
-**Single central record across a MAT.** See C-07. Six-plus vendors. Category has winners.
+**Single central record across a MAT.** See C-07 — six-plus funded vendors. Category has winners.
 
 **EHCP statutory-deadline tracking, local-authority side.** The pain is spectacular and verified —
-**638,745 EHC plans, 97,747 new in 2024, only 46.4% issued within the 20-week statutory deadline**,
-154,489 assessment requests, 12 authorities issuing fewer than 10% on time. It fails LAW 2 and the
-budget test simultaneously: the buyer is **152 local authorities** with catastrophic SEND deficits.
-£3m ARR would need ~£20k from every single authority in England. *Incumbents: Liquidlogic/System C,
-Capita One, Servelec/Access Synergy, and the free PEG EHCP Compliance Tracker.* School-side tracking
-is taken by **Edukey Provision Map** and **SEN Master**.
+**638,745 EHC plans, 97,747 new in 2024, only 46.4% issued within the 20-week statutory deadline**, 154,489
+assessment requests, 12 authorities issuing fewer than 10% on time. It fails LAW 2 and the budget test
+simultaneously: the buyer is **152 local authorities** with catastrophic SEND deficits, so £3m ARR needs
+~£20k from every authority in England. *Incumbents: Liquidlogic/System C, Capita One, Servelec/Access
+Synergy, plus the free PEG EHCP Compliance Tracker.* School-side tracking is taken by **Edukey Provision
+Map** and **SEN Master**.
 
-**UK medical device post-market surveillance / vigilance.** SI 2024 No. 1368 is **BINDING (in force
-16 June 2025)** with 15-day serious incident reporting and PSURs — a genuine forcing function. It dies
-on LAW 4 and LAW 2: *Veeva Vault, MasterControl, Greenlight Guru, Qualio, Medidata, Climedo* own QMS
-and PMS, and the UK manufacturer population is small and heavily foreign-parented, so tooling decisions
-sit abroad. The 2026 pre-market amendments (UDI, international reliance) are still **PROPOSED** — draft
-regulations and an MHRA call for evidence, not a commenced instrument.
+**UK medical device post-market surveillance / vigilance.** SI 2024 No. 1368 is **BINDING (in force 16 June
+2025)** with 15-day serious incident reporting and PSURs — a genuine forcing function that dies on LAW 4
+and LAW 2. *Veeva Vault, MasterControl, Greenlight Guru, Qualio, Medidata, Climedo* own QMS and PMS, and
+the UK manufacturer population is small and heavily foreign-parented, so tooling decisions sit abroad. The
+2026 pre-market amendments (UDI, international reliance) are still **PROPOSED** — draft regulations and an
+MHRA call for evidence, not a commenced instrument.
 
-**NHS clinical documentation / ambient scribing.** Being eaten in real time by general-purpose AI and
-by funded specialists. Do not enter.
+**NHS clinical documentation / ambient scribing.** Being eaten in real time by general-purpose AI and by
+funded specialists. Do not enter.
 
-**Children's social care placement sufficiency and cost control.** Real: ~£3.8bn of LA spend on
-independent children's homes and fostering in 2024/25, NAO criticism of market oversight, government
-moving to regional care cooperatives. Buyer is again the local authority. No money, and the policy
-direction (regional cooperatives) *reduces* the number of buyers.
+**Children's social care placement sufficiency and cost control.** Real (~£3.8bn of LA spend on independent
+children's homes and fostering in 2024/25; NAO criticism of market oversight), but the buyer is again the
+local authority, and the policy direction — regional care cooperatives — *reduces* the number of buyers.
 
-**Aesthetics / non-surgical cosmetic licensing.** The England licensing scheme under the Health and
-Care Act 2022 remains **PROPOSED** — the power exists, the consultation closed, the scheme is not made.
-LAW 1: zero weight.
+**Aesthetics / non-surgical cosmetic licensing.** The England scheme under the Health and Care Act 2022
+remains **PROPOSED**: the power exists, the consultation closed, the scheme is not made. LAW 1: zero weight.
 
 **University Student-sponsor Basic Compliance Assessment.** Existential for ~460 Student sponsors, but
 **Enroly** already owns CAS and pre-arrival compliance for UK HE, and the buyer count is below the LAW 2
@@ -349,71 +371,68 @@ threshold without a five-figure ACV.
 
 **Yes — but only to three of the seven buyer types in my sectors, and the NHS is not one of them.**
 
-**NHS trusts and ICBs: no. Avoid entirely as a first market.** Three compounding reasons, all
-evidenced. First, **the buyer count is shrinking**: six new ICBs established and twelve abolished from
-1 April 2026, consolidating toward **26 clusters** by April 2027 — every merger freezes procurement for
-two quarters and re-lets incumbent contracts rather than opening new ones. Second, the **compliance tax
-on a new supplier** is months of unpaid work before a first invoice: DTAC, clinical safety (DCB0129/0160),
-DSPT/CAF alignment, and a Data Protection Impact Assessment, on a platform with no prior NHS reference
-customer. Third, trusts are cash-rationed and a £10k SaaS line competes with agency staff cover. A
-realistic first NHS trust sale is **12–24 months** from cold. There is no version of the plan where
-that funds a company's first year.
+**NHS trusts and ICBs: no. Avoid entirely as a first market.** Three compounding reasons. First, **the
+buyer count is shrinking**: six new ICBs established and twelve abolished from 1 April 2026, consolidating
+toward **26 clusters** by April 2027 — every merger freezes procurement for two quarters and re-lets
+incumbent contracts rather than opening new ones. Second, the **compliance tax on a new supplier** is months
+of unpaid work before a first invoice: DTAC, clinical safety (DCB0129/0160), DSPT/CAF alignment and a DPIA,
+with no prior NHS reference customer. Third, trusts are cash-rationed and a £10k SaaS line competes with
+agency staff cover. A realistic first NHS trust sale is **12–24 months** from cold. No version of the plan
+funds a first year on that.
 
-**Local authorities: no.** 153 adult social care authorities and 152 education authorities, all with
-SEND and children's-placement deficits, all subject to the Procurement Act 2023 regime. The EHCP data
-is the cleanest illustration in this report of a real, legally-mandated, mass-breached duty with no
-buyer behind it: 46.4% compliance with a statutory deadline is a scandal, and it is still not a market.
+**Local authorities: no.** 153 adult social care and 152 education authorities, all with SEND and
+children's-placement deficits, all under the Procurement Act 2023 regime. The EHCP data is the cleanest
+illustration in this report of a real, legally-mandated, mass-breached duty with no buyer behind it:
+46.4% compliance with a statutory deadline is a scandal, and still not a market.
 
-**Independent adult social care groups: yes — this is the fast lane.** A 10–40 home group or a 5-branch
+**Independent adult social care groups: yes — this is the fast lane.** A 10–40 home group or a five-branch
 domiciliary group has a Finance Director with signing authority, a private P&L, a 3–8% margin and a
-demonstrated appetite for software (they already pay Birdie from £200/month, CoolCare, Nourish, Person
-Centred Software). An ROI sale — "we found £48,000 of unrecovered council income in your last six
-months" — closes in **4–12 weeks**, typically with a single-home or single-branch paid pilot first.
-This is the only buyer in my sectors where the sales motion is compatible with bootstrapping.
+demonstrated appetite for software (they already pay Birdie from £200/month, plus CoolCare, Nourish, Person
+Centred Software). An ROI sale — "we found £48,000 of unrecovered council income in your last six months" —
+closes in **4–12 weeks**, usually after a single-home paid pilot. This is the only buyer in my sectors whose
+sales motion is compatible with bootstrapping.
 
-**Multi-academy trusts: yes, but seasonally.** A MAT COO or CFO can sign £3–10k from the central
-top-slice without a tender. The cycle is rigid: decisions are taken **February–June for September
-implementation**, and the Academy Trust Handbook 2026 (in force 1 October 2026) constrains procurement.
-Expect **6–16 weeks** in season and nothing at all in July, August or December.
+**Multi-academy trusts: yes, but seasonally.** A MAT COO or CFO can sign £3–10k from the central top-slice
+without a tender. The cycle is rigid: decisions February–June for September implementation, constrained by
+the Academy Trust Handbook 2026 (in force 1 October 2026). Expect **6–16 weeks** in season and nothing in
+July, August or December.
 
-**Private nurseries, private clinics and independent schools: yes, fastest of all (2–6 weeks)** — but
-the ACVs are £500–£2,500 and the categories are already occupied (Famly, Blossom, Connect Childcare).
+**Private nurseries, clinics and independent schools: yes, fastest of all (2–6 weeks)** — but ACVs are
+£500–£2,500 and the categories are occupied (Famly, Blossom, Connect Childcare).
 
-**Therefore the recommended entry, if this sector wins the cross-sector bake-off:** start with **C-01**
-into independent care groups, priced £4–8k, sold on recovered cash rather than compliance. Use **C-05**
-(the compiled 153-council fee-rate dataset) as the free wedge that earns the meeting. Add **C-03** as
-an 18-month cash-generative module to the same buyer — explicitly *not* as the company. Add **C-02**
-during 2027 so that the Fair Pay Agreement's April 2028 commencement lands on an installed base
-rather than a pitch deck.
+**Recommended entry, if this sector wins the cross-sector bake-off:** start with **C-01** into independent
+care groups at £4–8k, sold on recovered cash rather than compliance; use **C-05** (the compiled 153-council
+fee-rate dataset) as the wedge that earns the meeting; add **C-03** as an 18-month cash-generative module to
+the same buyer, explicitly *not* as the company; add **C-02** during 2027 so the Fair Pay Agreement's April
+2028 commencement lands on an installed base rather than a pitch deck.
 
-**The honest risk on C-01** is that Access Group or Birdie ships remittance reconciliation as a bolt-on.
-The only durable answer is the cross-customer dataset of how each English council actually pays, which
-a single-vendor module inside one roster system cannot assemble. If the Sceptic kills anything in this
-report, it should be that assumption.
+**The honest risk on C-01** is that Access Group or Birdie ships remittance reconciliation as a bolt-on. The
+only durable answer is the cross-customer dataset of how each English council actually pays, which a
+single-vendor module inside one roster system cannot assemble. If the Sceptic kills anything here, it should
+be that assumption.
 
 ---
 
 ## 7. Limitations
 
-The session-wide web search budget (200 calls, shared across the parallel wave-1 agents) was exhausted
-after 18 of my searches. Remaining verification was done by direct fetch (20 successful of 26 attempts)
-and by downloading and text-extracting two Skills for Care PDFs locally. Consequences, stated so the
-Orchestrator can discount appropriately:
+The session-wide web search budget (200 calls, shared across the parallel wave-1 agents) was exhausted after
+18 of my searches. Remaining verification was done by direct fetch (20 successful of 26 attempts) and by
+downloading and text-extracting two Skills for Care PDFs locally. Consequences, so the Orchestrator can
+discount appropriately:
 
-- The **NHS provider trust count** and the **GP practice count** are marked `[UNVERIFIED]`.
-- The **Ofsted early years provider count** behind C-06 is `[UNVERIFIED]`.
-- The **number of CQC-regulated employers holding a sponsor licence** in C-03 is an estimate by method,
-  not a counted figure. It is computable exactly by joining two free public CSVs (Home Office register
-  of licensed sponsors, daily; CQC care directory, weekly) and **should be computed before C-03 is
-  given any further weight**.
-- The **Homecare Association Minimum Price for Homecare** figure could not be retrieved (404s and a
-  members-only calculator) and is therefore not cited as a number anywhere above.
+- The **NHS provider trust count**, the **GP practice count** and the **Ofsted early years provider count**
+  are marked `[UNVERIFIED]`.
+- The **number of CQC-regulated employers holding a sponsor licence** in C-03 is an estimate by method, not
+  a counted figure. It is computable exactly by joining two free public CSVs (Home Office register of
+  licensed sponsors, daily; CQC care directory, weekly) and **should be computed before C-03 is given
+  further weight**.
+- The **Homecare Association Minimum Price for Homecare** could not be retrieved (404s, members-only
+  calculator) and is therefore cited nowhere above as a number.
 - `[UNVERIFIED]` — the claim that from 1 April 2026 UKVI receives live HMRC RTI payroll data appears in
-  multiple secondary sources (HR Magazine, Lester Aldridge, Vanessa Ganguin, Centuro Global, care-sector
-  trade press) but I could not fetch a primary Home Office instrument confirming it; the HR Magazine
-  article returned HTTP 403. The revocation volumes *are* primary (Home Office transparency data).
-  **C-03's forcing function grade depends on this and must be re-verified against the Statement of
-  Changes before any build decision.**
+  multiple secondary sources (HR Magazine, Lester Aldridge, Vanessa Ganguin, Centuro Global, care trade
+  press) but I could not fetch a primary Home Office instrument; the HR Magazine article returned HTTP 403.
+  The revocation volumes *are* primary. **C-03's forcing-function grade depends on this and must be
+  re-verified against the Statement of Changes before any build decision.**
 
 ---
 
